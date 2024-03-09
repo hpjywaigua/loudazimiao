@@ -1,0 +1,3114 @@
+MemoryPatch::createWithHex("libUE4.so", 0x1b0, "00", 32).Modify();
+//C31F9B1B8|7c31f9b1b8|20|300
+MemoryPatch::createWithHex("libUE4.so", 0x1b8, "00", 32).Modify();
+//C31F9BE94|7c31f9be94|20|80
+MemoryPatch::createWithHex("libUE4.so", 0xe94, "00", 32).Modify();
+//C3418401C|7c3418401c|20|2e00000000c00
+MemoryPatch::createWithHex("libUE4.so", 0x21e901c, "00", 32).Modify();
+//C34184048|7c34184048|20|2f40100000300
+MemoryPatch::createWithHex("libUE4.so", 0x21e9048, "00", 32).Modify();
+//C34184110|7c34184110|20|5e00000000400
+MemoryPatch::createWithHex("libUE4.so", 0x21e9110, "00", 32).Modify();
+//C34184144|7c34184144|20|5e40000000400
+MemoryPatch::createWithHex("libUE4.so", 0x21e9144, "00", 32).Modify();
+//C341841AC|7c341841ac|20|5ec0000000800
+MemoryPatch::createWithHex("libUE4.so", 0x21e91ac, "00", 32).Modify();
+//C34184214|7c34184214|20|5700000000400
+MemoryPatch::createWithHex("libUE4.so", 0x21e9214, "00", 32).Modify();
+//C34184350|7c34184350|20|4b80000000400
+MemoryPatch::createWithHex("libUE4.so", 0x21e9350, "00", 32).Modify();
+//C34184384|7c34184384|20|4c80000000400
+MemoryPatch::createWithHex("libUE4.so", 0x21e9384, "00", 32).Modify();
+//C341843B8|7c341843b8|20|4d80000000400
+MemoryPatch::createWithHex("libUE4.so", 0x21e93b8, "00", 32).Modify();
+//C341843EC|7c341843ec|20|4e80000000400
+MemoryPatch::createWithHex("libUE4.so", 0x21e93ec, "00", 32).Modify();
+//C34184420|7c34184420|20|4f80000000400
+MemoryPatch::createWithHex("libUE4.so", 0x21e9420, "00", 32).Modify();
+//C34184488|7c34184488|20|5100000000800
+MemoryPatch::createWithHex("libUE4.so", 0x21e9488, "00", 32).Modify();
+//C341844BC|7c341844bc|20|5200000000800
+MemoryPatch::createWithHex("libUE4.so", 0x21e94bc, "00", 32).Modify();
+//C341844F0|7c341844f0|20|5300000000400
+MemoryPatch::createWithHex("libUE4.so", 0x21e94f0, "00", 32).Modify();
+//C34184524|7c34184524|20|5400000000400
+MemoryPatch::createWithHex("libUE4.so", 0x21e9524, "00", 32).Modify();
+//C34184558|7c34184558|20|5500000000400
+MemoryPatch::createWithHex("libUE4.so", 0x21e9558, "00", 32).Modify();
+//C3418461C|7c3418461c|20|1a00000000400
+MemoryPatch::createWithHex("libUE4.so", 0x21e961c, "00", 32).Modify();
+//C34184650|7c34184650|20|2500000000800
+MemoryPatch::createWithHex("libUE4.so", 0x21e9650, "00", 32).Modify();
+//C34184820|7c34184820|20|5400000000400
+MemoryPatch::createWithHex("libUE4.so", 0x21e9820, "00", 32).Modify();
+//C34184878|7c34184878|20|1800000280
+MemoryPatch::createWithHex("libUE4.so", 0x21e9878, "00", 32).Modify();
+//C341848BC|7c341848bc|20|5180000000400
+MemoryPatch::createWithHex("libUE4.so", 0x21e98bc, "00", 32).Modify();
+//C341848F0|7c341848f0|20|4540000000800
+MemoryPatch::createWithHex("libUE4.so", 0x21e98f0, "00", 32).Modify();
+//C34184924|7c34184924|20|4f80000000400
+MemoryPatch::createWithHex("libUE4.so", 0x21e9924, "00", 32).Modify();
+//C34184958|7c34184958|20|5340000000800
+MemoryPatch::createWithHex("libUE4.so", 0x21e9958, "00", 32).Modify();
+//C34184984|7c34184984|20|980000000400
+MemoryPatch::createWithHex("libUE4.so", 0x21e9984, "00", 32).Modify();
+//C34184B48|7c34184b48|20|15c0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x21e9b48, "00", 32).Modify();
+//C34184BD0|7c34184bd0|20|16c0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x21e9bd0, "00", 32).Modify();
+//C34184CA8|7c34184ca8|20|8d00100000c80
+MemoryPatch::createWithHex("libUE4.so", 0x21e9ca8, "00", 32).Modify();
+//C34184CB0|7c34184cb0|20|c840000000400
+MemoryPatch::createWithHex("libUE4.so", 0x21e9cb0, "00", 32).Modify();
+//C34184D28|7c34184d28|20|7c80000000400
+MemoryPatch::createWithHex("libUE4.so", 0x21e9d28, "00", 32).Modify();
+//C34184DB0|7c34184db0|20|a000000000400
+MemoryPatch::createWithHex("libUE4.so", 0x21e9db0, "00", 32).Modify();
+//C34184EA4|7c34184ea4|20|4f80000000400
+MemoryPatch::createWithHex("libUE4.so", 0x21e9ea4, "00", 32).Modify();
+//C34184F38|7c34184f38|20|4740100000500
+MemoryPatch::createWithHex("libUE4.so", 0x21e9f38, "00", 32).Modify();
+//C34184F74|7c34184f74|20|4ec0000000800
+MemoryPatch::createWithHex("libUE4.so", 0x21e9f74, "00", 32).Modify();
+//C34184FE0|7c34184fe0|20|3980000000800
+MemoryPatch::createWithHex("libUE4.so", 0x21e9fe0, "00", 32).Modify();
+//C34185048|7c34185048|20|45c0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x21ea048, "00", 32).Modify();
+//C3418507C|7c3418507c|20|46c0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x21ea07c, "00", 32).Modify();
+//C341850B0|7c341850b0|20|48c0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x21ea0b0, "00", 32).Modify();
+//C341850DC|7c341850dc|20|4100100000480
+MemoryPatch::createWithHex("libUE4.so", 0x21ea0dc, "00", 32).Modify();
+//C341850E4|7c341850e4|20|47c0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x21ea0e4, "00", 32).Modify();
+//C34185118|7c34185118|20|44c0000000800
+MemoryPatch::createWithHex("libUE4.so", 0x21ea118, "00", 32).Modify();
+//C34185158|7c34185158|20|ec0000000280
+MemoryPatch::createWithHex("libUE4.so", 0x21ea158, "00", 32).Modify();
+//C341851C8|7c341851c8|20|3080000000400
+MemoryPatch::createWithHex("libUE4.so", 0x21ea1c8, "00", 32).Modify();
+//C341851FC|7c341851fc|20|3200000000800
+MemoryPatch::createWithHex("libUE4.so", 0x21ea1fc, "00", 32).Modify();
+//C34185334|7c34185334|20|3300000000400
+MemoryPatch::createWithHex("libUE4.so", 0x21ea334, "00", 32).Modify();
+//C34185408|7c34185408|20|a300000000400
+MemoryPatch::createWithHex("libUE4.so", 0x21ea408, "00", 32).Modify();
+//C3418543C|7c3418543c|20|a340000000400
+MemoryPatch::createWithHex("libUE4.so", 0x21ea43c, "00", 32).Modify();
+//C34185470|7c34185470|20|a440000000400
+MemoryPatch::createWithHex("libUE4.so", 0x21ea470, "00", 32).Modify();
+//C3418550C|7c3418550c|20|b380000000400
+MemoryPatch::createWithHex("libUE4.so", 0x21ea50c, "00", 32).Modify();
+//C34185540|7c34185540|20|b3c0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x21ea540, "00", 32).Modify();
+//C34185574|7c34185574|20|b4c0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x21ea574, "00", 32).Modify();
+//C341855A8|7c341855a8|20|b740000000800
+MemoryPatch::createWithHex("libUE4.so", 0x21ea5a8, "00", 32).Modify();
+//C341855DC|7c341855dc|20|b540000000400
+MemoryPatch::createWithHex("libUE4.so", 0x21ea5dc, "00", 32).Modify();
+//C34185600|7c34185600|20|400000a80
+MemoryPatch::createWithHex("libUE4.so", 0x21ea600, "00", 32).Modify();
+//C34185610|7c34185610|20|b840000000800
+MemoryPatch::createWithHex("libUE4.so", 0x21ea610, "00", 32).Modify();
+//C34185644|7c34185644|20|b780000000400
+MemoryPatch::createWithHex("libUE4.so", 0x21ea644, "00", 32).Modify();
+//C341856D8|7c341856d8|20|32c0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x21ea6d8, "00", 32).Modify();
+//C341856FC|7c341856fc|20|400000400
+MemoryPatch::createWithHex("libUE4.so", 0x21ea6fc, "00", 32).Modify();
+//C34185740|7c34185740|20|c100000000c00
+MemoryPatch::createWithHex("libUE4.so", 0x21ea740, "00", 32).Modify();
+//C341857A8|7c341857a8|20|7380000000400
+MemoryPatch::createWithHex("libUE4.so", 0x21ea7a8, "00", 32).Modify();
+//C34185810|7c34185810|20|d580000000400
+MemoryPatch::createWithHex("libUE4.so", 0x21ea810, "00", 32).Modify();
+//C34185844|7c34185844|20|c980000000400
+MemoryPatch::createWithHex("libUE4.so", 0x21ea844, "00", 32).Modify();
+//C34185878|7c34185878|20|ce00000000400
+MemoryPatch::createWithHex("libUE4.so", 0x21ea878, "00", 32).Modify();
+//C341858AC|7c341858ac|20|d8c0000000800
+MemoryPatch::createWithHex("libUE4.so", 0x21ea8ac, "00", 32).Modify();
+//C341858E0|7c341858e0|20|c240000000400
+MemoryPatch::createWithHex("libUE4.so", 0x21ea8e0, "00", 32).Modify();
+//C34185914|7c34185914|20|c940000000400
+MemoryPatch::createWithHex("libUE4.so", 0x21ea914, "00", 32).Modify();
+//C34185940|7c34185940|20|d1c0100000d00
+MemoryPatch::createWithHex("libUE4.so", 0x21ea940, "00", 32).Modify();
+//C34185948|7c34185948|20|d940000000800
+MemoryPatch::createWithHex("libUE4.so", 0x21ea948, "00", 32).Modify();
+//C3418597C|7c3418597c|20|d800000000400
+MemoryPatch::createWithHex("libUE4.so", 0x21ea97c, "00", 32).Modify();
+//C34185A30|7c34185a30|20|2a80000000400
+MemoryPatch::createWithHex("libUE4.so", 0x21eaa30, "00", 32).Modify();
+//C34185A64|7c34185a64|20|2dc0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x21eaa64, "00", 32).Modify();
+//C34185ACC|7c34185acc|20|3200000000800
+MemoryPatch::createWithHex("libUE4.so", 0x21eaacc, "00", 32).Modify();
+//C34185B00|7c34185b00|20|3100000000400
+MemoryPatch::createWithHex("libUE4.so", 0x21eab00, "00", 32).Modify();
+//C34185B38|7c34185b38|20|3e40000000c00
+MemoryPatch::createWithHex("libUE4.so", 0x21eab38, "00", 32).Modify();
+//C34185B6C|7c34185b6c|20|4280000000400
+MemoryPatch::createWithHex("libUE4.so", 0x21eab6c, "00", 32).Modify();
+//C34185BD8|7c34185bd8|20|30c0000000c00
+MemoryPatch::createWithHex("libUE4.so", 0x21eabd8, "00", 32).Modify();
+//C34185C0C|7c34185c0c|20|3500000000400
+MemoryPatch::createWithHex("libUE4.so", 0x21eac0c, "00", 32).Modify();
+//C34185C6C|7c34185c6c|20|45c0000000c00
+MemoryPatch::createWithHex("libUE4.so", 0x21eac6c, "00", 32).Modify();
+//C34185C90|7c34185c90|20|400000280
+MemoryPatch::createWithHex("libUE4.so", 0x21eac90, "00", 32).Modify();
+//C34185CD4|7c34185cd4|20|4fc0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x21eacd4, "00", 32).Modify();
+//C34185D08|7c34185d08|20|4f80000000400
+MemoryPatch::createWithHex("libUE4.so", 0x21ead08, "00", 32).Modify();
+//C34185D2C|7c34185d2c|20|400000480
+MemoryPatch::createWithHex("libUE4.so", 0x21ead2c, "00", 32).Modify();
+//C34185D3C|7c34185d3c|20|50c0000000800
+MemoryPatch::createWithHex("libUE4.so", 0x21ead3c, "00", 32).Modify();
+//C34185DA8|7c34185da8|20|5000000000c00
+MemoryPatch::createWithHex("libUE4.so", 0x21eada8, "00", 32).Modify();
+//C34185DDC|7c34185ddc|20|5440000000400
+MemoryPatch::createWithHex("libUE4.so", 0x21eaddc, "00", 32).Modify();
+//C34185E54|7c34185e54|20|dc00000180
+MemoryPatch::createWithHex("libUE4.so", 0x21eae54, "00", 32).Modify();
+//C34185E98|7c34185e98|20|5fc0000000c00
+MemoryPatch::createWithHex("libUE4.so", 0x21eae98, "00", 32).Modify();
+//C34185ECC|7c34185ecc|20|6680000000400
+MemoryPatch::createWithHex("libUE4.so", 0x21eaecc, "00", 32).Modify();
+//C34185F00|7c34185f00|20|6740000000800
+MemoryPatch::createWithHex("libUE4.so", 0x21eaf00, "00", 32).Modify();
+//C34185F34|7c34185f34|20|6540000000400
+MemoryPatch::createWithHex("libUE4.so", 0x21eaf34, "00", 32).Modify();
+//C34185F78|7c34185f78|20|2800000000400
+MemoryPatch::createWithHex("libUE4.so", 0x21eaf78, "00", 32).Modify();
+//C341A2038|7c341a2038|20|6a00000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2207038, "00", 32).Modify();
+//C341A20A0|7c341a20a0|20|7000000000400
+MemoryPatch::createWithHex("libUE4.so", 0x22070a0, "00", 32).Modify();
+//C341A20CC|7c341a20cc|20|66c0100000680
+MemoryPatch::createWithHex("libUE4.so", 0x22070cc, "00", 32).Modify();
+//C341A20D4|7c341a20d4|20|6780000000800
+MemoryPatch::createWithHex("libUE4.so", 0x22070d4, "00", 32).Modify();
+//C341A2108|7c341a2108|20|7300000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2207108, "00", 32).Modify();
+//C341A213C|7c341a213c|20|7200000000800
+MemoryPatch::createWithHex("libUE4.so", 0x220713c, "00", 32).Modify();
+//C341A226C|7c341a226c|20|13240000000c00
+MemoryPatch::createWithHex("libUE4.so", 0x220726c, "00", 32).Modify();
+//C341A22C8|7c341a22c8|20|80
+MemoryPatch::createWithHex("libUE4.so", 0x22072c8, "00", 32).Modify();
+//C341A22D4|7c341a22d4|20|13900000000800
+MemoryPatch::createWithHex("libUE4.so", 0x22072d4, "00", 32).Modify();
+//C341A233C|7c341a233c|20|12dc0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x220733c, "00", 32).Modify();
+//C341A240C|7c341a240c|20|13980000000400
+MemoryPatch::createWithHex("libUE4.so", 0x220740c, "00", 32).Modify();
+//C341A2440|7c341a2440|20|13200000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2207440, "00", 32).Modify();
+//C341A2474|7c341a2474|20|13780000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2207474, "00", 32).Modify();
+//C341A24C8|7c341a24c8|20|1a00000000400
+MemoryPatch::createWithHex("libUE4.so", 0x22074c8, "00", 32).Modify();
+//C341A2568|7c341a2568|20|3c80000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2207568, "00", 32).Modify();
+//C341A259C|7c341a259c|20|3fc0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x220759c, "00", 32).Modify();
+//C341A25D0|7c341a25d0|20|4040000000400
+MemoryPatch::createWithHex("libUE4.so", 0x22075d0, "00", 32).Modify();
+//C341A2658|7c341a2658|20|2580000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2207658, "00", 32).Modify();
+//C341A272C|7c341a272c|20|18c0000000800
+MemoryPatch::createWithHex("libUE4.so", 0x220772c, "00", 32).Modify();
+//C341A279C|7c341a279c|20|1000000000180
+MemoryPatch::createWithHex("libUE4.so", 0x220779c, "00", 32).Modify();
+//C341A2810|7c341a2810|20|c00
+MemoryPatch::createWithHex("libUE4.so", 0x2207810, "00", 32).Modify();
+//C341A2848|7c341a2848|20|c00
+MemoryPatch::createWithHex("libUE4.so", 0x2207848, "00", 32).Modify();
+//C341A28D8|7c341a28d8|20|800000100
+MemoryPatch::createWithHex("libUE4.so", 0x22078d8, "00", 32).Modify();
+//C341A2A14|7c341a2a14|20|1780000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2207a14, "00", 32).Modify();
+//C341A2ABC|7c341a2abc|20|6bc0000000c00
+MemoryPatch::createWithHex("libUE4.so", 0x2207abc, "00", 32).Modify();
+//C341A2B58|7c341a2b58|20|7740000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2207b58, "00", 32).Modify();
+//C341A2B8C|7c341a2b8c|20|7780000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2207b8c, "00", 32).Modify();
+//C341A2BC0|7c341a2bc0|20|7140000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2207bc0, "00", 32).Modify();
+//C341A2BEC|7c341a2bec|20|7680100000780
+MemoryPatch::createWithHex("libUE4.so", 0x2207bec, "00", 32).Modify();
+//C341A2D40|7c341a2d40|20|b900000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2207d40, "00", 32).Modify();
+//C341A2D74|7c341a2d74|20|c0c0000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2207d74, "00", 32).Modify();
+//C341A2DA8|7c341a2da8|20|c580000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2207da8, "00", 32).Modify();
+//C341A2DD4|7c341a2dd4|20|3040000000c00
+MemoryPatch::createWithHex("libUE4.so", 0x2207dd4, "00", 32).Modify();
+//C341A2DF8|7c341a2df8|20|c00000100
+MemoryPatch::createWithHex("libUE4.so", 0x2207df8, "00", 32).Modify();
+//C341A2E3C|7c341a2e3c|20|4040000000c00
+MemoryPatch::createWithHex("libUE4.so", 0x2207e3c, "00", 32).Modify();
+//C341A2F38|7c341a2f38|20|6880000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2207f38, "00", 32).Modify();
+//C341A2F6C|7c341a2f6c|20|6200000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2207f6c, "00", 32).Modify();
+//C341A2FA0|7c341a2fa0|20|63c0000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2207fa0, "00", 32).Modify();
+//C341A3094|7c341a3094|20|3d00000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2208094, "00", 32).Modify();
+//C341A30C8|7c341a30c8|20|3f80000000800
+MemoryPatch::createWithHex("libUE4.so", 0x22080c8, "00", 32).Modify();
+//C341A30F4|7c341a30f4|20|3e80100000400
+MemoryPatch::createWithHex("libUE4.so", 0x22080f4, "00", 32).Modify();
+//C341A3150|7c341a3150|20|5900000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2208150, "00", 32).Modify();
+//C341A3184|7c341a3184|20|5980000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2208184, "00", 32).Modify();
+//C341A31B8|7c341a31b8|20|58c0000000800
+MemoryPatch::createWithHex("libUE4.so", 0x22081b8, "00", 32).Modify();
+//C341A320C|7c341a320c|20|5440000000400
+MemoryPatch::createWithHex("libUE4.so", 0x220820c, "00", 32).Modify();
+//C341A3230|7c341a3230|20|2ec00000200
+MemoryPatch::createWithHex("libUE4.so", 0x2208230, "00", 32).Modify();
+//C341A3240|7c341a3240|20|54c0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2208240, "00", 32).Modify();
+//C341A3274|7c341a3274|20|5400000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2208274, "00", 32).Modify();
+//C341A32C8|7c341a32c8|20|2fc0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x22082c8, "00", 32).Modify();
+//C341A32FC|7c341a32fc|20|3040000000400
+MemoryPatch::createWithHex("libUE4.so", 0x22082fc, "00", 32).Modify();
+//C341A3330|7c341a3330|20|2f80000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2208330, "00", 32).Modify();
+//C341A33E0|7c341a33e0|20|2680000000400
+MemoryPatch::createWithHex("libUE4.so", 0x22083e0, "00", 32).Modify();
+//C341A3448|7c341a3448|20|5c00000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2208448, "00", 32).Modify();
+//C341A34B0|7c341a34b0|20|5480000000800
+MemoryPatch::createWithHex("libUE4.so", 0x22084b0, "00", 32).Modify();
+//C341A34D4|7c341a34d4|20|1400000580
+MemoryPatch::createWithHex("libUE4.so", 0x22084d4, "00", 32).Modify();
+//C341A34E4|7c341a34e4|20|5a00000000800
+MemoryPatch::createWithHex("libUE4.so", 0x22084e4, "00", 32).Modify();
+//C341A3518|7c341a3518|20|6040000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2208518, "00", 32).Modify();
+//C341A360C|7c341a360c|20|2a40000000400
+MemoryPatch::createWithHex("libUE4.so", 0x220860c, "00", 32).Modify();
+//C341A3698|7c341a3698|20|1780000000200
+MemoryPatch::createWithHex("libUE4.so", 0x2208698, "00", 32).Modify();
+//C341A36A0|7c341a36a0|20|1800000000400
+MemoryPatch::createWithHex("libUE4.so", 0x22086a0, "00", 32).Modify();
+//C341A36D4|7c341a36d4|20|c00
+MemoryPatch::createWithHex("libUE4.so", 0x22086d4, "00", 32).Modify();
+//C341A3784|7c341a3784|20|30d00000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2208784, "00", 32).Modify();
+//C341A3820|7c341a3820|20|30e00000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2208820, "00", 32).Modify();
+//C341A3878|7c341a3878|20|2000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2208878, "00", 32).Modify();
+//C341A38BC|7c341a38bc|20|30f00000000400
+MemoryPatch::createWithHex("libUE4.so", 0x22088bc, "00", 32).Modify();
+//C341A3958|7c341a3958|20|31000000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2208958, "00", 32).Modify();
+//C341A39F4|7c341a39f4|20|31100000000400
+MemoryPatch::createWithHex("libUE4.so", 0x22089f4, "00", 32).Modify();
+//C341A3A90|7c341a3a90|20|31200000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2208a90, "00", 32).Modify();
+//C341A3B2C|7c341a3b2c|20|31300000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2208b2c, "00", 32).Modify();
+//C341A3BC8|7c341a3bc8|20|38cc0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2208bc8, "00", 32).Modify();
+//C341A3C98|7c341a3c98|20|39540000000c00
+MemoryPatch::createWithHex("libUE4.so", 0x2208c98, "00", 32).Modify();
+//C341A3CCC|7c341a3ccc|20|38ac0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2208ccc, "00", 32).Modify();
+//C341A3D68|7c341a3d68|20|39440000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2208d68, "00", 32).Modify();
+//C341A3E38|7c341a3e38|20|38bc0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2208e38, "00", 32).Modify();
+//C341A3F08|7c341a3f08|20|398c0000000c00
+MemoryPatch::createWithHex("libUE4.so", 0x2208f08, "00", 32).Modify();
+//C341A3F3C|7c341a3f3c|20|38d00000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2208f3c, "00", 32).Modify();
+//C34318018|7c34318018|20|6c0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x237d018, "00", 32).Modify();
+//C34318050|7c34318050|20|700000000400
+MemoryPatch::createWithHex("libUE4.so", 0x237d050, "00", 32).Modify();
+//C3431807C|7c3431807c|20|1500000000c00
+MemoryPatch::createWithHex("libUE4.so", 0x237d07c, "00", 32).Modify();
+//C3431812C|7c3431812c|20|300000000400
+MemoryPatch::createWithHex("libUE4.so", 0x237d12c, "00", 32).Modify();
+//C34318148|7c34318148|20|3c0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x237d148, "00", 32).Modify();
+//C34318174|7c34318174|20|a40000000c00
+MemoryPatch::createWithHex("libUE4.so", 0x237d174, "00", 32).Modify();
+//C343181A8|7c343181a8|20|c00
+MemoryPatch::createWithHex("libUE4.so", 0x237d1a8, "00", 32).Modify();
+//C343181D4|7c343181d4|20|a40000000c00
+MemoryPatch::createWithHex("libUE4.so", 0x237d1d4, "00", 32).Modify();
+//C34318208|7c34318208|20|c00
+MemoryPatch::createWithHex("libUE4.so", 0x237d208, "00", 32).Modify();
+//C34318234|7c34318234|20|a40000000c00
+MemoryPatch::createWithHex("libUE4.so", 0x237d234, "00", 32).Modify();
+//C34318268|7c34318268|20|c00
+MemoryPatch::createWithHex("libUE4.so", 0x237d268, "00", 32).Modify();
+//C343182D4|7c343182d4|20|1dc0000000800
+MemoryPatch::createWithHex("libUE4.so", 0x237d2d4, "00", 32).Modify();
+//C34318308|7c34318308|20|1d40000000800
+MemoryPatch::createWithHex("libUE4.so", 0x237d308, "00", 32).Modify();
+//C34318384|7c34318384|20|1900000000800
+MemoryPatch::createWithHex("libUE4.so", 0x237d384, "00", 32).Modify();
+//C343183B8|7c343183b8|20|1e40000000800
+MemoryPatch::createWithHex("libUE4.so", 0x237d3b8, "00", 32).Modify();
+//C343183E4|7c343183e4|20|a40000000c00
+MemoryPatch::createWithHex("libUE4.so", 0x237d3e4, "00", 32).Modify();
+//C34318418|7c34318418|20|c00
+MemoryPatch::createWithHex("libUE4.so", 0x237d418, "00", 32).Modify();
+//C34318444|7c34318444|20|a40000000c00
+MemoryPatch::createWithHex("libUE4.so", 0x237d444, "00", 32).Modify();
+//C34318478|7c34318478|20|c00
+MemoryPatch::createWithHex("libUE4.so", 0x237d478, "00", 32).Modify();
+//C343184C4|7c343184c4|20|1340100000180
+MemoryPatch::createWithHex("libUE4.so", 0x237d4c4, "00", 32).Modify();
+//C343184CC|7c343184cc|20|1840000000400
+MemoryPatch::createWithHex("libUE4.so", 0x237d4cc, "00", 32).Modify();
+//C34318500|7c34318500|20|1a00000000800
+MemoryPatch::createWithHex("libUE4.so", 0x237d500, "00", 32).Modify();
+//C34318538|7c34318538|20|1b80000000400
+MemoryPatch::createWithHex("libUE4.so", 0x237d538, "00", 32).Modify();
+//C3431856C|7c3431856c|20|c00
+MemoryPatch::createWithHex("libUE4.so", 0x237d56c, "00", 32).Modify();
+//C343185B0|7c343185b0|20|29c0000000800
+MemoryPatch::createWithHex("libUE4.so", 0x237d5b0, "00", 32).Modify();
+//C343185E4|7c343185e4|20|c00
+MemoryPatch::createWithHex("libUE4.so", 0x237d5e4, "00", 32).Modify();
+//C34318628|7c34318628|20|28c0000000800
+MemoryPatch::createWithHex("libUE4.so", 0x237d628, "00", 32).Modify();
+//C3431865C|7c3431865c|20|c00
+MemoryPatch::createWithHex("libUE4.so", 0x237d65c, "00", 32).Modify();
+//C343186BC|7c343186bc|20|c00
+MemoryPatch::createWithHex("libUE4.so", 0x237d6bc, "00", 32).Modify();
+//C343187C0|7c343187c0|20|1840000000800
+MemoryPatch::createWithHex("libUE4.so", 0x237d7c0, "00", 32).Modify();
+//C343188F0|7c343188f0|20|e40000000180
+MemoryPatch::createWithHex("libUE4.so", 0x237d8f0, "00", 32).Modify();
+//C343188F8|7c343188f8|20|1980000000800
+MemoryPatch::createWithHex("libUE4.so", 0x237d8f8, "00", 32).Modify();
+//C3431892C|7c3431892c|20|1940000000800
+MemoryPatch::createWithHex("libUE4.so", 0x237d92c, "00", 32).Modify();
+//C34318960|7c34318960|20|c00
+MemoryPatch::createWithHex("libUE4.so", 0x237d960, "00", 32).Modify();
+//C34318990|7c34318990|20|e40000000180
+MemoryPatch::createWithHex("libUE4.so", 0x237d990, "00", 32).Modify();
+//C34318998|7c34318998|20|1980000000800
+MemoryPatch::createWithHex("libUE4.so", 0x237d998, "00", 32).Modify();
+//C343189CC|7c343189cc|20|1940000000800
+MemoryPatch::createWithHex("libUE4.so", 0x237d9cc, "00", 32).Modify();
+//C34318A00|7c34318a00|20|c00
+MemoryPatch::createWithHex("libUE4.so", 0x237da00, "00", 32).Modify();
+//C34318A38|7c34318a38|20|19c0000000800
+MemoryPatch::createWithHex("libUE4.so", 0x237da38, "00", 32).Modify();
+//C34318A6C|7c34318a6c|20|1980000000800
+MemoryPatch::createWithHex("libUE4.so", 0x237da6c, "00", 32).Modify();
+//C34318AA0|7c34318aa0|20|c00
+MemoryPatch::createWithHex("libUE4.so", 0x237daa0, "00", 32).Modify();
+//C34318ACC|7c34318acc|20|1c40000000c00
+MemoryPatch::createWithHex("libUE4.so", 0x237dacc, "00", 32).Modify();
+//C34318B00|7c34318b00|20|2340000000400
+MemoryPatch::createWithHex("libUE4.so", 0x237db00, "00", 32).Modify();
+//C34318B34|7c34318b34|20|1f80000000800
+MemoryPatch::createWithHex("libUE4.so", 0x237db34, "00", 32).Modify();
+//C34318B68|7c34318b68|20|24c0000000800
+MemoryPatch::createWithHex("libUE4.so", 0x237db68, "00", 32).Modify();
+//C34318BA0|7c34318ba0|20|2140000000800
+MemoryPatch::createWithHex("libUE4.so", 0x237dba0, "00", 32).Modify();
+//C34318BD4|7c34318bd4|20|2440000000c00
+MemoryPatch::createWithHex("libUE4.so", 0x237dbd4, "00", 32).Modify();
+//C34318C08|7c34318c08|20|2c40000000400
+MemoryPatch::createWithHex("libUE4.so", 0x237dc08, "00", 32).Modify();
+//C34318C70|7c34318c70|20|2e00000000800
+MemoryPatch::createWithHex("libUE4.so", 0x237dc70, "00", 32).Modify();
+//C34318CA8|7c34318ca8|20|19c0000000800
+MemoryPatch::createWithHex("libUE4.so", 0x237dca8, "00", 32).Modify();
+//C34318CDC|7c34318cdc|20|1980000000800
+MemoryPatch::createWithHex("libUE4.so", 0x237dcdc, "00", 32).Modify();
+//C34318D10|7c34318d10|20|c00
+MemoryPatch::createWithHex("libUE4.so", 0x237dd10, "00", 32).Modify();
+//C34318D40|7c34318d40|20|e40000000180
+MemoryPatch::createWithHex("libUE4.so", 0x237dd40, "00", 32).Modify();
+//C34318D48|7c34318d48|20|1980000000800
+MemoryPatch::createWithHex("libUE4.so", 0x237dd48, "00", 32).Modify();
+//C34318D7C|7c34318d7c|20|1940000000800
+MemoryPatch::createWithHex("libUE4.so", 0x237dd7c, "00", 32).Modify();
+//C34318DB0|7c34318db0|20|c00
+MemoryPatch::createWithHex("libUE4.so", 0x237ddb0, "00", 32).Modify();
+//C34318DDC|7c34318ddc|20|1ac0000000c00
+MemoryPatch::createWithHex("libUE4.so", 0x237dddc, "00", 32).Modify();
+//C34318E10|7c34318e10|20|1ec0000000800
+MemoryPatch::createWithHex("libUE4.so", 0x237de10, "00", 32).Modify();
+//C34318E44|7c34318e44|20|1e00000000800
+MemoryPatch::createWithHex("libUE4.so", 0x237de44, "00", 32).Modify();
+//C34318EB0|7c34318eb0|20|3b00000000800
+MemoryPatch::createWithHex("libUE4.so", 0x237deb0, "00", 32).Modify();
+//C34318EE4|7c34318ee4|20|4000000000400
+MemoryPatch::createWithHex("libUE4.so", 0x237dee4, "00", 32).Modify();
+//C34318F18|7c34318f18|20|3940000000800
+MemoryPatch::createWithHex("libUE4.so", 0x237df18, "00", 32).Modify();
+//C34318F4C|7c34318f4c|20|38c0000000800
+MemoryPatch::createWithHex("libUE4.so", 0x237df4c, "00", 32).Modify();
+//C34318F80|7c34318f80|20|3ac0000000800
+MemoryPatch::createWithHex("libUE4.so", 0x237df80, "00", 32).Modify();
+//C34318FB4|7c34318fb4|20|41c0000000800
+MemoryPatch::createWithHex("libUE4.so", 0x237dfb4, "00", 32).Modify();
+//C34318FEC|7c34318fec|20|4200000000800
+MemoryPatch::createWithHex("libUE4.so", 0x237dfec, "00", 32).Modify();
+//C34319020|7c34319020|20|3900000000c00
+MemoryPatch::createWithHex("libUE4.so", 0x237e020, "00", 32).Modify();
+//C3431904C|7c3431904c|20|3480100000480
+MemoryPatch::createWithHex("libUE4.so", 0x237e04c, "00", 32).Modify();
+//C34319088|7c34319088|20|41c0000000800
+MemoryPatch::createWithHex("libUE4.so", 0x237e088, "00", 32).Modify();
+//C343190FC|7c343190fc|20|1300100000400
+MemoryPatch::createWithHex("libUE4.so", 0x237e0fc, "00", 32).Modify();
+//C34319138|7c34319138|20|45c0000000800
+MemoryPatch::createWithHex("libUE4.so", 0x237e138, "00", 32).Modify();
+//C3431916C|7c3431916c|20|3fc0000000800
+MemoryPatch::createWithHex("libUE4.so", 0x237e16c, "00", 32).Modify();
+//C34319264|7c34319264|20|4c0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x237e264, "00", 32).Modify();
+//C343193A4|7c343193a4|20|1000000000180
+MemoryPatch::createWithHex("libUE4.so", 0x237e3a4, "00", 32).Modify();
+//C343193AC|7c343193ac|20|1a00000000400
+MemoryPatch::createWithHex("libUE4.so", 0x237e3ac, "00", 32).Modify();
+//C34319418|7c34319418|20|c00
+MemoryPatch::createWithHex("libUE4.so", 0x237e418, "00", 32).Modify();
+//C3431946C|7c3431946c|20|900000000800
+MemoryPatch::createWithHex("libUE4.so", 0x237e46c, "00", 32).Modify();
+//C34319488|7c34319488|20|3c0000000800
+MemoryPatch::createWithHex("libUE4.so", 0x237e488, "00", 32).Modify();
+//C343194BC|7c343194bc|20|700000000400
+MemoryPatch::createWithHex("libUE4.so", 0x237e4bc, "00", 32).Modify();
+//C34319504|7c34319504|20|3c0000000800
+MemoryPatch::createWithHex("libUE4.so", 0x237e504, "00", 32).Modify();
+//C34319538|7c34319538|20|700000000400
+MemoryPatch::createWithHex("libUE4.so", 0x237e538, "00", 32).Modify();
+//C34319560|7c34319560|20|400000100
+MemoryPatch::createWithHex("libUE4.so", 0x237e560, "00", 32).Modify();
+//C3431958C|7c3431958c|20|3c0000000800
+MemoryPatch::createWithHex("libUE4.so", 0x237e58c, "00", 32).Modify();
+//C343195C0|7c343195c0|20|700000000400
+MemoryPatch::createWithHex("libUE4.so", 0x237e5c0, "00", 32).Modify();
+//C34319630|7c34319630|20|880000000800
+MemoryPatch::createWithHex("libUE4.so", 0x237e630, "00", 32).Modify();
+//C3431964C|7c3431964c|20|340000000400
+MemoryPatch::createWithHex("libUE4.so", 0x237e64c, "00", 32).Modify();
+//C343196A0|7c343196a0|20|12c0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x237e6a0, "00", 32).Modify();
+//C3431970C|7c3431970c|20|c00
+MemoryPatch::createWithHex("libUE4.so", 0x237e70c, "00", 32).Modify();
+//C34319728|7c34319728|20|b00000000800
+MemoryPatch::createWithHex("libUE4.so", 0x237e728, "00", 32).Modify();
+//C343197A0|7c343197a0|20|940000000c00
+MemoryPatch::createWithHex("libUE4.so", 0x237e7a0, "00", 32).Modify();
+//C34319888|7c34319888|20|a40000000800
+MemoryPatch::createWithHex("libUE4.so", 0x237e888, "00", 32).Modify();
+//C34319940|7c34319940|20|3c0000000800
+MemoryPatch::createWithHex("libUE4.so", 0x237e940, "00", 32).Modify();
+//C34319974|7c34319974|20|700000000400
+MemoryPatch::createWithHex("libUE4.so", 0x237e974, "00", 32).Modify();
+//C343199D4|7c343199d4|20|3c0000000800
+MemoryPatch::createWithHex("libUE4.so", 0x237e9d4, "00", 32).Modify();
+//C34319A08|7c34319a08|20|700000000400
+MemoryPatch::createWithHex("libUE4.so", 0x237ea08, "00", 32).Modify();
+//C34319A68|7c34319a68|20|3c0000000800
+MemoryPatch::createWithHex("libUE4.so", 0x237ea68, "00", 32).Modify();
+//C34319A9C|7c34319a9c|20|700000000400
+MemoryPatch::createWithHex("libUE4.so", 0x237ea9c, "00", 32).Modify();
+//C34319B18|7c34319b18|20|7c0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x237eb18, "00", 32).Modify();
+//C34319B38|7c34319b38|20|2ac0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x237eb38, "00", 32).Modify();
+//C34319B6C|7c34319b6c|20|2bc0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x237eb6c, "00", 32).Modify();
+//C34319BA0|7c34319ba0|20|2cc0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x237eba0, "00", 32).Modify();
+//C34319BD4|7c34319bd4|20|2dc0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x237ebd4, "00", 32).Modify();
+//C34319C08|7c34319c08|20|2940000000400
+MemoryPatch::createWithHex("libUE4.so", 0x237ec08, "00", 32).Modify();
+//C34319C3C|7c34319c3c|20|29c0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x237ec3c, "00", 32).Modify();
+//C34319C70|7c34319c70|20|2fc0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x237ec70, "00", 32).Modify();
+//C34319CA4|7c34319ca4|20|3040000000400
+MemoryPatch::createWithHex("libUE4.so", 0x237eca4, "00", 32).Modify();
+//C34319CD8|7c34319cd8|20|3140000000400
+MemoryPatch::createWithHex("libUE4.so", 0x237ecd8, "00", 32).Modify();
+//C34319CF8|7c34319cf8|20|1b80000000400
+MemoryPatch::createWithHex("libUE4.so", 0x237ecf8, "00", 32).Modify();
+//C34319D2C|7c34319d2c|20|1c80000000400
+MemoryPatch::createWithHex("libUE4.so", 0x237ed2c, "00", 32).Modify();
+//C34319D60|7c34319d60|20|1d80000000400
+MemoryPatch::createWithHex("libUE4.so", 0x237ed60, "00", 32).Modify();
+//C34319D94|7c34319d94|20|1e40000000400
+MemoryPatch::createWithHex("libUE4.so", 0x237ed94, "00", 32).Modify();
+//C34319DB0|7c34319db0|20|3c0000000800
+MemoryPatch::createWithHex("libUE4.so", 0x237edb0, "00", 32).Modify();
+//C34319DE4|7c34319de4|20|700000000400
+MemoryPatch::createWithHex("libUE4.so", 0x237ede4, "00", 32).Modify();
+//C34319E60|7c34319e60|20|a40000000400
+MemoryPatch::createWithHex("libUE4.so", 0x237ee60, "00", 32).Modify();
+//C34319EB0|7c34319eb0|20|a40000000400
+MemoryPatch::createWithHex("libUE4.so", 0x237eeb0, "00", 32).Modify();
+//C34319EE8|7c34319ee8|20|900000000800
+MemoryPatch::createWithHex("libUE4.so", 0x237eee8, "00", 32).Modify();
+//C34319F20|7c34319f20|20|6c0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x237ef20, "00", 32).Modify();
+//C34319F58|7c34319f58|20|900000000800
+MemoryPatch::createWithHex("libUE4.so", 0x237ef58, "00", 32).Modify();
+//C34319F84|7c34319f84|20|cc0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x237ef84, "00", 32).Modify();
+//C34319FB8|7c34319fb8|20|d40000000400
+MemoryPatch::createWithHex("libUE4.so", 0x237efb8, "00", 32).Modify();
+//C3436A01C|7c3436a01c|20|3f40000000800
+MemoryPatch::createWithHex("libUE4.so", 0x23cf01c, "00", 32).Modify();
+//C3436A094|7c3436a094|20|c00
+MemoryPatch::createWithHex("libUE4.so", 0x23cf094, "00", 32).Modify();
+//C3436A100|7c3436a100|20|c00
+MemoryPatch::createWithHex("libUE4.so", 0x23cf100, "00", 32).Modify();
+//C3436A12C|7c3436a12c|20|29c0000000c00
+MemoryPatch::createWithHex("libUE4.so", 0x23cf12c, "00", 32).Modify();
+//C3436A230|7c3436a230|20|34c0000000c00
+MemoryPatch::createWithHex("libUE4.so", 0x23cf230, "00", 32).Modify();
+//C3436A25C|7c3436a25c|20|a00000000800
+MemoryPatch::createWithHex("libUE4.so", 0x23cf25c, "00", 32).Modify();
+//C3436A2C4|7c3436a2c4|20|4800000080
+MemoryPatch::createWithHex("libUE4.so", 0x23cf2c4, "00", 32).Modify();
+//C3436A2D4|7c3436a2d4|20|18c0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x23cf2d4, "00", 32).Modify();
+//C3436A39C|7c3436a39c|20|4900000000800
+MemoryPatch::createWithHex("libUE4.so", 0x23cf39c, "00", 32).Modify();
+//C3436A3D0|7c3436a3d0|20|4dc0000000800
+MemoryPatch::createWithHex("libUE4.so", 0x23cf3d0, "00", 32).Modify();
+//C3436A4E8|7c3436a4e8|20|c00
+MemoryPatch::createWithHex("libUE4.so", 0x23cf4e8, "00", 32).Modify();
+//C3436A53C|7c3436a53c|20|1580000000800
+MemoryPatch::createWithHex("libUE4.so", 0x23cf53c, "00", 32).Modify();
+//C3436A570|7c3436a570|20|1540000000800
+MemoryPatch::createWithHex("libUE4.so", 0x23cf570, "00", 32).Modify();
+//C3436A5C4|7c3436a5c4|20|1580000000800
+MemoryPatch::createWithHex("libUE4.so", 0x23cf5c4, "00", 32).Modify();
+//C3436A5F8|7c3436a5f8|20|1540000000800
+MemoryPatch::createWithHex("libUE4.so", 0x23cf5f8, "00", 32).Modify();
+//C3436A63C|7c3436a63c|20|fc0000000800
+MemoryPatch::createWithHex("libUE4.so", 0x23cf63c, "00", 32).Modify();
+//C3436A6B4|7c3436a6b4|20|fc0000000800
+MemoryPatch::createWithHex("libUE4.so", 0x23cf6b4, "00", 32).Modify();
+//C3436A72C|7c3436a72c|20|c00
+MemoryPatch::createWithHex("libUE4.so", 0x23cf72c, "00", 32).Modify();
+//C3436A770|7c3436a770|20|c00
+MemoryPatch::createWithHex("libUE4.so", 0x23cf770, "00", 32).Modify();
+//C3436A84C|7c3436a84c|20|2a80000000400
+MemoryPatch::createWithHex("libUE4.so", 0x23cf84c, "00", 32).Modify();
+//C3436A8B4|7c3436a8b4|20|2e80000000400
+MemoryPatch::createWithHex("libUE4.so", 0x23cf8b4, "00", 32).Modify();
+//C3436A8E8|7c3436a8e8|20|2a00000000400
+MemoryPatch::createWithHex("libUE4.so", 0x23cf8e8, "00", 32).Modify();
+//C3436A970|7c3436a970|20|35c0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x23cf970, "00", 32).Modify();
+//C3436AAD8|7c3436aad8|20|3840000000400
+MemoryPatch::createWithHex("libUE4.so", 0x23cfad8, "00", 32).Modify();
+//C3436AB00|7c3436ab00|20|1000000100
+MemoryPatch::createWithHex("libUE4.so", 0x23cfb00, "00", 32).Modify();
+//C3436AB10|7c3436ab10|20|3c00000000400
+MemoryPatch::createWithHex("libUE4.so", 0x23cfb10, "00", 32).Modify();
+//C3436AB44|7c3436ab44|20|42c0000000800
+MemoryPatch::createWithHex("libUE4.so", 0x23cfb44, "00", 32).Modify();
+//C3436ACA8|7c3436aca8|20|8700000000400
+MemoryPatch::createWithHex("libUE4.so", 0x23cfca8, "00", 32).Modify();
+//C3436ACDC|7c3436acdc|20|9480000000400
+MemoryPatch::createWithHex("libUE4.so", 0x23cfcdc, "00", 32).Modify();
+//C3436AD10|7c3436ad10|20|8180000000c00
+MemoryPatch::createWithHex("libUE4.so", 0x23cfd10, "00", 32).Modify();
+//C3436AD44|7c3436ad44|20|7b00000000c00
+MemoryPatch::createWithHex("libUE4.so", 0x23cfd44, "00", 32).Modify();
+//C3436ADE0|7c3436ade0|20|6f40000000c00
+MemoryPatch::createWithHex("libUE4.so", 0x23cfde0, "00", 32).Modify();
+//C3436AE14|7c3436ae14|20|8d00000000c00
+MemoryPatch::createWithHex("libUE4.so", 0x23cfe14, "00", 32).Modify();
+//C3436AE48|7c3436ae48|20|6800000000400
+MemoryPatch::createWithHex("libUE4.so", 0x23cfe48, "00", 32).Modify();
+//C3436AE7C|7c3436ae7c|20|6f00000000800
+MemoryPatch::createWithHex("libUE4.so", 0x23cfe7c, "00", 32).Modify();
+//C3436AEB0|7c3436aeb0|20|7940000000800
+MemoryPatch::createWithHex("libUE4.so", 0x23cfeb0, "00", 32).Modify();
+//C3436AEE4|7c3436aee4|20|7fc0000000800
+MemoryPatch::createWithHex("libUE4.so", 0x23cfee4, "00", 32).Modify();
+//C3436AF18|7c3436af18|20|9c00000000800
+MemoryPatch::createWithHex("libUE4.so", 0x23cff18, "00", 32).Modify();
+//C3436AF4C|7c3436af4c|20|9b80000000800
+MemoryPatch::createWithHex("libUE4.so", 0x23cff4c, "00", 32).Modify();
+//C3436AF80|7c3436af80|20|96c0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x23cff80, "00", 32).Modify();
+//C3436B030|7c3436b030|20|17c0000000800
+MemoryPatch::createWithHex("libUE4.so", 0x23d0030, "00", 32).Modify();
+//C3436B0A8|7c3436b0a8|20|7c0000000800
+MemoryPatch::createWithHex("libUE4.so", 0x23d00a8, "00", 32).Modify();
+//C3436B114|7c3436b114|20|2c00000000400
+MemoryPatch::createWithHex("libUE4.so", 0x23d0114, "00", 32).Modify();
+//C3436B148|7c3436b148|20|2b80000000800
+MemoryPatch::createWithHex("libUE4.so", 0x23d0148, "00", 32).Modify();
+//C3436B1D4|7c3436b1d4|20|24c0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x23d01d4, "00", 32).Modify();
+//C3436B1F8|7c3436b1f8|20|400000200
+MemoryPatch::createWithHex("libUE4.so", 0x23d01f8, "00", 32).Modify();
+//C3436B208|7c3436b208|20|2b80000000400
+MemoryPatch::createWithHex("libUE4.so", 0x23d0208, "00", 32).Modify();
+//C3436B23C|7c3436b23c|20|2a00000000400
+MemoryPatch::createWithHex("libUE4.so", 0x23d023c, "00", 32).Modify();
+//C3436B2A8|7c3436b2a8|20|6c0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x23d02a8, "00", 32).Modify();
+//C3436B300|7c3436b300|20|4c40000000c00
+MemoryPatch::createWithHex("libUE4.so", 0x23d0300, "00", 32).Modify();
+//C3436B368|7c3436b368|20|4dc0000000800
+MemoryPatch::createWithHex("libUE4.so", 0x23d0368, "00", 32).Modify();
+//C3436B3B8|7c3436b3b8|20|c00
+MemoryPatch::createWithHex("libUE4.so", 0x23d03b8, "00", 32).Modify();
+//C3436B40C|7c3436b40c|20|4240000000800
+MemoryPatch::createWithHex("libUE4.so", 0x23d040c, "00", 32).Modify();
+//C3436B430|7c3436b430|20|1400000400
+MemoryPatch::createWithHex("libUE4.so", 0x23d0430, "00", 32).Modify();
+//C3436B440|7c3436b440|20|4200000000800
+MemoryPatch::createWithHex("libUE4.so", 0x23d0440, "00", 32).Modify();
+//C3436B4BC|7c3436b4bc|20|e40000000400
+MemoryPatch::createWithHex("libUE4.so", 0x23d04bc, "00", 32).Modify();
+//C3436B4F4|7c3436b4f4|20|c00
+MemoryPatch::createWithHex("libUE4.so", 0x23d04f4, "00", 32).Modify();
+//C3436B52C|7c3436b52c|20|c00
+MemoryPatch::createWithHex("libUE4.so", 0x23d052c, "00", 32).Modify();
+//C3436B564|7c3436b564|20|1b40000000400
+MemoryPatch::createWithHex("libUE4.so", 0x23d0564, "00", 32).Modify();
+//C3436B598|7c3436b598|20|1c00000000400
+MemoryPatch::createWithHex("libUE4.so", 0x23d0598, "00", 32).Modify();
+//C3436B5CC|7c3436b5cc|20|1d00000000400
+MemoryPatch::createWithHex("libUE4.so", 0x23d05cc, "00", 32).Modify();
+//C3436B600|7c3436b600|20|1e00000000400
+MemoryPatch::createWithHex("libUE4.so", 0x23d0600, "00", 32).Modify();
+//C3436B634|7c3436b634|20|1f00000000400
+MemoryPatch::createWithHex("libUE4.so", 0x23d0634, "00", 32).Modify();
+//C3436B660|7c3436b660|20|700000000400
+MemoryPatch::createWithHex("libUE4.so", 0x23d0660, "00", 32).Modify();
+//C3436B68C|7c3436b68c|20|780000000400
+MemoryPatch::createWithHex("libUE4.so", 0x23d068c, "00", 32).Modify();
+//C3436B6B8|7c3436b6b8|20|740000000400
+MemoryPatch::createWithHex("libUE4.so", 0x23d06b8, "00", 32).Modify();
+//C3436B6E4|7c3436b6e4|20|7c0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x23d06e4, "00", 32).Modify();
+//C3436B710|7c3436b710|20|4c0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x23d0710, "00", 32).Modify();
+//C3436B73C|7c3436b73c|20|540000000400
+MemoryPatch::createWithHex("libUE4.so", 0x23d073c, "00", 32).Modify();
+//C3436B768|7c3436b768|20|1440000000800
+MemoryPatch::createWithHex("libUE4.so", 0x23d0768, "00", 32).Modify();
+//C3436B79C|7c3436b79c|20|14c0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x23d079c, "00", 32).Modify();
+//C3436B7D0|7c3436b7d0|20|15c0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x23d07d0, "00", 32).Modify();
+//C3436B814|7c3436b814|20|900000000400
+MemoryPatch::createWithHex("libUE4.so", 0x23d0814, "00", 32).Modify();
+//C3436B840|7c3436b840|20|780000000400
+MemoryPatch::createWithHex("libUE4.so", 0x23d0840, "00", 32).Modify();
+//C3436B86C|7c3436b86c|20|800000000400
+MemoryPatch::createWithHex("libUE4.so", 0x23d086c, "00", 32).Modify();
+//C3436B898|7c3436b898|20|7c0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x23d0898, "00", 32).Modify();
+//C3436B8BC|7c3436b8bc|20|5c0100000080
+MemoryPatch::createWithHex("libUE4.so", 0x23d08bc, "00", 32).Modify();
+//C3436B8C4|7c3436b8c4|20|840000000400
+MemoryPatch::createWithHex("libUE4.so", 0x23d08c4, "00", 32).Modify();
+//C3436B8F0|7c3436b8f0|20|800000000400
+MemoryPatch::createWithHex("libUE4.so", 0x23d08f0, "00", 32).Modify();
+//C3436B91C|7c3436b91c|20|880000000400
+MemoryPatch::createWithHex("libUE4.so", 0x23d091c, "00", 32).Modify();
+//C3436B948|7c3436b948|20|ec0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x23d0948, "00", 32).Modify();
+//C3436B96C|7c3436b96c|20|400000080
+MemoryPatch::createWithHex("libUE4.so", 0x23d096c, "00", 32).Modify();
+//C3436B97C|7c3436b97c|20|1000000000400
+MemoryPatch::createWithHex("libUE4.so", 0x23d097c, "00", 32).Modify();
+//C3436B9B0|7c3436b9b0|20|1100000000400
+MemoryPatch::createWithHex("libUE4.so", 0x23d09b0, "00", 32).Modify();
+//C3436B9E8|7c3436b9e8|20|940000000400
+MemoryPatch::createWithHex("libUE4.so", 0x23d09e8, "00", 32).Modify();
+//C3436BA48|7c3436ba48|20|1240000000400
+MemoryPatch::createWithHex("libUE4.so", 0x23d0a48, "00", 32).Modify();
+//C3436BA68|7c3436ba68|20|1900000000800
+MemoryPatch::createWithHex("libUE4.so", 0x23d0a68, "00", 32).Modify();
+//C3436BA9C|7c3436ba9c|20|17c0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x23d0a9c, "00", 32).Modify();
+//C3436BAD0|7c3436bad0|20|18c0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x23d0ad0, "00", 32).Modify();
+//C3436BAEC|7c3436baec|20|740000000400
+MemoryPatch::createWithHex("libUE4.so", 0x23d0aec, "00", 32).Modify();
+//C3436BB18|7c3436bb18|20|600100000080
+MemoryPatch::createWithHex("libUE4.so", 0x23d0b18, "00", 32).Modify();
+//C3436BB20|7c3436bb20|20|840000000400
+MemoryPatch::createWithHex("libUE4.so", 0x23d0b20, "00", 32).Modify();
+//C3436BB4C|7c3436bb4c|20|1280000000800
+MemoryPatch::createWithHex("libUE4.so", 0x23d0b4c, "00", 32).Modify();
+//C3436BBAC|7c3436bbac|20|c40000000400
+MemoryPatch::createWithHex("libUE4.so", 0x23d0bac, "00", 32).Modify();
+//C3436BBE0|7c3436bbe0|20|d40000000400
+MemoryPatch::createWithHex("libUE4.so", 0x23d0be0, "00", 32).Modify();
+//C3436BBFC|7c3436bbfc|20|1500000000800
+MemoryPatch::createWithHex("libUE4.so", 0x23d0bfc, "00", 32).Modify();
+//C3436BC30|7c3436bc30|20|14c0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x23d0c30, "00", 32).Modify();
+//C3436BC68|7c3436bc68|20|bc0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x23d0c68, "00", 32).Modify();
+//C3436BCA0|7c3436bca0|20|c40000000400
+MemoryPatch::createWithHex("libUE4.so", 0x23d0ca0, "00", 32).Modify();
+//C3436BCD8|7c3436bcd8|20|d40000000400
+MemoryPatch::createWithHex("libUE4.so", 0x23d0cd8, "00", 32).Modify();
+//C3436BD0C|7c3436bd0c|20|e40000000400
+MemoryPatch::createWithHex("libUE4.so", 0x23d0d0c, "00", 32).Modify();
+//C3436BD40|7c3436bd40|20|f40000000400
+MemoryPatch::createWithHex("libUE4.so", 0x23d0d40, "00", 32).Modify();
+//C3436BD70|7c3436bd70|20|440100000100
+MemoryPatch::createWithHex("libUE4.so", 0x23d0d70, "00", 32).Modify();
+//C3436BD78|7c3436bd78|20|1040000000400
+MemoryPatch::createWithHex("libUE4.so", 0x23d0d78, "00", 32).Modify();
+//C3436BDAC|7c3436bdac|20|1140000000400
+MemoryPatch::createWithHex("libUE4.so", 0x23d0dac, "00", 32).Modify();
+//C3436BDE0|7c3436bde0|20|1240000000400
+MemoryPatch::createWithHex("libUE4.so", 0x23d0de0, "00", 32).Modify();
+//C3436BE14|7c3436be14|20|1340000000400
+MemoryPatch::createWithHex("libUE4.so", 0x23d0e14, "00", 32).Modify();
+//C3436BE40|7c3436be40|20|5c0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x23d0e40, "00", 32).Modify();
+//C3436BE6C|7c3436be6c|20|580000000400
+MemoryPatch::createWithHex("libUE4.so", 0x23d0e6c, "00", 32).Modify();
+//C3436BE98|7c3436be98|20|600000000400
+MemoryPatch::createWithHex("libUE4.so", 0x23d0e98, "00", 32).Modify();
+//C3436BEC4|7c3436bec4|20|540000000400
+MemoryPatch::createWithHex("libUE4.so", 0x23d0ec4, "00", 32).Modify();
+//C3436BEF0|7c3436bef0|20|5c0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x23d0ef0, "00", 32).Modify();
+//C3436BF1C|7c3436bf1c|20|580000000400
+MemoryPatch::createWithHex("libUE4.so", 0x23d0f1c, "00", 32).Modify();
+//C3436BF48|7c3436bf48|20|600000000400
+MemoryPatch::createWithHex("libUE4.so", 0x23d0f48, "00", 32).Modify();
+//C3436BF74|7c3436bf74|20|540000000400
+MemoryPatch::createWithHex("libUE4.so", 0x23d0f74, "00", 32).Modify();
+//C3436BFA0|7c3436bfa0|20|5c0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x23d0fa0, "00", 32).Modify();
+//C3436BFCC|7c3436bfcc|20|580000000400
+MemoryPatch::createWithHex("libUE4.so", 0x23d0fcc, "00", 32).Modify();
+//C3436BFF8|7c3436bff8|20|600000000400
+MemoryPatch::createWithHex("libUE4.so", 0x23d0ff8, "00", 32).Modify();
+//C3440A000|7c3440a000|20|680100000080
+MemoryPatch::createWithHex("libUE4.so", 0x246f000, "00", 32).Modify();
+//C3440A008|7c3440a008|20|880000000400
+MemoryPatch::createWithHex("libUE4.so", 0x246f008, "00", 32).Modify();
+//C3440A0A8|7c3440a0a8|20|c00
+MemoryPatch::createWithHex("libUE4.so", 0x246f0a8, "00", 32).Modify();
+//C3440A0F8|7c3440a0f8|20|c00
+MemoryPatch::createWithHex("libUE4.so", 0x246f0f8, "00", 32).Modify();
+//C3440A114|7c3440a114|20|1c0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x246f114, "00", 32).Modify();
+//C3440A140|7c3440a140|20|380000000400
+MemoryPatch::createWithHex("libUE4.so", 0x246f140, "00", 32).Modify();
+//C3440A16C|7c3440a16c|20|600000000400
+MemoryPatch::createWithHex("libUE4.so", 0x246f16c, "00", 32).Modify();
+//C3440A1BC|7c3440a1bc|20|a40000000400
+MemoryPatch::createWithHex("libUE4.so", 0x246f1bc, "00", 32).Modify();
+//C3440A1F0|7c3440a1f0|20|400000080
+MemoryPatch::createWithHex("libUE4.so", 0x246f1f0, "00", 32).Modify();
+//C3440A200|7c3440a200|20|b80000000800
+MemoryPatch::createWithHex("libUE4.so", 0x246f200, "00", 32).Modify();
+//C3440A288|7c3440a288|20|c00
+MemoryPatch::createWithHex("libUE4.so", 0x246f288, "00", 32).Modify();
+//C3440A2B4|7c3440a2b4|20|5c0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x246f2b4, "00", 32).Modify();
+//C3440A330|7c3440a330|20|c00
+MemoryPatch::createWithHex("libUE4.so", 0x246f330, "00", 32).Modify();
+//C3440A34C|7c3440a34c|20|1c0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x246f34c, "00", 32).Modify();
+//C3440A400|7c3440a400|20|7c0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x246f400, "00", 32).Modify();
+//C3440A41C|7c3440a41c|20|fc0000000800
+MemoryPatch::createWithHex("libUE4.so", 0x246f41c, "00", 32).Modify();
+//C3440A450|7c3440a450|20|1040000000800
+MemoryPatch::createWithHex("libUE4.so", 0x246f450, "00", 32).Modify();
+//C3440A488|7c3440a488|20|6c0000000800
+MemoryPatch::createWithHex("libUE4.so", 0x246f488, "00", 32).Modify();
+//C3440A4D8|7c3440a4d8|20|a40000000400
+MemoryPatch::createWithHex("libUE4.so", 0x246f4d8, "00", 32).Modify();
+//C3440A4F4|7c3440a4f4|20|400000000400
+MemoryPatch::createWithHex("libUE4.so", 0x246f4f4, "00", 32).Modify();
+//C3440A510|7c3440a510|20|480000000400
+MemoryPatch::createWithHex("libUE4.so", 0x246f510, "00", 32).Modify();
+//C3440A52C|7c3440a52c|20|3c0000000800
+MemoryPatch::createWithHex("libUE4.so", 0x246f52c, "00", 32).Modify();
+//C3440A560|7c3440a560|20|700000000400
+MemoryPatch::createWithHex("libUE4.so", 0x246f560, "00", 32).Modify();
+//C3440A5DC|7c3440a5dc|20|a40000000400
+MemoryPatch::createWithHex("libUE4.so", 0x246f5dc, "00", 32).Modify();
+//C3440A62C|7c3440a62c|20|a40000000400
+MemoryPatch::createWithHex("libUE4.so", 0x246f62c, "00", 32).Modify();
+//C3440A648|7c3440a648|20|1c0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x246f648, "00", 32).Modify();
+//C3440A6FC|7c3440a6fc|20|ac0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x246f6fc, "00", 32).Modify();
+//C3440A7BC|7c3440a7bc|20|3040000000400
+MemoryPatch::createWithHex("libUE4.so", 0x246f7bc, "00", 32).Modify();
+//C3440A824|7c3440a824|20|2e40000000800
+MemoryPatch::createWithHex("libUE4.so", 0x246f824, "00", 32).Modify();
+//C3440A858|7c3440a858|20|3540000000800
+MemoryPatch::createWithHex("libUE4.so", 0x246f858, "00", 32).Modify();
+//C3440A88C|7c3440a88c|20|42c0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x246f88c, "00", 32).Modify();
+//C3440A8C0|7c3440a8c0|20|4180000000400
+MemoryPatch::createWithHex("libUE4.so", 0x246f8c0, "00", 32).Modify();
+//C3440A8E4|7c3440a8e4|20|400000400
+MemoryPatch::createWithHex("libUE4.so", 0x246f8e4, "00", 32).Modify();
+//C3440A948|7c3440a948|20|1540000000c00
+MemoryPatch::createWithHex("libUE4.so", 0x246f948, "00", 32).Modify();
+//C3440A97C|7c3440a97c|20|1e40000000400
+MemoryPatch::createWithHex("libUE4.so", 0x246f97c, "00", 32).Modify();
+//C3440A9B0|7c3440a9b0|20|1dc0000000800
+MemoryPatch::createWithHex("libUE4.so", 0x246f9b0, "00", 32).Modify();
+//C3440AA64|7c3440aa64|20|380000000400
+MemoryPatch::createWithHex("libUE4.so", 0x246fa64, "00", 32).Modify();
+//C3440AA80|7c3440aa80|20|1c0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x246fa80, "00", 32).Modify();
+//C3440AAC4|7c3440aac4|20|700000000400
+MemoryPatch::createWithHex("libUE4.so", 0x246fac4, "00", 32).Modify();
+//C3440AAE0|7c3440aae0|20|3c0000000800
+MemoryPatch::createWithHex("libUE4.so", 0x246fae0, "00", 32).Modify();
+//C3440AB14|7c3440ab14|20|700000000400
+MemoryPatch::createWithHex("libUE4.so", 0x246fb14, "00", 32).Modify();
+//C3440AB3C|7c3440ab3c|20|400000100
+MemoryPatch::createWithHex("libUE4.so", 0x246fb3c, "00", 32).Modify();
+//C3440AB68|7c3440ab68|20|3c0000000800
+MemoryPatch::createWithHex("libUE4.so", 0x246fb68, "00", 32).Modify();
+//C3440AB9C|7c3440ab9c|20|700000000400
+MemoryPatch::createWithHex("libUE4.so", 0x246fb9c, "00", 32).Modify();
+//C3440ABC4|7c3440abc4|20|400000100
+MemoryPatch::createWithHex("libUE4.so", 0x246fbc4, "00", 32).Modify();
+//C3440AC18|7c3440ac18|20|c00
+MemoryPatch::createWithHex("libUE4.so", 0x246fc18, "00", 32).Modify();
+//C3440AC34|7c3440ac34|20|1c0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x246fc34, "00", 32).Modify();
+//C3440AD20|7c3440ad20|20|2080000000400
+MemoryPatch::createWithHex("libUE4.so", 0x246fd20, "00", 32).Modify();
+//C3440AD54|7c3440ad54|20|21c0000000800
+MemoryPatch::createWithHex("libUE4.so", 0x246fd54, "00", 32).Modify();
+//C3440ADE0|7c3440ade0|20|2ec0000000800
+MemoryPatch::createWithHex("libUE4.so", 0x246fde0, "00", 32).Modify();
+//C3440AE58|7c3440ae58|20|7c0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x246fe58, "00", 32).Modify();
+//C3440AE78|7c3440ae78|20|2ac0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x246fe78, "00", 32).Modify();
+//C3440AEAC|7c3440aeac|20|2bc0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x246feac, "00", 32).Modify();
+//C3440AEE0|7c3440aee0|20|2cc0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x246fee0, "00", 32).Modify();
+//C3440AF14|7c3440af14|20|2dc0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x246ff14, "00", 32).Modify();
+//C3440AF48|7c3440af48|20|2940000000400
+MemoryPatch::createWithHex("libUE4.so", 0x246ff48, "00", 32).Modify();
+//C3440AF7C|7c3440af7c|20|29c0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x246ff7c, "00", 32).Modify();
+//C3440AFB0|7c3440afb0|20|2fc0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x246ffb0, "00", 32).Modify();
+//C3440AFE4|7c3440afe4|20|3040000000400
+MemoryPatch::createWithHex("libUE4.so", 0x246ffe4, "00", 32).Modify();
+//C3440B018|7c3440b018|20|3140000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2470018, "00", 32).Modify();
+//C3440B038|7c3440b038|20|1b80000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2470038, "00", 32).Modify();
+//C3440B06C|7c3440b06c|20|1c80000000400
+MemoryPatch::createWithHex("libUE4.so", 0x247006c, "00", 32).Modify();
+//C3440B0A0|7c3440b0a0|20|1d80000000400
+MemoryPatch::createWithHex("libUE4.so", 0x24700a0, "00", 32).Modify();
+//C3440B0D4|7c3440b0d4|20|1e40000000400
+MemoryPatch::createWithHex("libUE4.so", 0x24700d4, "00", 32).Modify();
+//C3440B0F0|7c3440b0f0|20|7c0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x24700f0, "00", 32).Modify();
+//C3440B124|7c3440b124|20|8c0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2470124, "00", 32).Modify();
+//C3440B1F0|7c3440b1f0|20|e00000000800
+MemoryPatch::createWithHex("libUE4.so", 0x24701f0, "00", 32).Modify();
+//C3440B3D0|7c3440b3d0|20|32c0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x24703d0, "00", 32).Modify();
+//C3440B3F4|7c3440b3f4|20|800000280
+MemoryPatch::createWithHex("libUE4.so", 0x24703f4, "00", 32).Modify();
+//C3440B404|7c3440b404|20|2a80000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2470404, "00", 32).Modify();
+//C3440B438|7c3440b438|20|3440000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2470438, "00", 32).Modify();
+//C3440B4CC|7c3440b4cc|20|1300000000400
+MemoryPatch::createWithHex("libUE4.so", 0x24704cc, "00", 32).Modify();
+//C3440B74C|7c3440b74c|20|3740100000380
+MemoryPatch::createWithHex("libUE4.so", 0x247074c, "00", 32).Modify();
+//C3440B7E4|7c3440b7e4|20|940000000400
+MemoryPatch::createWithHex("libUE4.so", 0x24707e4, "00", 32).Modify();
+//C3440B81C|7c3440b81c|20|ac0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x247081c, "00", 32).Modify();
+//C3440B854|7c3440b854|20|c00
+MemoryPatch::createWithHex("libUE4.so", 0x2470854, "00", 32).Modify();
+//C3440B88C|7c3440b88c|20|c00
+MemoryPatch::createWithHex("libUE4.so", 0x247088c, "00", 32).Modify();
+//C3440B8A8|7c3440b8a8|20|1c0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x24708a8, "00", 32).Modify();
+//C3440B8D4|7c3440b8d4|20|bc0000000800
+MemoryPatch::createWithHex("libUE4.so", 0x24708d4, "00", 32).Modify();
+//C3440B900|7c3440b900|20|c40000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2470900, "00", 32).Modify();
+//C3440B9E0|7c3440b9e0|20|600100000100
+MemoryPatch::createWithHex("libUE4.so", 0x24709e0, "00", 32).Modify();
+//C3440B9E8|7c3440b9e8|20|1200000000400
+MemoryPatch::createWithHex("libUE4.so", 0x24709e8, "00", 32).Modify();
+//C3440BA80|7c3440ba80|20|1280000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2470a80, "00", 32).Modify();
+//C3440BB04|7c3440bb04|20|c00
+MemoryPatch::createWithHex("libUE4.so", 0x2470b04, "00", 32).Modify();
+//C3440BB54|7c3440bb54|20|c00
+MemoryPatch::createWithHex("libUE4.so", 0x2470b54, "00", 32).Modify();
+//C3440BBA4|7c3440bba4|20|c00
+MemoryPatch::createWithHex("libUE4.so", 0x2470ba4, "00", 32).Modify();
+//C3440BC48|7c3440bc48|20|cc0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2470c48, "00", 32).Modify();
+//C3440BC7C|7c3440bc7c|20|d40000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2470c7c, "00", 32).Modify();
+//C3440BCE8|7c3440bce8|20|1780000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2470ce8, "00", 32).Modify();
+//C3440BD6C|7c3440bd6c|20|c00
+MemoryPatch::createWithHex("libUE4.so", 0x2470d6c, "00", 32).Modify();
+//C3440BDBC|7c3440bdbc|20|a40000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2470dbc, "00", 32).Modify();
+//C3440BE1C|7c3440be1c|20|4e00000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2470e1c, "00", 32).Modify();
+//C3440BE50|7c3440be50|20|4f00000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2470e50, "00", 32).Modify();
+//C3440BE84|7c3440be84|20|5000000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2470e84, "00", 32).Modify();
+//C3440BEB8|7c3440beb8|20|50c0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2470eb8, "00", 32).Modify();
+//C3440BEEC|7c3440beec|20|5140000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2470eec, "00", 32).Modify();
+//C3440BF20|7c3440bf20|20|4d00000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2470f20, "00", 32).Modify();
+//C3440BF54|7c3440bf54|20|5280000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2470f54, "00", 32).Modify();
+//C3440BFC0|7c3440bfc0|20|900000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2470fc0, "00", 32).Modify();
+//C3440BFF8|7c3440bff8|20|6c0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2470ff8, "00", 32).Modify();
+//C3488A054|7c3488a054|20|1280000000400
+MemoryPatch::createWithHex("libUE4.so", 0x28ef054, "00", 32).Modify();
+//C3488A0CC|7c3488a0cc|20|1280000000400
+MemoryPatch::createWithHex("libUE4.so", 0x28ef0cc, "00", 32).Modify();
+//C3488A144|7c3488a144|20|1280000000400
+MemoryPatch::createWithHex("libUE4.so", 0x28ef144, "00", 32).Modify();
+//C3488A228|7c3488a228|20|b40000000800
+MemoryPatch::createWithHex("libUE4.so", 0x28ef228, "00", 32).Modify();
+//C3488A290|7c3488a290|20|880000000800
+MemoryPatch::createWithHex("libUE4.so", 0x28ef290, "00", 32).Modify();
+//C3488A2F8|7c3488a2f8|20|880000000800
+MemoryPatch::createWithHex("libUE4.so", 0x28ef2f8, "00", 32).Modify();
+//C3488A34C|7c3488a34c|20|1280000000400
+MemoryPatch::createWithHex("libUE4.so", 0x28ef34c, "00", 32).Modify();
+//C3488A3C4|7c3488a3c4|20|1280000000400
+MemoryPatch::createWithHex("libUE4.so", 0x28ef3c4, "00", 32).Modify();
+//C3488A43C|7c3488a43c|20|16c0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x28ef43c, "00", 32).Modify();
+//C3488A480|7c3488a480|20|16c0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x28ef480, "00", 32).Modify();
+//C3488A4C4|7c3488a4c4|20|16c0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x28ef4c4, "00", 32).Modify();
+//C3488A4F0|7c3488a4f0|20|6f80000000800
+MemoryPatch::createWithHex("libUE4.so", 0x28ef4f0, "00", 32).Modify();
+//C3488A540|7c3488a540|20|4c0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x28ef540, "00", 32).Modify();
+//C3488A55C|7c3488a55c|20|4c0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x28ef55c, "00", 32).Modify();
+//C3488A60C|7c3488a60c|20|b00000000800
+MemoryPatch::createWithHex("libUE4.so", 0x28ef60c, "00", 32).Modify();
+//C3488A660|7c3488a660|20|1280000000400
+MemoryPatch::createWithHex("libUE4.so", 0x28ef660, "00", 32).Modify();
+//C3488A6B0|7c3488a6b0|20|ec00000080
+MemoryPatch::createWithHex("libUE4.so", 0x28ef6b0, "00", 32).Modify();
+//C3488A780|7c3488a780|20|4800000700
+MemoryPatch::createWithHex("libUE4.so", 0x28ef780, "00", 32).Modify();
+//C3488A790|7c3488a790|20|7580000000c00
+MemoryPatch::createWithHex("libUE4.so", 0x28ef790, "00", 32).Modify();
+//C3488A7C4|7c3488a7c4|20|85c0000000800
+MemoryPatch::createWithHex("libUE4.so", 0x28ef7c4, "00", 32).Modify();
+//C3488A7E0|7c3488a7e0|20|380000000800
+MemoryPatch::createWithHex("libUE4.so", 0x28ef7e0, "00", 32).Modify();
+//C3488AA5C|7c3488aa5c|20|7100000000800
+MemoryPatch::createWithHex("libUE4.so", 0x28efa5c, "00", 32).Modify();
+//C3488AA90|7c3488aa90|20|7f00000000400
+MemoryPatch::createWithHex("libUE4.so", 0x28efa90, "00", 32).Modify();
+//C3488AAC4|7c3488aac4|20|6440000000400
+MemoryPatch::createWithHex("libUE4.so", 0x28efac4, "00", 32).Modify();
+//C3488AAE8|7c3488aae8|20|400000500
+MemoryPatch::createWithHex("libUE4.so", 0x28efae8, "00", 32).Modify();
+//C3488AAF8|7c3488aaf8|20|5140000000800
+MemoryPatch::createWithHex("libUE4.so", 0x28efaf8, "00", 32).Modify();
+//C3488AB24|7c3488ab24|20|5740100000680
+MemoryPatch::createWithHex("libUE4.so", 0x28efb24, "00", 32).Modify();
+//C3488AB2C|7c3488ab2c|20|5800000000800
+MemoryPatch::createWithHex("libUE4.so", 0x28efb2c, "00", 32).Modify();
+//C3488AB60|7c3488ab60|20|5e00000000800
+MemoryPatch::createWithHex("libUE4.so", 0x28efb60, "00", 32).Modify();
+//C3488AB94|7c3488ab94|20|65c0000000800
+MemoryPatch::createWithHex("libUE4.so", 0x28efb94, "00", 32).Modify();
+//C3488ABC8|7c3488abc8|20|6d40000000800
+MemoryPatch::createWithHex("libUE4.so", 0x28efbc8, "00", 32).Modify();
+//C3488ABFC|7c3488abfc|20|8380000000800
+MemoryPatch::createWithHex("libUE4.so", 0x28efbfc, "00", 32).Modify();
+//C3488AC30|7c3488ac30|20|8300000000400
+MemoryPatch::createWithHex("libUE4.so", 0x28efc30, "00", 32).Modify();
+//C3488AC64|7c3488ac64|20|8280000000800
+MemoryPatch::createWithHex("libUE4.so", 0x28efc64, "00", 32).Modify();
+//C3488AC98|7c3488ac98|20|8240000000800
+MemoryPatch::createWithHex("libUE4.so", 0x28efc98, "00", 32).Modify();
+//C3488AD14|7c3488ad14|20|15400000000c00
+MemoryPatch::createWithHex("libUE4.so", 0x28efd14, "00", 32).Modify();
+//C3488AD50|7c3488ad50|20|22c0000000c00
+MemoryPatch::createWithHex("libUE4.so", 0x28efd50, "00", 32).Modify();
+//C3488AE04|7c3488ae04|20|eac0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x28efe04, "00", 32).Modify();
+//C3488AE38|7c3488ae38|20|e580000000c00
+MemoryPatch::createWithHex("libUE4.so", 0x28efe38, "00", 32).Modify();
+//C3488AE6C|7c3488ae6c|20|e9c0000000800
+MemoryPatch::createWithHex("libUE4.so", 0x28efe6c, "00", 32).Modify();
+//C3488AEA0|7c3488aea0|20|e840000000800
+MemoryPatch::createWithHex("libUE4.so", 0x28efea0, "00", 32).Modify();
+//C3488AF94|7c3488af94|20|b80000000400
+MemoryPatch::createWithHex("libUE4.so", 0x28eff94, "00", 32).Modify();
+//C3488AFC0|7c3488afc0|20|d00000000400
+MemoryPatch::createWithHex("libUE4.so", 0x28effc0, "00", 32).Modify();
+//C3488AFF4|7c3488aff4|20|e00000000400
+MemoryPatch::createWithHex("libUE4.so", 0x28efff4, "00", 32).Modify();
+//C3488B028|7c3488b028|20|f00000000400
+MemoryPatch::createWithHex("libUE4.so", 0x28f0028, "00", 32).Modify();
+//C3488B0B4|7c3488b0b4|20|8c0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x28f00b4, "00", 32).Modify();
+//C3488B0E8|7c3488b0e8|20|9c0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x28f00e8, "00", 32).Modify();
+//C3488B12C|7c3488b12c|20|1280000000400
+MemoryPatch::createWithHex("libUE4.so", 0x28f012c, "00", 32).Modify();
+//C3488B18C|7c3488b18c|20|e40000000c00
+MemoryPatch::createWithHex("libUE4.so", 0x28f018c, "00", 32).Modify();
+//C3488B224|7c3488b224|20|16c0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x28f0224, "00", 32).Modify();
+//C3488B240|7c3488b240|20|3c0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x28f0240, "00", 32).Modify();
+//C3488B25C|7c3488b25c|20|440000000400
+MemoryPatch::createWithHex("libUE4.so", 0x28f025c, "00", 32).Modify();
+//C3488B2C0|7c3488b2c0|20|c00
+MemoryPatch::createWithHex("libUE4.so", 0x28f02c0, "00", 32).Modify();
+//C3488B2DC|7c3488b2dc|20|600000000400
+MemoryPatch::createWithHex("libUE4.so", 0x28f02dc, "00", 32).Modify();
+//C3488B2F8|7c3488b2f8|20|540000000400
+MemoryPatch::createWithHex("libUE4.so", 0x28f02f8, "00", 32).Modify();
+//C3488B3B0|7c3488b3b0|20|400000000800
+MemoryPatch::createWithHex("libUE4.so", 0x28f03b0, "00", 32).Modify();
+//C3488B3F4|7c3488b3f4|20|16c0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x28f03f4, "00", 32).Modify();
+//C3488B464|7c3488b464|20|16c0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x28f0464, "00", 32).Modify();
+//C3488B4A8|7c3488b4a8|20|16c0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x28f04a8, "00", 32).Modify();
+//C3488B4EC|7c3488b4ec|20|16c0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x28f04ec, "00", 32).Modify();
+//C3488B530|7c3488b530|20|16c0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x28f0530, "00", 32).Modify();
+//C3488B568|7c3488b568|20|6c0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x28f0568, "00", 32).Modify();
+//C3488B584|7c3488b584|20|1c0000000800
+MemoryPatch::createWithHex("libUE4.so", 0x28f0584, "00", 32).Modify();
+//C3488B5A0|7c3488b5a0|20|2c0000000800
+MemoryPatch::createWithHex("libUE4.so", 0x28f05a0, "00", 32).Modify();
+//C3488B5F4|7c3488b5f4|20|1b00000000400
+MemoryPatch::createWithHex("libUE4.so", 0x28f05f4, "00", 32).Modify();
+//C3488B628|7c3488b628|20|1dc0000000800
+MemoryPatch::createWithHex("libUE4.so", 0x28f0628, "00", 32).Modify();
+//C3488B6F4|7c3488b6f4|20|1b00000000400
+MemoryPatch::createWithHex("libUE4.so", 0x28f06f4, "00", 32).Modify();
+//C3488B728|7c3488b728|20|1dc0000000800
+MemoryPatch::createWithHex("libUE4.so", 0x28f0728, "00", 32).Modify();
+//C3488B7FC|7c3488b7fc|20|1c40000000800
+MemoryPatch::createWithHex("libUE4.so", 0x28f07fc, "00", 32).Modify();
+//C3488B830|7c3488b830|20|1880000000800
+MemoryPatch::createWithHex("libUE4.so", 0x28f0830, "00", 32).Modify();
+//C3488B864|7c3488b864|20|1dc0000000800
+MemoryPatch::createWithHex("libUE4.so", 0x28f0864, "00", 32).Modify();
+//C3488B8B8|7c3488b8b8|20|400000280
+MemoryPatch::createWithHex("libUE4.so", 0x28f08b8, "00", 32).Modify();
+//C3488B954|7c3488b954|20|1140000000400
+MemoryPatch::createWithHex("libUE4.so", 0x28f0954, "00", 32).Modify();
+//C3488B97C|7c3488b97c|20|400000280
+MemoryPatch::createWithHex("libUE4.so", 0x28f097c, "00", 32).Modify();
+//C3488BA18|7c3488ba18|20|1140000000400
+MemoryPatch::createWithHex("libUE4.so", 0x28f0a18, "00", 32).Modify();
+//C3488BA5C|7c3488ba5c|20|16c0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x28f0a5c, "00", 32).Modify();
+//C3488BAA0|7c3488baa0|20|16c0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x28f0aa0, "00", 32).Modify();
+//C3488BAE4|7c3488bae4|20|16c0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x28f0ae4, "00", 32).Modify();
+//C3488BB28|7c3488bb28|20|1280000000400
+MemoryPatch::createWithHex("libUE4.so", 0x28f0b28, "00", 32).Modify();
+//C3488BBA0|7c3488bba0|20|1280000000400
+MemoryPatch::createWithHex("libUE4.so", 0x28f0ba0, "00", 32).Modify();
+//C3488BC18|7c3488bc18|20|1280000000400
+MemoryPatch::createWithHex("libUE4.so", 0x28f0c18, "00", 32).Modify();
+//C3488BC90|7c3488bc90|20|1280000000400
+MemoryPatch::createWithHex("libUE4.so", 0x28f0c90, "00", 32).Modify();
+//C3488BD08|7c3488bd08|20|1280000000400
+MemoryPatch::createWithHex("libUE4.so", 0x28f0d08, "00", 32).Modify();
+//C3488BD80|7c3488bd80|20|1280000000400
+MemoryPatch::createWithHex("libUE4.so", 0x28f0d80, "00", 32).Modify();
+//C3488BDF8|7c3488bdf8|20|1280000000400
+MemoryPatch::createWithHex("libUE4.so", 0x28f0df8, "00", 32).Modify();
+//C3488BE70|7c3488be70|20|1280000000400
+MemoryPatch::createWithHex("libUE4.so", 0x28f0e70, "00", 32).Modify();
+//C3488BEE8|7c3488bee8|20|1280000000400
+MemoryPatch::createWithHex("libUE4.so", 0x28f0ee8, "00", 32).Modify();
+//C3488BF60|7c3488bf60|20|1280000000400
+MemoryPatch::createWithHex("libUE4.so", 0x28f0f60, "00", 32).Modify();
+//C3488BFD8|7c3488bfd8|20|1280000000400
+MemoryPatch::createWithHex("libUE4.so", 0x28f0fd8, "00", 32).Modify();
+//C349A6030|7c349a6030|20|d880000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2a0b030, "00", 32).Modify();
+//C349A6064|7c349a6064|20|c5c0000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2a0b064, "00", 32).Modify();
+//C349A6098|7c349a6098|20|e140000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2a0b098, "00", 32).Modify();
+//C349A6134|7c349a6134|20|e040000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2a0b134, "00", 32).Modify();
+//C349A61BC|7c349a61bc|20|8d80000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2a0b1bc, "00", 32).Modify();
+//C349A62F4|7c349a62f4|20|8c00000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2a0b2f4, "00", 32).Modify();
+//C349A633C|7c349a633c|20|40c0000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2a0b33c, "00", 32).Modify();
+//C349A6370|7c349a6370|20|4100000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2a0b370, "00", 32).Modify();
+//C349A63A4|7c349a63a4|20|4300000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2a0b3a4, "00", 32).Modify();
+//C349A63D8|7c349a63d8|20|4000000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2a0b3d8, "00", 32).Modify();
+//C349A640C|7c349a640c|20|42c0000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2a0b40c, "00", 32).Modify();
+//C349A646C|7c349a646c|20|4940000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2a0b46c, "00", 32).Modify();
+//C349A64A0|7c349a64a0|20|4900000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2a0b4a0, "00", 32).Modify();
+//C349A64C0|7c349a64c0|20|16c0000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2a0b4c0, "00", 32).Modify();
+//C349A6618|7c349a6618|20|5680000000c00
+MemoryPatch::createWithHex("libUE4.so", 0x2a0b618, "00", 32).Modify();
+//C349A6644|7c349a6644|20|1500000000580
+MemoryPatch::createWithHex("libUE4.so", 0x2a0b644, "00", 32).Modify();
+//C349A664C|7c349a664c|20|5880000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2a0b64c, "00", 32).Modify();
+//C349A6680|7c349a6680|20|7bc0000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2a0b680, "00", 32).Modify();
+//C349A66B4|7c349a66b4|20|7c80000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2a0b6b4, "00", 32).Modify();
+//C349A66E8|7c349a66e8|20|7cc0000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2a0b6e8, "00", 32).Modify();
+//C349A671C|7c349a671c|20|7c40000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2a0b71c, "00", 32).Modify();
+//C349A6784|7c349a6784|20|7f00000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2a0b784, "00", 32).Modify();
+//C349A67B8|7c349a67b8|20|7ec0000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2a0b7b8, "00", 32).Modify();
+//C349A67EC|7c349a67ec|20|7e00000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2a0b7ec, "00", 32).Modify();
+//C349A684C|7c349a684c|20|15c0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2a0b84c, "00", 32).Modify();
+//C349A6880|7c349a6880|20|16c0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2a0b880, "00", 32).Modify();
+//C349A6914|7c349a6914|20|23680000000c00
+MemoryPatch::createWithHex("libUE4.so", 0x2a0b914, "00", 32).Modify();
+//C349A6948|7c349a6948|20|23800000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2a0b948, "00", 32).Modify();
+//C349A69B0|7c349a69b0|20|31900000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2a0b9b0, "00", 32).Modify();
+//C349A69E4|7c349a69e4|20|30f40000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2a0b9e4, "00", 32).Modify();
+//C349A6A18|7c349a6a18|20|23800000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2a0ba18, "00", 32).Modify();
+//C349A6A4C|7c349a6a4c|20|25a00000000c00
+MemoryPatch::createWithHex("libUE4.so", 0x2a0ba4c, "00", 32).Modify();
+//C349A6AB4|7c349a6ab4|20|313c0000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2a0bab4, "00", 32).Modify();
+//C349A6AE8|7c349a6ae8|20|23a00000000c00
+MemoryPatch::createWithHex("libUE4.so", 0x2a0bae8, "00", 32).Modify();
+//C349A6B1C|7c349a6b1c|20|27700000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2a0bb1c, "00", 32).Modify();
+//C349A6BB8|7c349a6bb8|20|31500000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2a0bbb8, "00", 32).Modify();
+//C349A6C20|7c349a6c20|20|18440000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2a0bc20, "00", 32).Modify();
+//C349A6C54|7c349a6c54|20|1d0c0000000c00
+MemoryPatch::createWithHex("libUE4.so", 0x2a0bc54, "00", 32).Modify();
+//C349A6C88|7c349a6c88|20|20780000000c00
+MemoryPatch::createWithHex("libUE4.so", 0x2a0bc88, "00", 32).Modify();
+//C349A6CBC|7c349a6cbc|20|2a140000000c00
+MemoryPatch::createWithHex("libUE4.so", 0x2a0bcbc, "00", 32).Modify();
+//C349A6CF0|7c349a6cf0|20|2ac00000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2a0bcf0, "00", 32).Modify();
+//C349A6D24|7c349a6d24|20|31680000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2a0bd24, "00", 32).Modify();
+//C349A6D58|7c349a6d58|20|31700000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2a0bd58, "00", 32).Modify();
+//C349A6D8C|7c349a6d8c|20|31040000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2a0bd8c, "00", 32).Modify();
+//C349A6DF4|7c349a6df4|20|1da80000000c00
+MemoryPatch::createWithHex("libUE4.so", 0x2a0bdf4, "00", 32).Modify();
+//C349A6EC4|7c349a6ec4|20|20900000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2a0bec4, "00", 32).Modify();
+//C349A6EF8|7c349a6ef8|20|20b00000000c00
+MemoryPatch::createWithHex("libUE4.so", 0x2a0bef8, "00", 32).Modify();
+//C349A6F60|7c349a6f60|20|31600000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2a0bf60, "00", 32).Modify();
+//C349A6F94|7c349a6f94|20|31180000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2a0bf94, "00", 32).Modify();
+//C349A6FC8|7c349a6fc8|20|13480000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2a0bfc8, "00", 32).Modify();
+//C349A7098|7c349a7098|20|31a40000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2a0c098, "00", 32).Modify();
+//C349A70CC|7c349a70cc|20|31ac0000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2a0c0cc, "00", 32).Modify();
+//C349A7100|7c349a7100|20|31800000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2a0c100, "00", 32).Modify();
+//C349A7134|7c349a7134|20|31080000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2a0c134, "00", 32).Modify();
+//C349A719C|7c349a719c|20|1b640000000c00
+MemoryPatch::createWithHex("libUE4.so", 0x2a0c19c, "00", 32).Modify();
+//C349A71D0|7c349a71d0|20|30ec0000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2a0c1d0, "00", 32).Modify();
+//C349A7204|7c349a7204|20|23580000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2a0c204, "00", 32).Modify();
+//C349A7238|7c349a7238|20|20340000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2a0c238, "00", 32).Modify();
+//C349A72A0|7c349a72a0|20|321c0000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2a0c2a0, "00", 32).Modify();
+//C349A72D4|7c349a72d4|20|31c00000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2a0c2d4, "00", 32).Modify();
+//C349A7308|7c349a7308|20|1d740000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2a0c308, "00", 32).Modify();
+//C349A73D8|7c349a73d8|20|206c0000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2a0c3d8, "00", 32).Modify();
+//C349A7440|7c349a7440|20|32280000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2a0c440, "00", 32).Modify();
+//C349A7474|7c349a7474|20|31e00000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2a0c474, "00", 32).Modify();
+//C349A74A8|7c349a74a8|20|23500000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2a0c4a8, "00", 32).Modify();
+//C349A7510|7c349a7510|20|32200000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2a0c510, "00", 32).Modify();
+//C349A75AC|7c349a75ac|20|32100000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2a0c5ac, "00", 32).Modify();
+//C349A7614|7c349a7614|20|32400000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2a0c614, "00", 32).Modify();
+//C349A7648|7c349a7648|20|31cc0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2a0c648, "00", 32).Modify();
+//C349A767C|7c349a767c|20|2a2c0000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2a0c67c, "00", 32).Modify();
+//C349A774C|7c349a774c|20|32840000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2a0c74c, "00", 32).Modify();
+//C349A7780|7c349a7780|20|32640000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2a0c780, "00", 32).Modify();
+//C349A77B4|7c349a77b4|20|32180000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2a0c7b4, "00", 32).Modify();
+//C349A77E8|7c349a77e8|20|31c80000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2a0c7e8, "00", 32).Modify();
+//C349A7898|7c349a7898|20|25cc0000000c00
+MemoryPatch::createWithHex("libUE4.so", 0x2a0c898, "00", 32).Modify();
+//C349A78CC|7c349a78cc|20|25ec0000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2a0c8cc, "00", 32).Modify();
+//C349A7900|7c349a7900|20|2d980000000c00
+MemoryPatch::createWithHex("libUE4.so", 0x2a0c900, "00", 32).Modify();
+//C349A799C|7c349a799c|20|2de00000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2a0c99c, "00", 32).Modify();
+//C349A7AD4|7c349a7ad4|20|2fb40000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2a0cad4, "00", 32).Modify();
+//C349A7B60|7c349a7b60|20|800000900
+MemoryPatch::createWithHex("libUE4.so", 0x2a0cb60, "00", 32).Modify();
+//C349A7C0C|7c349a7c0c|20|22c00000000c00
+MemoryPatch::createWithHex("libUE4.so", 0x2a0cc0c, "00", 32).Modify();
+//C349A7C40|7c349a7c40|20|22e00000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2a0cc40, "00", 32).Modify();
+//C349A7C98|7c349a7c98|20|800000c00
+MemoryPatch::createWithHex("libUE4.so", 0x2a0cc98, "00", 32).Modify();
+//C349A7D44|7c349a7d44|20|1f600000000c00
+MemoryPatch::createWithHex("libUE4.so", 0x2a0cd44, "00", 32).Modify();
+//C349A7DAC|7c349a7dac|20|2f9c0000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2a0cdac, "00", 32).Modify();
+//C349A7DE0|7c349a7de0|20|2d580000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2a0cde0, "00", 32).Modify();
+//C349A7E14|7c349a7e14|20|2d600000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2a0ce14, "00", 32).Modify();
+//C349A7E7C|7c349a7e7c|20|22f00000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2a0ce7c, "00", 32).Modify();
+//C349A7F18|7c349a7f18|20|2f900000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2a0cf18, "00", 32).Modify();
+//C349A7F4C|7c349a7f4c|20|2f980000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2a0cf4c, "00", 32).Modify();
+//C349A7FB4|7c349a7fb4|20|26c40000000c00
+MemoryPatch::createWithHex("libUE4.so", 0x2a0cfb4, "00", 32).Modify();
+//C349A7FE8|7c349a7fe8|20|28c80000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2a0cfe8, "00", 32).Modify();
+//C34C9E0C0|7c34c9e0c0|20|5bc0100000900
+MemoryPatch::createWithHex("libUE4.so", 0x2d030c0, "00", 32).Modify();
+//C34C9E0FC|7c34c9e0fc|20|a700000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2d030fc, "00", 32).Modify();
+//C34C9E130|7c34c9e130|20|a740000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2d03130, "00", 32).Modify();
+//C34C9E164|7c34c9e164|20|9080000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2d03164, "00", 32).Modify();
+//C34C9E198|7c34c9e198|20|90c0000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2d03198, "00", 32).Modify();
+//C34C9E1CC|7c34c9e1cc|20|9600000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2d031cc, "00", 32).Modify();
+//C34C9E200|7c34c9e200|20|9d00000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2d03200, "00", 32).Modify();
+//C34C9E234|7c34c9e234|20|a400000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2d03234, "00", 32).Modify();
+//C34C9E268|7c34c9e268|20|ac40000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2d03268, "00", 32).Modify();
+//C34C9E28C|7c34c9e28c|20|800000b00
+MemoryPatch::createWithHex("libUE4.so", 0x2d0328c, "00", 32).Modify();
+//C34C9E29C|7c34c9e29c|20|c00
+MemoryPatch::createWithHex("libUE4.so", 0x2d0329c, "00", 32).Modify();
+//C34C9E2F0|7c34c9e2f0|20|19c0000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2d032f0, "00", 32).Modify();
+//C34C9E358|7c34c9e358|20|87c0000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2d03358, "00", 32).Modify();
+//C34C9E38C|7c34c9e38c|20|7440000000c00
+MemoryPatch::createWithHex("libUE4.so", 0x2d0338c, "00", 32).Modify();
+//C34C9E3C0|7c34c9e3c0|20|6f00000000c00
+MemoryPatch::createWithHex("libUE4.so", 0x2d033c0, "00", 32).Modify();
+//C34C9E45C|7c34c9e45c|20|6fc0000000c00
+MemoryPatch::createWithHex("libUE4.so", 0x2d0345c, "00", 32).Modify();
+//C34C9E490|7c34c9e490|20|7a00000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2d03490, "00", 32).Modify();
+//C34C9E4C4|7c34c9e4c4|20|7140000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2d034c4, "00", 32).Modify();
+//C34C9E4F8|7c34c9e4f8|20|7900000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2d034f8, "00", 32).Modify();
+//C34C9E52C|7c34c9e52c|20|80c0000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2d0352c, "00", 32).Modify();
+//C34C9E560|7c34c9e560|20|9700000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2d03560, "00", 32).Modify();
+//C34C9E594|7c34c9e594|20|8cc0000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2d03594, "00", 32).Modify();
+//C34C9E5C8|7c34c9e5c8|20|9600000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2d035c8, "00", 32).Modify();
+//C34C9E684|7c34c9e684|20|6400000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2d03684, "00", 32).Modify();
+//C34C9E6B8|7c34c9e6b8|20|3200000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2d036b8, "00", 32).Modify();
+//C34C9E6EC|7c34c9e6ec|20|3a00000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2d036ec, "00", 32).Modify();
+//C34C9E720|7c34c9e720|20|5240000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2d03720, "00", 32).Modify();
+//C34C9E754|7c34c9e754|20|5940000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2d03754, "00", 32).Modify();
+//C34C9E788|7c34c9e788|20|6040000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2d03788, "00", 32).Modify();
+//C34C9E7BC|7c34c9e7bc|20|c00
+MemoryPatch::createWithHex("libUE4.so", 0x2d037bc, "00", 32).Modify();
+//C34C9E86C|7c34c9e86c|20|21c0000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2d0386c, "00", 32).Modify();
+//C34C9E8B0|7c34c9e8b0|20|c00
+MemoryPatch::createWithHex("libUE4.so", 0x2d038b0, "00", 32).Modify();
+//C34C9E8F4|7c34c9e8f4|20|c00
+MemoryPatch::createWithHex("libUE4.so", 0x2d038f4, "00", 32).Modify();
+//C34C9E93C|7c34c9e93c|20|7c0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2d0393c, "00", 32).Modify();
+//C34C9E970|7c34c9e970|20|8c0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2d03970, "00", 32).Modify();
+//C34C9E9B4|7c34c9e9b4|20|c00
+MemoryPatch::createWithHex("libUE4.so", 0x2d039b4, "00", 32).Modify();
+//C34C9E9F8|7c34c9e9f8|20|c00
+MemoryPatch::createWithHex("libUE4.so", 0x2d039f8, "00", 32).Modify();
+//C34C9EAB8|7c34c9eab8|20|c00
+MemoryPatch::createWithHex("libUE4.so", 0x2d03ab8, "00", 32).Modify();
+//C34C9EB08|7c34c9eb08|20|c00
+MemoryPatch::createWithHex("libUE4.so", 0x2d03b08, "00", 32).Modify();
+//C34C9EB24|7c34c9eb24|20|f80000000c00
+MemoryPatch::createWithHex("libUE4.so", 0x2d03b24, "00", 32).Modify();
+//C34C9EB58|7c34c9eb58|20|1380000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2d03b58, "00", 32).Modify();
+//C34C9EB84|7c34c9eb84|20|1500000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2d03b84, "00", 32).Modify();
+//C34C9EC30|7c34c9ec30|20|f80100000200
+MemoryPatch::createWithHex("libUE4.so", 0x2d03c30, "00", 32).Modify();
+//C34C9EC6C|7c34c9ec6c|20|1e40000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2d03c6c, "00", 32).Modify();
+//C34C9ECE8|7c34c9ece8|20|2400000000c00
+MemoryPatch::createWithHex("libUE4.so", 0x2d03ce8, "00", 32).Modify();
+//C34C9ED1C|7c34c9ed1c|20|2880000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2d03d1c, "00", 32).Modify();
+//C34C9ED50|7c34c9ed50|20|29c0000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2d03d50, "00", 32).Modify();
+//C34C9EDD8|7c34c9edd8|20|23c0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2d03dd8, "00", 32).Modify();
+//C34C9EE38|7c34c9ee38|20|2500000000c00
+MemoryPatch::createWithHex("libUE4.so", 0x2d03e38, "00", 32).Modify();
+//C34C9EE98|7c34c9ee98|20|2700100000280
+MemoryPatch::createWithHex("libUE4.so", 0x2d03e98, "00", 32).Modify();
+//C34C9EECC|7c34c9eecc|20|3780000000c00
+MemoryPatch::createWithHex("libUE4.so", 0x2d03ecc, "00", 32).Modify();
+//C34C9EF88|7c34c9ef88|20|24c0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2d03f88, "00", 32).Modify();
+//C34C9F044|7c34c9f044|20|1f00000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2d04044, "00", 32).Modify();
+//C34C9F0C8|7c34c9f0c8|20|c00
+MemoryPatch::createWithHex("libUE4.so", 0x2d040c8, "00", 32).Modify();
+//C34C9F100|7c34c9f100|20|c00
+MemoryPatch::createWithHex("libUE4.so", 0x2d04100, "00", 32).Modify();
+//C34C9F11C|7c34c9f11c|20|7c0000000c00
+MemoryPatch::createWithHex("libUE4.so", 0x2d0411c, "00", 32).Modify();
+//C34C9F25C|7c34c9f25c|20|1f00000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2d0425c, "00", 32).Modify();
+//C34C9F2F0|7c34c9f2f0|20|1b40000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2d042f0, "00", 32).Modify();
+//C34C9F3D8|7c34c9f3d8|20|1dc0000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2d043d8, "00", 32).Modify();
+//C34C9F478|7c34c9f478|20|5100000000c00
+MemoryPatch::createWithHex("libUE4.so", 0x2d04478, "00", 32).Modify();
+//C34C9F518|7c34c9f518|20|2dc0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2d04518, "00", 32).Modify();
+//C34C9F54C|7c34c9f54c|20|4d80000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2d0454c, "00", 32).Modify();
+//C34C9F580|7c34c9f580|20|c00
+MemoryPatch::createWithHex("libUE4.so", 0x2d04580, "00", 32).Modify();
+//C34C9F5C4|7c34c9f5c4|20|c00
+MemoryPatch::createWithHex("libUE4.so", 0x2d045c4, "00", 32).Modify();
+//C34C9F608|7c34c9f608|20|c00
+MemoryPatch::createWithHex("libUE4.so", 0x2d04608, "00", 32).Modify();
+//C34C9F64C|7c34c9f64c|20|c00
+MemoryPatch::createWithHex("libUE4.so", 0x2d0464c, "00", 32).Modify();
+//C34C9F690|7c34c9f690|20|c00
+MemoryPatch::createWithHex("libUE4.so", 0x2d04690, "00", 32).Modify();
+//C34C9F700|7c34c9f700|20|c00
+MemoryPatch::createWithHex("libUE4.so", 0x2d04700, "00", 32).Modify();
+//C34C9F744|7c34c9f744|20|c00
+MemoryPatch::createWithHex("libUE4.so", 0x2d04744, "00", 32).Modify();
+//C34C9F788|7c34c9f788|20|c00000100
+MemoryPatch::createWithHex("libUE4.so", 0x2d04788, "00", 32).Modify();
+//C34C9F798|7c34c9f798|20|1c00000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2d04798, "00", 32).Modify();
+//C34C9F7CC|7c34c9f7cc|20|1880000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2d047cc, "00", 32).Modify();
+//C34C9F82C|7c34c9f82c|20|1080000000c00
+MemoryPatch::createWithHex("libUE4.so", 0x2d0482c, "00", 32).Modify();
+//C34C9F970|7c34c9f970|20|1900000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2d04970, "00", 32).Modify();
+//C34C9F9A4|7c34c9f9a4|20|1a00000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2d049a4, "00", 32).Modify();
+//C34C9F9D8|7c34c9f9d8|20|1b00000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2d049d8, "00", 32).Modify();
+//C34C9F9FC|7c34c9f9fc|20|400000100
+MemoryPatch::createWithHex("libUE4.so", 0x2d049fc, "00", 32).Modify();
+//C34C9FA0C|7c34c9fa0c|20|1c00000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2d04a0c, "00", 32).Modify();
+//C34C9FA40|7c34c9fa40|20|1d00000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2d04a40, "00", 32).Modify();
+//C34C9FA74|7c34c9fa74|20|1e00000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2d04a74, "00", 32).Modify();
+//C34C9FAB8|7c34c9fab8|20|c00
+MemoryPatch::createWithHex("libUE4.so", 0x2d04ab8, "00", 32).Modify();
+//C34C9FAFC|7c34c9fafc|20|c00
+MemoryPatch::createWithHex("libUE4.so", 0x2d04afc, "00", 32).Modify();
+//C34C9FB6C|7c34c9fb6c|20|c00
+MemoryPatch::createWithHex("libUE4.so", 0x2d04b6c, "00", 32).Modify();
+//C34C9FBB0|7c34c9fbb0|20|c00
+MemoryPatch::createWithHex("libUE4.so", 0x2d04bb0, "00", 32).Modify();
+//C34C9FBDC|7c34c9fbdc|20|dc0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2d04bdc, "00", 32).Modify();
+//C34C9FC10|7c34c9fc10|20|e80000000c00
+MemoryPatch::createWithHex("libUE4.so", 0x2d04c10, "00", 32).Modify();
+//C34C9FC98|7c34c9fc98|20|1f00000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2d04c98, "00", 32).Modify();
+//C34C9FD6C|7c34c9fd6c|20|3440000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2d04d6c, "00", 32).Modify();
+//C34C9FDF4|7c34c9fdf4|20|53c0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2d04df4, "00", 32).Modify();
+//C34C9FE28|7c34c9fe28|20|5840000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2d04e28, "00", 32).Modify();
+//C34C9FE90|7c34c9fe90|20|50c0000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2d04e90, "00", 32).Modify();
+//C34C9FEC4|7c34c9fec4|20|5580000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2d04ec4, "00", 32).Modify();
+//C34C9FF4C|7c34c9ff4c|20|2940000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2d04f4c, "00", 32).Modify();
+//C34C9FF80|7c34c9ff80|20|2640000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2d04f80, "00", 32).Modify();
+//C34CA003C|7c34ca003c|20|1f40000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2d0503c, "00", 32).Modify();
+//C34CA00C0|7c34ca00c0|20|c00
+MemoryPatch::createWithHex("libUE4.so", 0x2d050c0, "00", 32).Modify();
+//C34CA00DC|7c34ca00dc|20|300000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2d050dc, "00", 32).Modify();
+//C34CA00F8|7c34ca00f8|20|300000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2d050f8, "00", 32).Modify();
+//C34CA0158|7c34ca0158|20|c00
+MemoryPatch::createWithHex("libUE4.so", 0x2d05158, "00", 32).Modify();
+//C34CA01A8|7c34ca01a8|20|c00
+MemoryPatch::createWithHex("libUE4.so", 0x2d051a8, "00", 32).Modify();
+//C34CA01D8|7c34ca01d8|20|b00000000680
+MemoryPatch::createWithHex("libUE4.so", 0x2d051d8, "00", 32).Modify();
+//C34CA034C|7c34ca034c|20|6f40000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2d0534c, "00", 32).Modify();
+//C34CA0380|7c34ca0380|20|7640000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2d05380, "00", 32).Modify();
+//C34CA03D0|7c34ca03d0|20|c00
+MemoryPatch::createWithHex("libUE4.so", 0x2d053d0, "00", 32).Modify();
+//C34CA0468|7c34ca0468|20|6f00000000c00
+MemoryPatch::createWithHex("libUE4.so", 0x2d05468, "00", 32).Modify();
+//C34CA0584|7c34ca0584|20|fe00000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2d05584, "00", 32).Modify();
+//C34CA05EC|7c34ca05ec|20|ff40000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2d055ec, "00", 32).Modify();
+//C34CA0670|7c34ca0670|20|3c0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2d05670, "00", 32).Modify();
+//C34CA06B8|7c34ca06b8|20|3980000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2d056b8, "00", 32).Modify();
+//C34CA06EC|7c34ca06ec|20|3100000000c00
+MemoryPatch::createWithHex("libUE4.so", 0x2d056ec, "00", 32).Modify();
+//C34CA0754|7c34ca0754|20|3f00000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2d05754, "00", 32).Modify();
+//C34CA0788|7c34ca0788|20|3f40000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2d05788, "00", 32).Modify();
+//C34CA07BC|7c34ca07bc|20|3ec0000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2d057bc, "00", 32).Modify();
+//C34CA081C|7c34ca081c|20|ea40000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2d0581c, "00", 32).Modify();
+//C34CA0988|7c34ca0988|20|300000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2d05988, "00", 32).Modify();
+//C34CA09A4|7c34ca09a4|20|300000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2d059a4, "00", 32).Modify();
+//C34CA09C0|7c34ca09c0|20|300000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2d059c0, "00", 32).Modify();
+//C34CA09DC|7c34ca09dc|20|300000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2d059dc, "00", 32).Modify();
+//C34CA09F8|7c34ca09f8|20|300000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2d059f8, "00", 32).Modify();
+//C34CA0A30|7c34ca0a30|20|c80000000c00
+MemoryPatch::createWithHex("libUE4.so", 0x2d05a30, "00", 32).Modify();
+//C34CA0A9C|7c34ca0a9c|20|2dc0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2d05a9c, "00", 32).Modify();
+//C34CA0AD0|7c34ca0ad0|20|4d40000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2d05ad0, "00", 32).Modify();
+//C34CA0B04|7c34ca0b04|20|c00
+MemoryPatch::createWithHex("libUE4.so", 0x2d05b04, "00", 32).Modify();
+//C34CA0B9C|7c34ca0b9c|20|1f00000000c00
+MemoryPatch::createWithHex("libUE4.so", 0x2d05b9c, "00", 32).Modify();
+//C34CA0C70|7c34ca0c70|20|c00
+MemoryPatch::createWithHex("libUE4.so", 0x2d05c70, "00", 32).Modify();
+//C34CA0CA8|7c34ca0ca8|20|3d00000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2d05ca8, "00", 32).Modify();
+//C34CA0CDC|7c34ca0cdc|20|c00
+MemoryPatch::createWithHex("libUE4.so", 0x2d05cdc, "00", 32).Modify();
+//C34CA0D20|7c34ca0d20|20|2f40000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2d05d20, "00", 32).Modify();
+//C34CA0D54|7c34ca0d54|20|3100000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2d05d54, "00", 32).Modify();
+//C34CA0DD4|7c34ca0dd4|20|1f40000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2d05dd4, "00", 32).Modify();
+//C34CA0EA0|7c34ca0ea0|20|1740000000c00
+MemoryPatch::createWithHex("libUE4.so", 0x2d05ea0, "00", 32).Modify();
+//C34CA0F68|7c34ca0f68|20|1480000000c00
+MemoryPatch::createWithHex("libUE4.so", 0x2d05f68, "00", 32).Modify();
+//C34CA1000|7c34ca1000|20|7700000000c00
+MemoryPatch::createWithHex("libUE4.so", 0x2d06000, "00", 32).Modify();
+//C34CA1034|7c34ca1034|20|7040000000c00
+MemoryPatch::createWithHex("libUE4.so", 0x2d06034, "00", 32).Modify();
+//C34CA1068|7c34ca1068|20|7640000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2d06068, "00", 32).Modify();
+//C34CA109C|7c34ca109c|20|7000000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2d0609c, "00", 32).Modify();
+//C34CA10D0|7c34ca10d0|20|7b00000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2d060d0, "00", 32).Modify();
+//C34CA1104|7c34ca1104|20|7a40000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2d06104, "00", 32).Modify();
+//C34CA1130|7c34ca1130|20|18c0000000c00
+MemoryPatch::createWithHex("libUE4.so", 0x2d06130, "00", 32).Modify();
+//C34CA1164|7c34ca1164|20|1b80000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2d06164, "00", 32).Modify();
+//C34CA11E4|7c34ca11e4|20|3180000000480
+MemoryPatch::createWithHex("libUE4.so", 0x2d061e4, "00", 32).Modify();
+//C34CA1220|7c34ca1220|20|4cc0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2d06220, "00", 32).Modify();
+//C34CA1254|7c34ca1254|20|4dc0000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2d06254, "00", 32).Modify();
+//C34CA12CC|7c34ca12cc|20|12c0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2d062cc, "00", 32).Modify();
+//C34CA1320|7c34ca1320|20|100
+MemoryPatch::createWithHex("libUE4.so", 0x2d06320, "00", 32).Modify();
+//C34CA132C|7c34ca132c|20|18c0000000c00
+MemoryPatch::createWithHex("libUE4.so", 0x2d0632c, "00", 32).Modify();
+//C34CA1360|7c34ca1360|20|1b80000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2d06360, "00", 32).Modify();
+//C34CA13DC|7c34ca13dc|20|2040000000c00
+MemoryPatch::createWithHex("libUE4.so", 0x2d063dc, "00", 32).Modify();
+//C34CA1410|7c34ca1410|20|2680000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2d06410, "00", 32).Modify();
+//C34CA1444|7c34ca1444|20|2780000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2d06444, "00", 32).Modify();
+//C34CA14A4|7c34ca14a4|20|e00000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2d064a4, "00", 32).Modify();
+//C34CA14D8|7c34ca14d8|20|12c0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2d064d8, "00", 32).Modify();
+//C34CA161C|7c34ca161c|20|c00
+MemoryPatch::createWithHex("libUE4.so", 0x2d0661c, "00", 32).Modify();
+//C34CA16A4|7c34ca16a4|20|1f00000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2d066a4, "00", 32).Modify();
+//C34CA17D8|7c34ca17d8|20|4880000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2d067d8, "00", 32).Modify();
+//C34CA1840|7c34ca1840|20|4840000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2d06840, "00", 32).Modify();
+//C34CA1994|7c34ca1994|20|1e00000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2d06994, "00", 32).Modify();
+//C34CA1A00|7c34ca1a00|20|c00000180
+MemoryPatch::createWithHex("libUE4.so", 0x2d06a00, "00", 32).Modify();
+//C34CA1A10|7c34ca1a10|20|2a80000000c00
+MemoryPatch::createWithHex("libUE4.so", 0x2d06a10, "00", 32).Modify();
+//C34CA1A44|7c34ca1a44|20|2f40000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2d06a44, "00", 32).Modify();
+//C34CA1A78|7c34ca1a78|20|3080000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2d06a78, "00", 32).Modify();
+//C34CA1AD8|7c34ca1ad8|20|2600000000c00
+MemoryPatch::createWithHex("libUE4.so", 0x2d06ad8, "00", 32).Modify();
+//C34CA1B40|7c34ca1b40|20|25c0000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2d06b40, "00", 32).Modify();
+//C34CA1BD4|7c34ca1bd4|20|c00
+MemoryPatch::createWithHex("libUE4.so", 0x2d06bd4, "00", 32).Modify();
+//C34CA1C0C|7c34ca1c0c|20|11c0000000c00
+MemoryPatch::createWithHex("libUE4.so", 0x2d06c0c, "00", 32).Modify();
+//C34CA1C38|7c34ca1c38|20|dc0000000100
+MemoryPatch::createWithHex("libUE4.so", 0x2d06c38, "00", 32).Modify();
+//C34CA1C40|7c34ca1c40|20|1440000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2d06c40, "00", 32).Modify();
+//C34CA1D00|7c34ca1d00|20|c00
+MemoryPatch::createWithHex("libUE4.so", 0x2d06d00, "00", 32).Modify();
+//C34CA1D88|7c34ca1d88|20|32c0000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2d06d88, "00", 32).Modify();
+//C34CA1DBC|7c34ca1dbc|20|36c0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2d06dbc, "00", 32).Modify();
+//C34CA1DF0|7c34ca1df0|20|3980000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2d06df0, "00", 32).Modify();
+//C34CA1E24|7c34ca1e24|20|38c0000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2d06e24, "00", 32).Modify();
+//C34CA1EAC|7c34ca1eac|20|1e00000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2d06eac, "00", 32).Modify();
+//C34CA1F68|7c34ca1f68|20|1e00000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2d06f68, "00", 32).Modify();
+//C34CA1FE4|7c34ca1fe4|20|10c0000000c00
+MemoryPatch::createWithHex("libUE4.so", 0x2d06fe4, "00", 32).Modify();
+//C34CDC034|7c34cdc034|20|c00
+MemoryPatch::createWithHex("libUE4.so", 0x2d41034, "00", 32).Modify();
+//C34CDC108|7c34cdc108|20|d40000000c00
+MemoryPatch::createWithHex("libUE4.so", 0x2d41108, "00", 32).Modify();
+//C34CDC160|7c34cdc160|20|ba40000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2d41160, "00", 32).Modify();
+//C34CDC194|7c34cdc194|20|bc40000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2d41194, "00", 32).Modify();
+//C34CDC1C8|7c34cdc1c8|20|a140000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2d411c8, "00", 32).Modify();
+//C34CDC1FC|7c34cdc1fc|20|a380000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2d411fc, "00", 32).Modify();
+//C34CDC230|7c34cdc230|20|a5c0000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2d41230, "00", 32).Modify();
+//C34CDC264|7c34cdc264|20|a800000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2d41264, "00", 32).Modify();
+//C34CDC298|7c34cdc298|20|aa40000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2d41298, "00", 32).Modify();
+//C34CDC2CC|7c34cdc2cc|20|ac80000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2d412cc, "00", 32).Modify();
+//C34CDC300|7c34cdc300|20|be40000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2d41300, "00", 32).Modify();
+//C34CDC334|7c34cdc334|20|9f40000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2d41334, "00", 32).Modify();
+//C34CDC368|7c34cdc368|20|a7c0000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2d41368, "00", 32).Modify();
+//C34CDC39C|7c34cdc39c|20|b040000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2d4139c, "00", 32).Modify();
+//C34CDC3D0|7c34cdc3d0|20|b740000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2d413d0, "00", 32).Modify();
+//C34CDC404|7c34cdc404|20|c0c0000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2d41404, "00", 32).Modify();
+//C34CDC430|7c34cdc430|20|d40000000c00
+MemoryPatch::createWithHex("libUE4.so", 0x2d41430, "00", 32).Modify();
+//C34CDC4D4|7c34cdc4d4|20|7a80000000c00
+MemoryPatch::createWithHex("libUE4.so", 0x2d414d4, "00", 32).Modify();
+//C34CDC508|7c34cdc508|20|7cc0000000c00
+MemoryPatch::createWithHex("libUE4.so", 0x2d41508, "00", 32).Modify();
+//C34CDC53C|7c34cdc53c|20|7f00000000c00
+MemoryPatch::createWithHex("libUE4.so", 0x2d4153c, "00", 32).Modify();
+//C34CDC570|7c34cdc570|20|8140000000c00
+MemoryPatch::createWithHex("libUE4.so", 0x2d41570, "00", 32).Modify();
+//C34CDC5A4|7c34cdc5a4|20|8380000000c00
+MemoryPatch::createWithHex("libUE4.so", 0x2d415a4, "00", 32).Modify();
+//C34CDC5D8|7c34cdc5d8|20|85c0000000c00
+MemoryPatch::createWithHex("libUE4.so", 0x2d415d8, "00", 32).Modify();
+//C34CDC60C|7c34cdc60c|20|8800000000c00
+MemoryPatch::createWithHex("libUE4.so", 0x2d4160c, "00", 32).Modify();
+//C34CDC640|7c34cdc640|20|7a40000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2d41640, "00", 32).Modify();
+//C34CDC674|7c34cdc674|20|82c0000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2d41674, "00", 32).Modify();
+//C34CDC6A8|7c34cdc6a8|20|8f40000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2d416a8, "00", 32).Modify();
+//C34CDC6DC|7c34cdc6dc|20|9640000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2d416dc, "00", 32).Modify();
+//C34CDC744|7c34cdc744|20|bb40000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2d41744, "00", 32).Modify();
+//C34CDC770|7c34cdc770|20|d40000000c00
+MemoryPatch::createWithHex("libUE4.so", 0x2d41770, "00", 32).Modify();
+//C34CDC7C8|7c34cdc7c8|20|6440000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2d417c8, "00", 32).Modify();
+//C34CDC7F4|7c34cdc7f4|20|1540000000480
+MemoryPatch::createWithHex("libUE4.so", 0x2d417f4, "00", 32).Modify();
+//C34CDC7FC|7c34cdc7fc|20|6640000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2d417fc, "00", 32).Modify();
+//C34CDC830|7c34cdc830|20|4b40000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2d41830, "00", 32).Modify();
+//C34CDC864|7c34cdc864|20|4d80000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2d41864, "00", 32).Modify();
+//C34CDC898|7c34cdc898|20|4fc0000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2d41898, "00", 32).Modify();
+//C34CDC8CC|7c34cdc8cc|20|6800000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2d418cc, "00", 32).Modify();
+//C34CDC900|7c34cdc900|20|4f80000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2d41900, "00", 32).Modify();
+//C34CDC924|7c34cdc924|20|800000580
+MemoryPatch::createWithHex("libUE4.so", 0x2d41924, "00", 32).Modify();
+//C34CDC934|7c34cdc934|20|7200000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2d41934, "00", 32).Modify();
+//C34CDC99C|7c34cdc99c|20|6a80000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2d4199c, "00", 32).Modify();
+//C34CDC9C8|7c34cdc9c8|20|d40000000c00
+MemoryPatch::createWithHex("libUE4.so", 0x2d419c8, "00", 32).Modify();
+//C34CDCA04|7c34cdca04|20|d40000000c00
+MemoryPatch::createWithHex("libUE4.so", 0x2d41a04, "00", 32).Modify();
+//C34CDCA40|7c34cdca40|20|d40000000c00
+MemoryPatch::createWithHex("libUE4.so", 0x2d41a40, "00", 32).Modify();
+//C34CDCA7C|7c34cdca7c|20|d40000000c00
+MemoryPatch::createWithHex("libUE4.so", 0x2d41a7c, "00", 32).Modify();
+//C34CDCAB8|7c34cdcab8|20|d40000000c00
+MemoryPatch::createWithHex("libUE4.so", 0x2d41ab8, "00", 32).Modify();
+//C34CDCAF4|7c34cdcaf4|20|d40000000c00
+MemoryPatch::createWithHex("libUE4.so", 0x2d41af4, "00", 32).Modify();
+//C34CDCB30|7c34cdcb30|20|13c0000000c00
+MemoryPatch::createWithHex("libUE4.so", 0x2d41b30, "00", 32).Modify();
+//C34CDCB88|7c34cdcb88|20|8f00000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2d41b88, "00", 32).Modify();
+//C34CDCBBC|7c34cdcbbc|20|9100000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2d41bbc, "00", 32).Modify();
+//C34CDCBF0|7c34cdcbf0|20|7e00000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2d41bf0, "00", 32).Modify();
+//C34CDCC24|7c34cdcc24|20|8040000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2d41c24, "00", 32).Modify();
+//C34CDCC58|7c34cdcc58|20|8280000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2d41c58, "00", 32).Modify();
+//C34CDCC8C|7c34cdcc8c|20|84c0000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2d41c8c, "00", 32).Modify();
+//C34CDCCC0|7c34cdccc0|20|9280000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2d41cc0, "00", 32).Modify();
+//C34CDCCF4|7c34cdccf4|20|7c00000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2d41cf4, "00", 32).Modify();
+//C34CDCD28|7c34cdcd28|20|8480000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2d41d28, "00", 32).Modify();
+//C34CDCD5C|7c34cdcd5c|20|8c00000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2d41d5c, "00", 32).Modify();
+//C34CDCD90|7c34cdcd90|20|9500000000400
+MemoryPatch::createWithHex("libUE4.so", 0x2d41d90, "00", 32).Modify();
+//C34CDCDBC|7c34cdcdbc|20|13c0000000c00
+MemoryPatch::createWithHex("libUE4.so", 0x2d41dbc, "00", 32).Modify();
+//C34CDCDF8|7c34cdcdf8|20|d40000000c00
+MemoryPatch::createWithHex("libUE4.so", 0x2d41df8, "00", 32).Modify();
+//C34CDCE34|7c34cdce34|20|d40000000c00
+MemoryPatch::createWithHex("libUE4.so", 0x2d41e34, "00", 32).Modify();
+//C34CDD08C|7c34cdd08c|20|1a40000000c00
+MemoryPatch::createWithHex("libUE4.so", 0x2d4208c, "00", 32).Modify();
+//C34CDD198|7c34cdd198|20|600000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2d42198, "00", 32).Modify();
+//C34CDD1E0|7c34cdd1e0|20|dc0000000c00
+MemoryPatch::createWithHex("libUE4.so", 0x2d421e0, "00", 32).Modify();
+//C34CDD3CC|7c34cdd3cc|20|14c0000000c00
+MemoryPatch::createWithHex("libUE4.so", 0x2d423cc, "00", 32).Modify();
+//C34CDD494|7c34cdd494|20|1a00000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2d42494, "00", 32).Modify();
+//C34CDD554|7c34cdd554|20|1200000000c00
+MemoryPatch::createWithHex("libUE4.so", 0x2d42554, "00", 32).Modify();
+//C34CDD5E8|7c34cdd5e8|20|1200000000c00
+MemoryPatch::createWithHex("libUE4.so", 0x2d425e8, "00", 32).Modify();
+//C34CDD650|7c34cdd650|20|1240000000c00
+MemoryPatch::createWithHex("libUE4.so", 0x2d42650, "00", 32).Modify();
+//C34CDD74C|7c34cdd74c|20|1980000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2d4274c, "00", 32).Modify();
+//C34CDD854|7c34cdd854|20|19c0000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2d42854, "00", 32).Modify();
+//C34CDD930|7c34cdd930|20|1140000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2d42930, "00", 32).Modify();
+//C34CDDB60|7c34cddb60|20|31c0000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2d42b60, "00", 32).Modify();
+//C34CDDBDC|7c34cddbdc|20|940000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2d42bdc, "00", 32).Modify();
+//C34CDDC34|7c34cddc34|20|31c0000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2d42c34, "00", 32).Modify();
+//C34CDDCEC|7c34cddcec|20|3180000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2d42cec, "00", 32).Modify();
+//C34CDDD78|7c34cddd78|20|3180000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2d42d78, "00", 32).Modify();
+//C34CDDE04|7c34cdde04|20|3180000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2d42e04, "00", 32).Modify();
+//C34CDDE90|7c34cdde90|20|3180000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2d42e90, "00", 32).Modify();
+//C34CDDF1C|7c34cddf1c|20|3180000000800
+MemoryPatch::createWithHex("libUE4.so", 0x2d42f1c, "00", 32).Modify();
+//C354C3D8C|7c354c3d8c|20|100
+MemoryPatch::createWithHex("libUE4.so", 0x3528d8c, "00", 32).Modify();
+//C354C3E0C|7c354c3e0c|20|100
+MemoryPatch::createWithHex("libUE4.so", 0x3528e0c, "00", 32).Modify();
+//C3550C450|7c3550c450|20|100
+MemoryPatch::createWithHex("libUE4.so", 0x3571450, "00", 32).Modify();
+//C3550C6F8|7c3550c6f8|20|200000200000200
+MemoryPatch::createWithHex("libUE4.so", 0x35716f8, "00", 32).Modify();
+//C3550C708|7c3550c708|20|202020200000200
+MemoryPatch::createWithHex("libUE4.so", 0x3571708, "00", 32).Modify();
+//C3550C71C|7c3550c71c|20|200000200000200
+MemoryPatch::createWithHex("libUE4.so", 0x357171c, "00", 32).Modify();
+//C3550C72C|7c3550c72c|20|200000200000200
+MemoryPatch::createWithHex("libUE4.so", 0x357172c, "00", 32).Modify();
+//C3550C754|7c3550c754|20|200000200000200
+MemoryPatch::createWithHex("libUE4.so", 0x3571754, "00", 32).Modify();
+//C3550C770|7c3550c770|20|200000200
+MemoryPatch::createWithHex("libUE4.so", 0x3571770, "00", 32).Modify();
+//C3550C794|7c3550c794|20|202000200000200
+MemoryPatch::createWithHex("libUE4.so", 0x3571794, "00", 32).Modify();
+//C3550C7A4|7c3550c7a4|20|c00090200000200
+MemoryPatch::createWithHex("libUE4.so", 0x35717a4, "00", 32).Modify();
+//C3550C7FC|7c3550c7fc|20|202000200000200
+MemoryPatch::createWithHex("libUE4.so", 0x35717fc, "00", 32).Modify();
+//C3550C84C|7c3550c84c|20|202000200000200
+MemoryPatch::createWithHex("libUE4.so", 0x357184c, "00", 32).Modify();
+//C3550C890|7c3550c890|20|200000200000200
+MemoryPatch::createWithHex("libUE4.so", 0x3571890, "00", 32).Modify();
+//C3550C8E0|7c3550c8e0|20|200000200000200
+MemoryPatch::createWithHex("libUE4.so", 0x35718e0, "00", 32).Modify();
+//C3550C90C|7c3550c90c|20|200000200000200
+MemoryPatch::createWithHex("libUE4.so", 0x357190c, "00", 32).Modify();
+//C3647EFC4|7c3647efc4|20|1d0c4c0000000080
+MemoryPatch::createWithHex("libUE4.so", 0x44e3fc4, "00", 32).Modify();
+//C3647F33C|7c3647f33c|20|1d0c4c0000000080
+MemoryPatch::createWithHex("libUE4.so", 0x44e433c, "00", 32).Modify();
+//C3647F464|7c3647f464|20|1d0c4c0000000080
+MemoryPatch::createWithHex("libUE4.so", 0x44e4464, "00", 32).Modify();
+//C3647F614|7c3647f614|20|1d0c4c0000000180
+MemoryPatch::createWithHex("libUE4.so", 0x44e4614, "00", 32).Modify();
+//C3647FC54|7c3647fc54|20|1d0c4c0000000080
+MemoryPatch::createWithHex("libUE4.so", 0x44e4c54, "00", 32).Modify();
+//C3D8480F0|7c3d8480f0|20|200|
+MemoryPatch::createWithHex("libCrashSight.so", 0xf0, "00", 32).Modify();
+//C3D8480F8|7c3d8480f8|20|200|
+MemoryPatch::createWithHex("libCrashSight.so", 0xf8, "00", 32).Modify();
+//C3D848100|7c3d848100|20|200|
+MemoryPatch::createWithHex("libCrashSight.so", 0x100, "00", 32).Modify();
+//C3D848620|7c3d848620|20|200|
+MemoryPatch::createWithHex("libCrashSight.so", 0x620, "00", 32).Modify();
+//C3D848698|7c3d848698|20|1fd00000180|
+MemoryPatch::createWithHex("libCrashSight.so", 0x698, "00", 32).Modify();
+//C3D84885C|7c3d84885c|20|25900000100|
+MemoryPatch::createWithHex("libCrashSight.so", 0x85c, "00", 32).Modify();
+//C3D848E7C|7c3d848e7c|20|c200000080|
+MemoryPatch::createWithHex("libCrashSight.so", 0xe7c, "00", 32).Modify();
+//C3D849818|7c3d849818|20|500|
+MemoryPatch::createWithHex("libCrashSight.so", 0x1818, "00", 32).Modify();
+//C3D8499B0|7c3d8499b0|20|100|
+MemoryPatch::createWithHex("libCrashSight.so", 0x19b0, "00", 32).Modify();
+//C3D849C38|7c3d849c38|20|80|
+MemoryPatch::createWithHex("libCrashSight.so", 0x1c38, "00", 32).Modify();
+//C3D84A340|7c3d84a340|20|100|
+MemoryPatch::createWithHex("libCrashSight.so", 0x2340, "00", 32).Modify();
+//C3D84A478|7c3d84a478|20|80|
+MemoryPatch::createWithHex("libCrashSight.so", 0x2478, "00", 32).Modify();
+//C3D84A9D8|7c3d84a9d8|20|a001200000d80|
+MemoryPatch::createWithHex("libCrashSight.so", 0x29d8, "00", 32).Modify();
+//C3D84AF70|7c3d84af70|20|100|
+MemoryPatch::createWithHex("libCrashSight.so", 0x2f70, "00", 32).Modify();
+//C3D84B270|7c3d84b270|20|100|
+MemoryPatch::createWithHex("libCrashSight.so", 0x3270, "00", 32).Modify();
+//C3D84BCC0|7c3d84bcc0|20|80|
+MemoryPatch::createWithHex("libCrashSight.so", 0x3cc0, "00", 32).Modify();
+//C3D84C9E0|7c3d84c9e0|20|100|
+MemoryPatch::createWithHex("libCrashSight.so", 0x49e0, "00", 32).Modify();
+//C3D84CBC0|7c3d84cbc0|20|80|
+MemoryPatch::createWithHex("libCrashSight.so", 0x4bc0, "00", 32).Modify();
+//C3D91E928|7c3d91e928|20|100|
+MemoryPatch::createWithHex("libCrashSight.so", 0xd6928, "00", 32).Modify();
+//C3D91EDB8|7c3d91edb8|20|80|
+MemoryPatch::createWithHex("libCrashSight.so", 0xd6db8, "00", 32).Modify();
+//C3D91EDE8|7c3d91ede8|20|10000000400|
+MemoryPatch::createWithHex("libCrashSight.so", 0xd6de8, "00", 32).Modify();
+//C3D91EDEC|7c3d91edec|20|400000100|
+MemoryPatch::createWithHex("libCrashSight.so", 0xd6dec, "00", 32).Modify();
+//C3D91EDF4|7c3d91edf4|20|5f736f6900000800|
+MemoryPatch::createWithHex("libCrashSight.so", 0xd6df4, "00", 32).Modify();
+//C3D91EE4C|7c3d91ee4c|20|200000000200|
+MemoryPatch::createWithHex("libCrashSight.so", 0xd6e4c, "00", 32).Modify();
+//C3D94486C|7c3d94486c|20|300e410000000100|
+MemoryPatch::createWithHex("libCrashSight.so", 0xfc86c, "00", 32).Modify();
+//C3D945E64|7c3d945e64|20|7d00000100|
+MemoryPatch::createWithHex("libCrashSight.so", 0xfde64, "00", 32).Modify();
+//C3D945EE4|7c3d945ee4|20|7d00000100|
+MemoryPatch::createWithHex("libCrashSight.so", 0xfdee4, "00", 32).Modify();
+//C3D9471F0|7c3d9471f0|20|7d00000100|
+MemoryPatch::createWithHex("libCrashSight.so", 0xff1f0, "00", 32).Modify();
+//C3D947A0C|7c3d947a0c|20|100|
+MemoryPatch::createWithHex("libCrashSight.so", 0xffa0c, "00", 32).Modify();
+//C3DA055C8|7c3da055c8|20|56400000d80|
+MemoryPatch::createWithHex("libijkffmpeg.so", 0x5c8, "00", 32).Modify();
+//C3DA05770|7c3da05770|20|680|
+MemoryPatch::createWithHex("libijkffmpeg.so", 0x770, "00", 32).Modify();
+//C3DA05F44|7c3da05f44|20|88c00000b80|
+MemoryPatch::createWithHex("libijkffmpeg.so", 0xf44, "00", 32).Modify();
+//C3DA1A050|7c3da1a050|20|200|
+MemoryPatch::createWithHex("libijkffmpeg.so", 0x15050, "00", 32).Modify();
+//C3DA1AC50|7c3da1ac50|20|200|
+MemoryPatch::createWithHex("libijkffmpeg.so", 0x15c50, "00", 32).Modify();
+//C3DA1B190|7c3da1b190|20|100|
+MemoryPatch::createWithHex("libijkffmpeg.so", 0x16190, "00", 32).Modify();
+//C3DD262C0|7c3dd262c0|20|81000000800|
+MemoryPatch::createWithHex("libijkffmpeg.so", 0x3212c0, "00", 32).Modify();
+//C3DD263E0|7c3dd263e0|20|200040000000400|
+MemoryPatch::createWithHex("libijkffmpeg.so", 0x3213e0, "00", 32).Modify();
+//C3DD264E0|7c3dd264e0|20|20100000200|
+MemoryPatch::createWithHex("libijkffmpeg.so", 0x3214e0, "00", 32).Modify();
+//C3DD265A8|7c3dd265a8|20|10010000000100|
+MemoryPatch::createWithHex("libijkffmpeg.so", 0x3215a8, "00", 32).Modify();
+//C3DD267B0|7c3dd267b0|20|800040000000400|
+MemoryPatch::createWithHex("libijkffmpeg.so", 0x3217b0, "00", 32).Modify();
+//C3DD268A4|7c3dd268a4|20|8000000000100|
+MemoryPatch::createWithHex("libijkffmpeg.so", 0x3218a4, "00", 32).Modify();
+//C3DD26920|7c3dd26920|20|30000000200|
+MemoryPatch::createWithHex("libijkffmpeg.so", 0x321920, "00", 32).Modify();
+//C3DD26924|7c3dd26924|20|8020000000300|
+MemoryPatch::createWithHex("libijkffmpeg.so", 0x321924, "00", 32).Modify();
+//C3DD26A20|7c3dd26a20|20|400080000000800|
+MemoryPatch::createWithHex("libijkffmpeg.so", 0x321a20, "00", 32).Modify();
+//C3DD26C14|7c3dd26c14|20|8080000000800|
+MemoryPatch::createWithHex("libijkffmpeg.so", 0x321c14, "00", 32).Modify();
+//C3DD26C20|7c3dd26c20|20|200080200000800|
+MemoryPatch::createWithHex("libijkffmpeg.so", 0x321c20, "00", 32).Modify();
+//C3DD26C54|7c3dd26c54|20|8080000000800|
+MemoryPatch::createWithHex("libijkffmpeg.so", 0x321c54, "00", 32).Modify();
+//C3DD26CA8|7c3dd26ca8|20|8080200000800|
+MemoryPatch::createWithHex("libijkffmpeg.so", 0x321ca8, "00", 32).Modify();
+//C3DD26DB8|7c3dd26db8|20|400010100000100|
+MemoryPatch::createWithHex("libijkffmpeg.so", 0x321db8, "00", 32).Modify();
+//C3DD26DFC|7c3dd26dfc|20|10100000100|
+MemoryPatch::createWithHex("libijkffmpeg.so", 0x321dfc, "00", 32).Modify();
+//C3DD26E34|7c3dd26e34|20|100000100|
+MemoryPatch::createWithHex("libijkffmpeg.so", 0x321e34, "00", 32).Modify();
+//C3DD26EA8|7c3dd26ea8|20|404000000000100|
+MemoryPatch::createWithHex("libijkffmpeg.so", 0x321ea8, "00", 32).Modify();
+//C3DD26FB8|7c3dd26fb8|20|801042000000400|
+MemoryPatch::createWithHex("libijkffmpeg.so", 0x321fb8, "00", 32).Modify();
+//C3DD27024|7c3dd27024|20|42000000400|
+MemoryPatch::createWithHex("libijkffmpeg.so", 0x322024, "00", 32).Modify();
+//C3DD27068|7c3dd27068|20|1002000000400|
+MemoryPatch::createWithHex("libijkffmpeg.so", 0x322068, "00", 32).Modify();
+//C3DD27074|7c3dd27074|20|400|
+MemoryPatch::createWithHex("libijkffmpeg.so", 0x322074, "00", 32).Modify();
+//C3DD271B4|7c3dd271b4|20|100020000000200|
+MemoryPatch::createWithHex("libijkffmpeg.so", 0x3221b4, "00", 32).Modify();
+//C3DD27228|7c3dd27228|20|100000000000200|
+MemoryPatch::createWithHex("libijkffmpeg.so", 0x322228, "00", 32).Modify();
+//C3DD27244|7c3dd27244|20|100000000000200|
+MemoryPatch::createWithHex("libijkffmpeg.so", 0x322244, "00", 32).Modify();
+//C3DD27260|7c3dd27260|20|100000400000200|
+MemoryPatch::createWithHex("libijkffmpeg.so", 0x322260, "00", 32).Modify();
+//C3DD272D0|7c3dd272d0|20|2000000000000080|
+MemoryPatch::createWithHex("libijkffmpeg.so", 0x3222d0, "00", 32).Modify();
+//C3DD2732C|7c3dd2732c|20|80000000000080|
+MemoryPatch::createWithHex("libijkffmpeg.so", 0x32232c, "00", 32).Modify();
+//C3DD27364|7c3dd27364|20|80008000000080|
+MemoryPatch::createWithHex("libijkffmpeg.so", 0x322364, "00", 32).Modify();
+//C3DD27390|7c3dd27390|20|2082000000000080|
+MemoryPatch::createWithHex("libijkffmpeg.so", 0x322390, "00", 32).Modify();
+//C3DD33D78|7c3dd33d78|20|80|
+MemoryPatch::createWithHex("libijkffmpeg.so", 0x32ed78, "00", 32).Modify();
+//C3DD33DA0|7c3dd33da0|20|80|
+MemoryPatch::createWithHex("libijkffmpeg.so", 0x32eda0, "00", 32).Modify();
+//C3DD33E18|7c3dd33e18|20|80|
+MemoryPatch::createWithHex("libijkffmpeg.so", 0x32ee18, "00", 32).Modify();
+//C3DD33F60|7c3dd33f60|20|800|
+MemoryPatch::createWithHex("libijkffmpeg.so", 0x32ef60, "00", 32).Modify();
+//C3DD34000|7c3dd34000|20|800|
+MemoryPatch::createWithHex("libijkffmpeg.so", 0x32f000, "00", 32).Modify();
+//C3DD354DC|7c3dd354dc|20|ffffffff00000080
+MemoryPatch::createWithHex("libijkffmpeg.so", 0x4dc, "00", 32).Modify();
+//C3DD3551C|7c3dd3551c|20|100000080
+MemoryPatch::createWithHex("libijkffmpeg.so", 0x51c, "00", 32).Modify();
+//C3DD3555C|7c3dd3555c|20|200000080
+MemoryPatch::createWithHex("libijkffmpeg.so", 0x55c, "00", 32).Modify();
+//C3DD3559C|7c3dd3559c|20|80
+MemoryPatch::createWithHex("libijkffmpeg.so", 0x59c, "00", 32).Modify();
+//C3DD35AD4|7c3dd35ad4|20|80
+MemoryPatch::createWithHex("libijkffmpeg.so", 0xad4, "00", 32).Modify();
+//C3DD35B14|7c3dd35b14|20|100000080
+MemoryPatch::createWithHex("libijkffmpeg.so", 0xb14, "00", 32).Modify();
+//C3DD35B54|7c3dd35b54|20|200000080
+MemoryPatch::createWithHex("libijkffmpeg.so", 0xb54, "00", 32).Modify();
+//C3DD35B94|7c3dd35b94|20|300000080
+MemoryPatch::createWithHex("libijkffmpeg.so", 0xb94, "00", 32).Modify();
+//C3DD35BD4|7c3dd35bd4|20|500000080
+MemoryPatch::createWithHex("libijkffmpeg.so", 0xbd4, "00", 32).Modify();
+//C3DD35C14|7c3dd35c14|20|600000080
+MemoryPatch::createWithHex("libijkffmpeg.so", 0xc14, "00", 32).Modify();
+//C3DD35C94|7c3dd35c94|20|80
+MemoryPatch::createWithHex("libijkffmpeg.so", 0xc94, "00", 32).Modify();
+//C3DD35CD4|7c3dd35cd4|20|100000080
+MemoryPatch::createWithHex("libijkffmpeg.so", 0xcd4, "00", 32).Modify();
+//C3DD35D14|7c3dd35d14|20|200000080
+MemoryPatch::createWithHex("libijkffmpeg.so", 0xd14, "00", 32).Modify();
+//C3DD35D54|7c3dd35d54|20|300000080
+MemoryPatch::createWithHex("libijkffmpeg.so", 0xd54, "00", 32).Modify();
+//C3DD35D94|7c3dd35d94|20|700000080
+MemoryPatch::createWithHex("libijkffmpeg.so", 0xd94, "00", 32).Modify();
+//C3DD35DD4|7c3dd35dd4|20|800000080
+MemoryPatch::createWithHex("libijkffmpeg.so", 0xdd4, "00", 32).Modify();
+//C3DD35E14|7c3dd35e14|20|900000080
+MemoryPatch::createWithHex("libijkffmpeg.so", 0xe14, "00", 32).Modify();
+//C3DD35E54|7c3dd35e54|20|a00000080
+MemoryPatch::createWithHex("libijkffmpeg.so", 0xe54, "00", 32).Modify();
+//C3DD35E94|7c3dd35e94|20|1000000080
+MemoryPatch::createWithHex("libijkffmpeg.so", 0xe94, "00", 32).Modify();
+//C3DD35ED4|7c3dd35ed4|20|1100000080
+MemoryPatch::createWithHex("libijkffmpeg.so", 0xed4, "00", 32).Modify();
+//C3DD35F14|7c3dd35f14|20|1600000080
+MemoryPatch::createWithHex("libijkffmpeg.so", 0xf14, "00", 32).Modify();
+//C3DD35F54|7c3dd35f54|20|1700000080
+MemoryPatch::createWithHex("libijkffmpeg.so", 0xf54, "00", 32).Modify();
+//C3DD35F94|7c3dd35f94|20|d00000080
+MemoryPatch::createWithHex("libijkffmpeg.so", 0xf94, "00", 32).Modify();
+//C3DD35FD4|7c3dd35fd4|20|e00000080
+MemoryPatch::createWithHex("libijkffmpeg.so", 0xfd4, "00", 32).Modify();
+//C3F9553EC|7c3f9553ec|20|2bd00000500|
+MemoryPatch::createWithHex("libgcloud.so", 0x3ec, "00", 32).Modify();
+//C3F9557F8|7c3f9557f8|20|39000000380|
+MemoryPatch::createWithHex("libgcloud.so", 0x7f8, "00", 32).Modify();
+//C3F95586C|7c3f95586c|20|52500000180|
+MemoryPatch::createWithHex("libgcloud.so", 0x86c, "00", 32).Modify();
+//C3F955DB8|7c3f955db8|20|51b00000400|
+MemoryPatch::createWithHex("libgcloud.so", 0xdb8, "00", 32).Modify();
+//C3F955E08|7c3f955e08|20|a900000300|
+MemoryPatch::createWithHex("libgcloud.so", 0xe08, "00", 32).Modify();
+//C3FDB5310|7c3fdb5310|20|1c00000080|
+MemoryPatch::createWithHex("libgcloud.so", 0x460310, "00", 32).Modify();
+//C3FDB5318|7c3fdb5318|20|1000000100|
+MemoryPatch::createWithHex("libgcloud.so", 0x460318, "00", 32).Modify();
+//C3FDB5320|7c3fdb5320|20|a00000180|
+MemoryPatch::createWithHex("libgcloud.so", 0x460320, "00", 32).Modify();
+//C3FDB5328|7c3fdb5328|20|700000200|
+MemoryPatch::createWithHex("libgcloud.so", 0x460328, "00", 32).Modify();
+//C3FDB5330|7c3fdb5330|20|600000280|
+MemoryPatch::createWithHex("libgcloud.so", 0x460330, "00", 32).Modify();
+//C3FDB5338|7c3fdb5338|20|500000300|
+MemoryPatch::createWithHex("libgcloud.so", 0x460338, "00", 32).Modify();
+//C3FDB5340|7c3fdb5340|20|400000380|
+MemoryPatch::createWithHex("libgcloud.so", 0x460340, "00", 32).Modify();
+//C3FDB5348|7c3fdb5348|20|400000400|
+MemoryPatch::createWithHex("libgcloud.so", 0x460348, "00", 32).Modify();
+//C3FDCB2F0|7c3fdcb2f0|20|80|
+MemoryPatch::createWithHex("libgcloud.so", 0x4762f0, "00", 32).Modify();
+//C3FDCB318|7c3fdcb318|20|80|
+MemoryPatch::createWithHex("libgcloud.so", 0x476318, "00", 32).Modify();
+//C3FDCB390|7c3fdcb390|20|80|
+MemoryPatch::createWithHex("libgcloud.so", 0x476390, "00", 32).Modify();
+//C3FDCB4D8|7c3fdcb4d8|20|800|
+MemoryPatch::createWithHex("libgcloud.so", 0x4764d8, "00", 32).Modify();
+//C3FDCB578|7c3fdcb578|20|800|
+MemoryPatch::createWithHex("libgcloud.so", 0x476578, "00", 32).Modify();
+//C3FDCB598|7c3fdcb598|20|100|
+MemoryPatch::createWithHex("libgcloud.so", 0x476598, "00", 32).Modify();
+//C3FDD8974|7c3fdd8974|20|ff7f000000000080|
+MemoryPatch::createWithHex("libgcloud.so", 0x483974, "00", 32).Modify();
+//C3FDD8A4C|7c3fdd8a4c|20|ff7f000000000080|
+MemoryPatch::createWithHex("libgcloud.so", 0x483a4c, "00", 32).Modify();
+//C3FDD8B24|7c3fdd8b24|20|ff7f000000000080|
+MemoryPatch::createWithHex("libgcloud.so", 0x483b24, "00", 32).Modify();
+//C3FDE434C|7c3fde434c|20|20400000280|
+MemoryPatch::createWithHex("libgcloud.so", 0x48f34c, "00", 32).Modify();
+//C3FDE4724|7c3fde4724|20|6c00000300|
+MemoryPatch::createWithHex("libgcloud.so", 0x48f724, "00", 32).Modify();
+//C3FDE4A98|7c3fde4a98|20|1bb00000400|
+MemoryPatch::createWithHex("libgcloud.so", 0x48fa98, "00", 32).Modify();
+//C3FDE4BC0|7c3fde4bc0|20|ac00000180|
+MemoryPatch::createWithHex("libgcloud.so", 0x48fbc0, "00", 32).Modify();
+//C3FDE4D40|7c3fde4d40|20|37f00000380|
+MemoryPatch::createWithHex("libgcloud.so", 0x48fd40, "00", 32).Modify();
+//C3FDE4E58|7c3fde4e58|20|11800000080|
+MemoryPatch::createWithHex("libgcloud.so", 0x48fe58, "00", 32).Modify();
+//C3FDE4F20|7c3fde4f20|20|bf00000200|
+MemoryPatch::createWithHex("libgcloud.so", 0x48ff20, "00", 32).Modify();
+//C3FDE4FFC|7c3fde4ffc|20|fd00000100|
+MemoryPatch::createWithHex("libgcloud.so", 0x48fffc, "00", 32).Modify();
+//C3FDE53AC|7c3fde53ac|20|20500000280|
+MemoryPatch::createWithHex("libgcloud.so", 0x4903ac, "00", 32).Modify();
+//C3FDFAD48|7c3fdfad48|20|c000000080|
+MemoryPatch::createWithHex("libgcloud.so", 0x4a5d48, "00", 32).Modify();
+//C3FDFAD50|7c3fdfad50|20|100|
+MemoryPatch::createWithHex("libgcloud.so", 0x4a5d50, "00", 32).Modify();
+//C3FDFBE50|7c3fdfbe50|20|100|
+MemoryPatch::createWithHex("libgcloud.so", 0x4a6e50, "00", 32).Modify();
+//C3FDFF024|7c3fdff024|20|400000080|
+MemoryPatch::createWithHex("libgcloud.so", 0x4aa024, "00", 32).Modify();
+//C3FDFF044|7c3fdff044|20|b00000100|
+MemoryPatch::createWithHex("libgcloud.so", 0x4aa044, "00", 32).Modify();
+//C3FDFF054|7c3fdff054|20|200000080|
+MemoryPatch::createWithHex("libgcloud.so", 0x4aa054, "00", 32).Modify();
+//C3FDFF064|7c3fdff064|20|600000080|
+MemoryPatch::createWithHex("libgcloud.so", 0x4aa064, "00", 32).Modify();
+//C3FDFF074|7c3fdff074|20|800000100|
+MemoryPatch::createWithHex("libgcloud.so", 0x4aa074, "00", 32).Modify();
+//C3FDFF0FC|7c3fdff0fc|20|100000080|
+MemoryPatch::createWithHex("libgcloud.so", 0x4aa0fc, "00", 32).Modify();
+//C3FDFF108|7c3fdff108|20|100000080|
+MemoryPatch::createWithHex("libgcloud.so", 0x4aa108, "00", 32).Modify();
+//C3FDFF12C|7c3fdff12c|20|100000100|
+MemoryPatch::createWithHex("libgcloud.so", 0x4aa12c, "00", 32).Modify();
+//C3FDFF138|7c3fdff138|20|100000100|
+MemoryPatch::createWithHex("libgcloud.so", 0x4aa138, "00", 32).Modify();
+//C3FDFF198|7c3fdff198|20|80|
+MemoryPatch::createWithHex("libgcloud.so", 0x4aa198, "00", 32).Modify();
+//C3FDFF1A4|7c3fdff1a4|20|80|
+MemoryPatch::createWithHex("libgcloud.so", 0x4aa1a4, "00", 32).Modify();
+//C3FDFF1BC|7c3fdff1bc|20|100|
+MemoryPatch::createWithHex("libgcloud.so", 0x4aa1bc, "00", 32).Modify();
+//C3FDFF1C8|7c3fdff1c8|20|80|
+MemoryPatch::createWithHex("libgcloud.so", 0x4aa1c8, "00", 32).Modify();
+//C3FDFF1E0|7c3fdff1e0|20|100|
+MemoryPatch::createWithHex("libgcloud.so", 0x4aa1e0, "00", 32).Modify();
+//C3FDFF1EC|7c3fdff1ec|20|200000080|
+MemoryPatch::createWithHex("libgcloud.so", 0x4aa1ec, "00", 32).Modify();
+//C3FDFF2B8|7c3fdff2b8|20|300|
+MemoryPatch::createWithHex("libgcloud.so", 0x4aa2b8, "00", 32).Modify();
+//C3FE06318|7c3fe06318|20|80|
+MemoryPatch::createWithHex("libgcloud.so", 0x4b1318, "00", 32).Modify();
+//C3FE06348|7c3fe06348|20|10000000400|
+MemoryPatch::createWithHex("libgcloud.so", 0x4b1348, "00", 32).Modify();
+//C3FE0634C|7c3fe0634c|20|400000100|
+MemoryPatch::createWithHex("libgcloud.so", 0x4b134c, "00", 32).Modify();
+//C3FE06354|7c3fe06354|20|5f736f6900000800|
+MemoryPatch::createWithHex("libgcloud.so", 0x4b1354, "00", 32).Modify();
+//C3FE063AC|7c3fe063ac|20|200000000200|
+MemoryPatch::createWithHex("libgcloud.so", 0x4b13ac, "00", 32).Modify();
+//C3FF02748|7c3ff02748|20|7d00000100|
+MemoryPatch::createWithHex("libgcloud.so", 0x5ad748, "00", 32).Modify();
+//C3FF03640|7c3ff03640|20|100|
+MemoryPatch::createWithHex("libgcloud.so", 0x5ae640, "00", 32).Modify();
+//C3FF03D18|7c3ff03d18|20|100|
+MemoryPatch::createWithHex("libgcloud.so", 0x5aed18, "00", 32).Modify();
+//C3FF03D30|7c3ff03d30|20|100|
+MemoryPatch::createWithHex("libgcloud.so", 0x5aed30, "00", 32).Modify();
+//C3FF03D68|7c3ff03d68|20|100|
+MemoryPatch::createWithHex("libgcloud.so", 0x5aed68, "00", 32).Modify();
+//C3FF03DA8|7c3ff03da8|20|100|
+MemoryPatch::createWithHex("libgcloud.so", 0x5aeda8, "00", 32).Modify();
+//C3FF0A014|7c3ff0a014|20|100|
+MemoryPatch::createWithHex("libgcloud.so", 0x5b5014, "00", 32).Modify();
+//C3FF0A02C|7c3ff0a02c|20|100|
+MemoryPatch::createWithHex("libgcloud.so", 0x5b502c, "00", 32).Modify();
+//C3FF0A064|7c3ff0a064|20|100|
+MemoryPatch::createWithHex("libgcloud.so", 0x5b5064, "00", 32).Modify();
+//C3FF0A18C|7c3ff0a18c|20|100|
+MemoryPatch::createWithHex("libgcloud.so", 0x5b518c, "00", 32).Modify();
+//C4611A1C0|7c4611a1c0|20|80|
+MemoryPatch::createWithHex("libgcloudcore.so", 0x111c0, "00", 32).Modify();
+//C4611A430|7c4611a430|20|80|
+MemoryPatch::createWithHex("libgcloudcore.so", 0x11430, "00", 32).Modify();
+//C4611B150|7c4611b150|20|80|
+MemoryPatch::createWithHex("libgcloudcore.so", 0x12150, "00", 32).Modify();
+//C4611B1F8|7c4611b1f8|20|80|
+MemoryPatch::createWithHex("libgcloudcore.so", 0x121f8, "00", 32).Modify();
+//C4611B630|7c4611b630|20|100|
+MemoryPatch::createWithHex("libgcloudcore.so", 0x12630, "00", 32).Modify();
+//C4611B678|7c4611b678|20|200|
+MemoryPatch::createWithHex("libgcloudcore.so", 0x12678, "00", 32).Modify();
+//C4611BA80|7c4611ba80|20|80|
+MemoryPatch::createWithHex("libgcloudcore.so", 0x12a80, "00", 32).Modify();
+//C4611C3B0|7c4611c3b0|20|80|
+MemoryPatch::createWithHex("libgcloudcore.so", 0x133b0, "00", 32).Modify();
+//C4611C530|7c4611c530|20|100|
+MemoryPatch::createWithHex("libgcloudcore.so", 0x13530, "00", 32).Modify();
+//C4611C710|7c4611c710|20|100|
+MemoryPatch::createWithHex("libgcloudcore.so", 0x13710, "00", 32).Modify();
+//C4611CF38|7c4611cf38|20|280|
+MemoryPatch::createWithHex("libgcloudcore.so", 0x13f38, "00", 32).Modify();
+//C4611D250|7c4611d250|20|80|
+MemoryPatch::createWithHex("libgcloudcore.so", 0x14250, "00", 32).Modify();
+//C4611D340|7c4611d340|20|80|
+MemoryPatch::createWithHex("libgcloudcore.so", 0x14340, "00", 32).Modify();
+//C4611D490|7c4611d490|20|100|
+MemoryPatch::createWithHex("libgcloudcore.so", 0x14490, "00", 32).Modify();
+//C462367D4|7c462367d4|20|300e410000000100|
+MemoryPatch::createWithHex("libgcloudcore.so", 0x12d7d4, "00", 32).Modify();
+//C462368EC|7c462368ec|20|1db6f0400000280|
+MemoryPatch::createWithHex("libgcloudcore.so", 0x12d8ec, "00", 32).Modify();
+//C46236D1C|7c46236d1c|20|1d8870400000180|
+MemoryPatch::createWithHex("libgcloudcore.so", 0x12dd1c, "00", 32).Modify();
+//C46237654|7c46237654|20|500e410000000180|
+MemoryPatch::createWithHex("libgcloudcore.so", 0x12e654, "00", 32).Modify();
+//C46237754|7c46237754|20|300e410000000080|
+MemoryPatch::createWithHex("libgcloudcore.so", 0x12e754, "00", 32).Modify();
+//C4623785C|7c4623785c|20|400e410000000180|
+MemoryPatch::createWithHex("libgcloudcore.so", 0x12e85c, "00", 32).Modify();
+//C46237DEC|7c46237dec|20|300e410000000080|
+MemoryPatch::createWithHex("libgcloudcore.so", 0x12edec, "00", 32).Modify();
+//C46237E24|7c46237e24|20|1c9500400000100|
+MemoryPatch::createWithHex("libgcloudcore.so", 0x12ee24, "00", 32).Modify();
+//C4623A27C|7c4623a27c|20|300e410000000080|
+MemoryPatch::createWithHex("libgcloudcore.so", 0x13127c, "00", 32).Modify();
+//C4623A394|7c4623a394|20|300e410000000080|
+MemoryPatch::createWithHex("libgcloudcore.so", 0x131394, "00", 32).Modify();
+//C46241B04|7c46241b04|20|300e410000000080|
+MemoryPatch::createWithHex("libgcloudcore.so", 0x138b04, "00", 32).Modify();
+//C4624E5D4|7c4624e5d4|20|400e410000000100|
+MemoryPatch::createWithHex("libgcloudcore.so", 0x1455d4, "00", 32).Modify();
+//C4624FC1C|7c4624fc1c|20|904a0400000080|
+MemoryPatch::createWithHex("libgcloudcore.so", 0x146c1c, "00", 32).Modify();
+//C4624FC4C|7c4624fc4c|20|902a0400000080|
+MemoryPatch::createWithHex("libgcloudcore.so", 0x146c4c, "00", 32).Modify();
+//CC91DCC34|7cc91dcc34|20|80000000100|
+MemoryPatch::createWithHex("libanort.so", 0x1d3c34, "00", 32).Modify();
+//CC91DCC38|7cc91dcc38|20|5000000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d3c38, "00", 32).Modify();
+//CC91DCC40|7cc91dcc40|20|1000000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d3c40, "00", 32).Modify();
+//CC91DCC58|7cc91dcc58|20|7000000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d3c58, "00", 32).Modify();
+//CC91DCC60|7cc91dcc60|20|3000000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d3c60, "00", 32).Modify();
+//CC91DCC68|7cc91dcc68|20|c000000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d3c68, "00", 32).Modify();
+//CC91DCC78|7cc91dcc78|20|6000000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d3c78, "00", 32).Modify();
+//CC91DCC80|7cc91dcc80|20|2000000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d3c80, "00", 32).Modify();
+//CC91DCC88|7cc91dcc88|20|a000000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d3c88, "00", 32).Modify();
+//CC91DCC90|7cc91dcc90|20|800|
+MemoryPatch::createWithHex("libanort.so", 0x1d3c90, "00", 32).Modify();
+//CC91DCC98|7cc91dcc98|20|8000000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d3c98, "00", 32).Modify();
+//CC91DCC9C|7cc91dcc9c|20|80000000080|
+MemoryPatch::createWithHex("libanort.so", 0x1d3c9c, "00", 32).Modify();
+//CC91DCCA0|7cc91dcca0|20|4000000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d3ca0, "00", 32).Modify();
+//CC91DCCA8|7cc91dcca8|20|e000000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d3ca8, "00", 32).Modify();
+//CC91DCCB8|7cc91dccb8|20|5800000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d3cb8, "00", 32).Modify();
+//CC91DCCC0|7cc91dccc0|20|1800000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d3cc0, "00", 32).Modify();
+//CC91DCCC8|7cc91dccc8|20|9000000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d3cc8, "00", 32).Modify();
+//CC91DCCD8|7cc91dccd8|20|7800000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d3cd8, "00", 32).Modify();
+//CC91DCCE0|7cc91dcce0|20|3800000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d3ce0, "00", 32).Modify();
+//CC91DCCE8|7cc91dcce8|20|d000000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d3ce8, "00", 32).Modify();
+//CC91DCCF8|7cc91dccf8|20|6800000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d3cf8, "00", 32).Modify();
+//CC91DCD00|7cc91dcd00|20|2800000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d3d00, "00", 32).Modify();
+//CC91DCD08|7cc91dcd08|20|b000000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d3d08, "00", 32).Modify();
+//CC91DCD10|7cc91dcd10|20|800000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d3d10, "00", 32).Modify();
+//CC91DCD18|7cc91dcd18|20|8800000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d3d18, "00", 32).Modify();
+//CC91DCD20|7cc91dcd20|20|4800000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d3d20, "00", 32).Modify();
+//CC91DCD28|7cc91dcd28|20|f000000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d3d28, "00", 32).Modify();
+//CC91DCD38|7cc91dcd38|20|5400000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d3d38, "00", 32).Modify();
+//CC91DCD40|7cc91dcd40|20|1400000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d3d40, "00", 32).Modify();
+//CC91DCD58|7cc91dcd58|20|7400000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d3d58, "00", 32).Modify();
+//CC91DCD60|7cc91dcd60|20|3400000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d3d60, "00", 32).Modify();
+//CC91DCD68|7cc91dcd68|20|c800000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d3d68, "00", 32).Modify();
+//CC91DCD78|7cc91dcd78|20|6400000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d3d78, "00", 32).Modify();
+//CC91DCD80|7cc91dcd80|20|2400000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d3d80, "00", 32).Modify();
+//CC91DCD88|7cc91dcd88|20|a800000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d3d88, "00", 32).Modify();
+//CC91DCD90|7cc91dcd90|20|400000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d3d90, "00", 32).Modify();
+//CC91DCD98|7cc91dcd98|20|8400000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d3d98, "00", 32).Modify();
+//CC91DCDA0|7cc91dcda0|20|4400000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d3da0, "00", 32).Modify();
+//CC91DCDA8|7cc91dcda8|20|e800000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d3da8, "00", 32).Modify();
+//CC91DCDB8|7cc91dcdb8|20|5c00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d3db8, "00", 32).Modify();
+//CC91DCDC0|7cc91dcdc0|20|1c00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d3dc0, "00", 32).Modify();
+//CC91DCDC8|7cc91dcdc8|20|9800000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d3dc8, "00", 32).Modify();
+//CC91DCDD8|7cc91dcdd8|20|7c00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d3dd8, "00", 32).Modify();
+//CC91DCDE0|7cc91dcde0|20|3c00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d3de0, "00", 32).Modify();
+//CC91DCDE8|7cc91dcde8|20|d800000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d3de8, "00", 32).Modify();
+//CC91DCDF8|7cc91dcdf8|20|6c00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d3df8, "00", 32).Modify();
+//CC91DCE00|7cc91dce00|20|2c00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d3e00, "00", 32).Modify();
+//CC91DCE08|7cc91dce08|20|b800000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d3e08, "00", 32).Modify();
+//CC91DCE10|7cc91dce10|20|c00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d3e10, "00", 32).Modify();
+//CC91DCE18|7cc91dce18|20|8c00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d3e18, "00", 32).Modify();
+//CC91DCE20|7cc91dce20|20|4c00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d3e20, "00", 32).Modify();
+//CC91DCE28|7cc91dce28|20|f800000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d3e28, "00", 32).Modify();
+//CC91DCE38|7cc91dce38|20|5200000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d3e38, "00", 32).Modify();
+//CC91DCE40|7cc91dce40|20|1200000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d3e40, "00", 32).Modify();
+//CC91DCE58|7cc91dce58|20|7200000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d3e58, "00", 32).Modify();
+//CC91DCE60|7cc91dce60|20|3200000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d3e60, "00", 32).Modify();
+//CC91DCE68|7cc91dce68|20|c400000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d3e68, "00", 32).Modify();
+//CC91DCE78|7cc91dce78|20|6200000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d3e78, "00", 32).Modify();
+//CC91DCE80|7cc91dce80|20|2200000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d3e80, "00", 32).Modify();
+//CC91DCE88|7cc91dce88|20|a400000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d3e88, "00", 32).Modify();
+//CC91DCE90|7cc91dce90|20|200000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d3e90, "00", 32).Modify();
+//CC91DCE98|7cc91dce98|20|8200000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d3e98, "00", 32).Modify();
+//CC91DCEA0|7cc91dcea0|20|4200000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d3ea0, "00", 32).Modify();
+//CC91DCEA8|7cc91dcea8|20|e400000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d3ea8, "00", 32).Modify();
+//CC91DCEB8|7cc91dceb8|20|5a00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d3eb8, "00", 32).Modify();
+//CC91DCEC0|7cc91dcec0|20|1a00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d3ec0, "00", 32).Modify();
+//CC91DCEC8|7cc91dcec8|20|9400000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d3ec8, "00", 32).Modify();
+//CC91DCED8|7cc91dced8|20|7a00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d3ed8, "00", 32).Modify();
+//CC91DCEE0|7cc91dcee0|20|3a00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d3ee0, "00", 32).Modify();
+//CC91DCEE8|7cc91dcee8|20|d400000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d3ee8, "00", 32).Modify();
+//CC91DCEF8|7cc91dcef8|20|6a00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d3ef8, "00", 32).Modify();
+//CC91DCF00|7cc91dcf00|20|2a00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d3f00, "00", 32).Modify();
+//CC91DCF08|7cc91dcf08|20|b400000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d3f08, "00", 32).Modify();
+//CC91DCF10|7cc91dcf10|20|a00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d3f10, "00", 32).Modify();
+//CC91DCF18|7cc91dcf18|20|8a00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d3f18, "00", 32).Modify();
+//CC91DCF20|7cc91dcf20|20|4a00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d3f20, "00", 32).Modify();
+//CC91DCF28|7cc91dcf28|20|f400000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d3f28, "00", 32).Modify();
+//CC91DCF38|7cc91dcf38|20|5600000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d3f38, "00", 32).Modify();
+//CC91DCF40|7cc91dcf40|20|1600000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d3f40, "00", 32).Modify();
+//CC91DCF58|7cc91dcf58|20|7600000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d3f58, "00", 32).Modify();
+//CC91DCF60|7cc91dcf60|20|3600000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d3f60, "00", 32).Modify();
+//CC91DCF68|7cc91dcf68|20|cc00000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d3f68, "00", 32).Modify();
+//CC91DCF78|7cc91dcf78|20|6600000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d3f78, "00", 32).Modify();
+//CC91DCF80|7cc91dcf80|20|2600000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d3f80, "00", 32).Modify();
+//CC91DCF88|7cc91dcf88|20|ac00000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d3f88, "00", 32).Modify();
+//CC91DCF90|7cc91dcf90|20|600000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d3f90, "00", 32).Modify();
+//CC91DCF98|7cc91dcf98|20|8600000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d3f98, "00", 32).Modify();
+//CC91DCFA0|7cc91dcfa0|20|4600000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d3fa0, "00", 32).Modify();
+//CC91DCFA8|7cc91dcfa8|20|ec00000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d3fa8, "00", 32).Modify();
+//CC91DCFB8|7cc91dcfb8|20|5e00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d3fb8, "00", 32).Modify();
+//CC91DCFC0|7cc91dcfc0|20|1e00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d3fc0, "00", 32).Modify();
+//CC91DCFC8|7cc91dcfc8|20|9c00000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d3fc8, "00", 32).Modify();
+//CC91DCFD8|7cc91dcfd8|20|7e00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d3fd8, "00", 32).Modify();
+//CC91DCFE0|7cc91dcfe0|20|3e00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d3fe0, "00", 32).Modify();
+//CC91DCFE8|7cc91dcfe8|20|dc00000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d3fe8, "00", 32).Modify();
+//CC91DCFF8|7cc91dcff8|20|6e00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d3ff8, "00", 32).Modify();
+//CC91DD000|7cc91dd000|20|2e00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4000, "00", 32).Modify();
+//CC91DD008|7cc91dd008|20|bc00000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d4008, "00", 32).Modify();
+//CC91DD010|7cc91dd010|20|e00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4010, "00", 32).Modify();
+//CC91DD018|7cc91dd018|20|8e00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4018, "00", 32).Modify();
+//CC91DD020|7cc91dd020|20|4e00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4020, "00", 32).Modify();
+//CC91DD028|7cc91dd028|20|fc00000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d4028, "00", 32).Modify();
+//CC91DD034|7cc91dd034|20|80000000100|
+MemoryPatch::createWithHex("libanort.so", 0x1d4034, "00", 32).Modify();
+//CC91DD038|7cc91dd038|20|5100000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4038, "00", 32).Modify();
+//CC91DD040|7cc91dd040|20|1100000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4040, "00", 32).Modify();
+//CC91DD058|7cc91dd058|20|7100000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4058, "00", 32).Modify();
+//CC91DD060|7cc91dd060|20|3100000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4060, "00", 32).Modify();
+//CC91DD068|7cc91dd068|20|c200000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d4068, "00", 32).Modify();
+//CC91DD078|7cc91dd078|20|6100000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4078, "00", 32).Modify();
+//CC91DD080|7cc91dd080|20|2100000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4080, "00", 32).Modify();
+//CC91DD088|7cc91dd088|20|a200000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d4088, "00", 32).Modify();
+//CC91DD090|7cc91dd090|20|100000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4090, "00", 32).Modify();
+//CC91DD098|7cc91dd098|20|800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4098, "00", 32).Modify();
+//CC91DD0A8|7cc91dd0a8|20|e200000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d40a8, "00", 32).Modify();
+//CC91DD0B8|7cc91dd0b8|20|5900000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d40b8, "00", 32).Modify();
+//CC91DD0C0|7cc91dd0c0|20|1900000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d40c0, "00", 32).Modify();
+//CC91DD0C8|7cc91dd0c8|20|9200000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d40c8, "00", 32).Modify();
+//CC91DD0D8|7cc91dd0d8|20|7900000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d40d8, "00", 32).Modify();
+//CC91DD0E0|7cc91dd0e0|20|3900000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d40e0, "00", 32).Modify();
+//CC91DD0E8|7cc91dd0e8|20|d200000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d40e8, "00", 32).Modify();
+//CC91DD0F8|7cc91dd0f8|20|6900000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d40f8, "00", 32).Modify();
+//CC91DD100|7cc91dd100|20|2900000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4100, "00", 32).Modify();
+//CC91DD108|7cc91dd108|20|b200000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d4108, "00", 32).Modify();
+//CC91DD110|7cc91dd110|20|900000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4110, "00", 32).Modify();
+//CC91DD118|7cc91dd118|20|8900000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4118, "00", 32).Modify();
+//CC91DD120|7cc91dd120|20|4900000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4120, "00", 32).Modify();
+//CC91DD128|7cc91dd128|20|f200000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d4128, "00", 32).Modify();
+//CC91DD138|7cc91dd138|20|5500000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4138, "00", 32).Modify();
+//CC91DD140|7cc91dd140|20|1500000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4140, "00", 32).Modify();
+//CC91DD158|7cc91dd158|20|7500000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4158, "00", 32).Modify();
+//CC91DD160|7cc91dd160|20|3500000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4160, "00", 32).Modify();
+//CC91DD168|7cc91dd168|20|ca00000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d4168, "00", 32).Modify();
+//CC91DD178|7cc91dd178|20|6500000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4178, "00", 32).Modify();
+//CC91DD180|7cc91dd180|20|2500000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4180, "00", 32).Modify();
+//CC91DD188|7cc91dd188|20|aa00000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d4188, "00", 32).Modify();
+//CC91DD190|7cc91dd190|20|500000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4190, "00", 32).Modify();
+//CC91DD198|7cc91dd198|20|8500000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4198, "00", 32).Modify();
+//CC91DD1A0|7cc91dd1a0|20|4500000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d41a0, "00", 32).Modify();
+//CC91DD1A8|7cc91dd1a8|20|ea00000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d41a8, "00", 32).Modify();
+//CC91DD1B8|7cc91dd1b8|20|5d00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d41b8, "00", 32).Modify();
+//CC91DD1C0|7cc91dd1c0|20|1d00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d41c0, "00", 32).Modify();
+//CC91DD1C8|7cc91dd1c8|20|9a00000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d41c8, "00", 32).Modify();
+//CC91DD1D8|7cc91dd1d8|20|7d00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d41d8, "00", 32).Modify();
+//CC91DD1E0|7cc91dd1e0|20|3d00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d41e0, "00", 32).Modify();
+//CC91DD1E8|7cc91dd1e8|20|da00000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d41e8, "00", 32).Modify();
+//CC91DD1F8|7cc91dd1f8|20|6d00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d41f8, "00", 32).Modify();
+//CC91DD200|7cc91dd200|20|2d00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4200, "00", 32).Modify();
+//CC91DD208|7cc91dd208|20|ba00000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d4208, "00", 32).Modify();
+//CC91DD210|7cc91dd210|20|d00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4210, "00", 32).Modify();
+//CC91DD218|7cc91dd218|20|8d00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4218, "00", 32).Modify();
+//CC91DD220|7cc91dd220|20|4d00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4220, "00", 32).Modify();
+//CC91DD228|7cc91dd228|20|fa00000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d4228, "00", 32).Modify();
+//CC91DD238|7cc91dd238|20|5300000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4238, "00", 32).Modify();
+//CC91DD240|7cc91dd240|20|1300000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4240, "00", 32).Modify();
+//CC91DD258|7cc91dd258|20|7300000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4258, "00", 32).Modify();
+//CC91DD260|7cc91dd260|20|3300000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4260, "00", 32).Modify();
+//CC91DD268|7cc91dd268|20|c600000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d4268, "00", 32).Modify();
+//CC91DD278|7cc91dd278|20|6300000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4278, "00", 32).Modify();
+//CC91DD280|7cc91dd280|20|2300000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4280, "00", 32).Modify();
+//CC91DD288|7cc91dd288|20|a600000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d4288, "00", 32).Modify();
+//CC91DD290|7cc91dd290|20|300000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4290, "00", 32).Modify();
+//CC91DD298|7cc91dd298|20|8300000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4298, "00", 32).Modify();
+//CC91DD2A0|7cc91dd2a0|20|4300000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d42a0, "00", 32).Modify();
+//CC91DD2A8|7cc91dd2a8|20|e600000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d42a8, "00", 32).Modify();
+//CC91DD2B8|7cc91dd2b8|20|5b00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d42b8, "00", 32).Modify();
+//CC91DD2C0|7cc91dd2c0|20|1b00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d42c0, "00", 32).Modify();
+//CC91DD2C8|7cc91dd2c8|20|9600000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d42c8, "00", 32).Modify();
+//CC91DD2D8|7cc91dd2d8|20|7b00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d42d8, "00", 32).Modify();
+//CC91DD2E0|7cc91dd2e0|20|3b00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d42e0, "00", 32).Modify();
+//CC91DD2E8|7cc91dd2e8|20|d600000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d42e8, "00", 32).Modify();
+//CC91DD2F8|7cc91dd2f8|20|6b00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d42f8, "00", 32).Modify();
+//CC91DD300|7cc91dd300|20|2b00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4300, "00", 32).Modify();
+//CC91DD308|7cc91dd308|20|b600000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d4308, "00", 32).Modify();
+//CC91DD310|7cc91dd310|20|b00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4310, "00", 32).Modify();
+//CC91DD318|7cc91dd318|20|8b00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4318, "00", 32).Modify();
+//CC91DD320|7cc91dd320|20|4b00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4320, "00", 32).Modify();
+//CC91DD328|7cc91dd328|20|f600000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d4328, "00", 32).Modify();
+//CC91DD338|7cc91dd338|20|5700000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4338, "00", 32).Modify();
+//CC91DD340|7cc91dd340|20|1700000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4340, "00", 32).Modify();
+//CC91DD358|7cc91dd358|20|7700000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4358, "00", 32).Modify();
+//CC91DD360|7cc91dd360|20|3700000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4360, "00", 32).Modify();
+//CC91DD368|7cc91dd368|20|ce00000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d4368, "00", 32).Modify();
+//CC91DD378|7cc91dd378|20|6700000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4378, "00", 32).Modify();
+//CC91DD380|7cc91dd380|20|2700000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4380, "00", 32).Modify();
+//CC91DD388|7cc91dd388|20|ae00000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d4388, "00", 32).Modify();
+//CC91DD390|7cc91dd390|20|700000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4390, "00", 32).Modify();
+//CC91DD398|7cc91dd398|20|8700000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4398, "00", 32).Modify();
+//CC91DD3A0|7cc91dd3a0|20|4700000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d43a0, "00", 32).Modify();
+//CC91DD3A8|7cc91dd3a8|20|ee00000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d43a8, "00", 32).Modify();
+//CC91DD3B8|7cc91dd3b8|20|5f00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d43b8, "00", 32).Modify();
+//CC91DD3C0|7cc91dd3c0|20|1f00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d43c0, "00", 32).Modify();
+//CC91DD3C8|7cc91dd3c8|20|9e00000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d43c8, "00", 32).Modify();
+//CC91DD3D8|7cc91dd3d8|20|7f00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d43d8, "00", 32).Modify();
+//CC91DD3E0|7cc91dd3e0|20|3f00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d43e0, "00", 32).Modify();
+//CC91DD3E8|7cc91dd3e8|20|de00000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d43e8, "00", 32).Modify();
+//CC91DD3F8|7cc91dd3f8|20|6f00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d43f8, "00", 32).Modify();
+//CC91DD400|7cc91dd400|20|2f00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4400, "00", 32).Modify();
+//CC91DD408|7cc91dd408|20|be00000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d4408, "00", 32).Modify();
+//CC91DD410|7cc91dd410|20|f00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4410, "00", 32).Modify();
+//CC91DD418|7cc91dd418|20|8f00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4418, "00", 32).Modify();
+//CC91DD420|7cc91dd420|20|4f00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4420, "00", 32).Modify();
+//CC91DD428|7cc91dd428|20|fe00000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d4428, "00", 32).Modify();
+//CC91DD434|7cc91dd434|20|80000000100|
+MemoryPatch::createWithHex("libanort.so", 0x1d4434, "00", 32).Modify();
+//CC91DD438|7cc91dd438|20|5000000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4438, "00", 32).Modify();
+//CC91DD440|7cc91dd440|20|1000000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4440, "00", 32).Modify();
+//CC91DD458|7cc91dd458|20|7000000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4458, "00", 32).Modify();
+//CC91DD460|7cc91dd460|20|3000000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4460, "00", 32).Modify();
+//CC91DD468|7cc91dd468|20|c100000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d4468, "00", 32).Modify();
+//CC91DD478|7cc91dd478|20|6000000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4478, "00", 32).Modify();
+//CC91DD480|7cc91dd480|20|2000000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4480, "00", 32).Modify();
+//CC91DD488|7cc91dd488|20|a100000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d4488, "00", 32).Modify();
+//CC91DD490|7cc91dd490|20|800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4490, "00", 32).Modify();
+//CC91DD498|7cc91dd498|20|8000000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4498, "00", 32).Modify();
+//CC91DD49C|7cc91dd49c|20|80000000080|
+MemoryPatch::createWithHex("libanort.so", 0x1d449c, "00", 32).Modify();
+//CC91DD4A0|7cc91dd4a0|20|4000000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d44a0, "00", 32).Modify();
+//CC91DD4A8|7cc91dd4a8|20|e100000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d44a8, "00", 32).Modify();
+//CC91DD4B8|7cc91dd4b8|20|5800000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d44b8, "00", 32).Modify();
+//CC91DD4C0|7cc91dd4c0|20|1800000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d44c0, "00", 32).Modify();
+//CC91DD4C8|7cc91dd4c8|20|9100000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d44c8, "00", 32).Modify();
+//CC91DD4D8|7cc91dd4d8|20|7800000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d44d8, "00", 32).Modify();
+//CC91DD4E0|7cc91dd4e0|20|3800000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d44e0, "00", 32).Modify();
+//CC91DD4E8|7cc91dd4e8|20|d100000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d44e8, "00", 32).Modify();
+//CC91DD4F8|7cc91dd4f8|20|6800000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d44f8, "00", 32).Modify();
+//CC91DD500|7cc91dd500|20|2800000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4500, "00", 32).Modify();
+//CC91DD508|7cc91dd508|20|b100000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d4508, "00", 32).Modify();
+//CC91DD510|7cc91dd510|20|800000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4510, "00", 32).Modify();
+//CC91DD518|7cc91dd518|20|8800000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4518, "00", 32).Modify();
+//CC91DD520|7cc91dd520|20|4800000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4520, "00", 32).Modify();
+//CC91DD528|7cc91dd528|20|f100000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d4528, "00", 32).Modify();
+//CC91DD538|7cc91dd538|20|5400000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4538, "00", 32).Modify();
+//CC91DD540|7cc91dd540|20|1400000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4540, "00", 32).Modify();
+//CC91DD558|7cc91dd558|20|7400000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4558, "00", 32).Modify();
+//CC91DD560|7cc91dd560|20|3400000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4560, "00", 32).Modify();
+//CC91DD568|7cc91dd568|20|c900000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d4568, "00", 32).Modify();
+//CC91DD578|7cc91dd578|20|6400000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4578, "00", 32).Modify();
+//CC91DD580|7cc91dd580|20|2400000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4580, "00", 32).Modify();
+//CC91DD588|7cc91dd588|20|a900000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d4588, "00", 32).Modify();
+//CC91DD590|7cc91dd590|20|400000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4590, "00", 32).Modify();
+//CC91DD598|7cc91dd598|20|8400000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4598, "00", 32).Modify();
+//CC91DD5A0|7cc91dd5a0|20|4400000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d45a0, "00", 32).Modify();
+//CC91DD5A8|7cc91dd5a8|20|e900000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d45a8, "00", 32).Modify();
+//CC91DD5B8|7cc91dd5b8|20|5c00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d45b8, "00", 32).Modify();
+//CC91DD5C0|7cc91dd5c0|20|1c00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d45c0, "00", 32).Modify();
+//CC91DD5C8|7cc91dd5c8|20|9900000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d45c8, "00", 32).Modify();
+//CC91DD5D8|7cc91dd5d8|20|7c00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d45d8, "00", 32).Modify();
+//CC91DD5E0|7cc91dd5e0|20|3c00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d45e0, "00", 32).Modify();
+//CC91DD5E8|7cc91dd5e8|20|d900000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d45e8, "00", 32).Modify();
+//CC91DD5F8|7cc91dd5f8|20|6c00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d45f8, "00", 32).Modify();
+//CC91DD600|7cc91dd600|20|2c00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4600, "00", 32).Modify();
+//CC91DD608|7cc91dd608|20|b900000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d4608, "00", 32).Modify();
+//CC91DD610|7cc91dd610|20|c00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4610, "00", 32).Modify();
+//CC91DD618|7cc91dd618|20|8c00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4618, "00", 32).Modify();
+//CC91DD620|7cc91dd620|20|4c00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4620, "00", 32).Modify();
+//CC91DD628|7cc91dd628|20|f900000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d4628, "00", 32).Modify();
+//CC91DD638|7cc91dd638|20|5200000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4638, "00", 32).Modify();
+//CC91DD640|7cc91dd640|20|1200000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4640, "00", 32).Modify();
+//CC91DD658|7cc91dd658|20|7200000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4658, "00", 32).Modify();
+//CC91DD660|7cc91dd660|20|3200000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4660, "00", 32).Modify();
+//CC91DD668|7cc91dd668|20|c500000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d4668, "00", 32).Modify();
+//CC91DD678|7cc91dd678|20|6200000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4678, "00", 32).Modify();
+//CC91DD680|7cc91dd680|20|2200000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4680, "00", 32).Modify();
+//CC91DD688|7cc91dd688|20|a500000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d4688, "00", 32).Modify();
+//CC91DD690|7cc91dd690|20|200000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4690, "00", 32).Modify();
+//CC91DD698|7cc91dd698|20|8200000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4698, "00", 32).Modify();
+//CC91DD6A0|7cc91dd6a0|20|4200000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d46a0, "00", 32).Modify();
+//CC91DD6A8|7cc91dd6a8|20|e500000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d46a8, "00", 32).Modify();
+//CC91DD6B8|7cc91dd6b8|20|5a00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d46b8, "00", 32).Modify();
+//CC91DD6C0|7cc91dd6c0|20|1a00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d46c0, "00", 32).Modify();
+//CC91DD6C8|7cc91dd6c8|20|9500000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d46c8, "00", 32).Modify();
+//CC91DD6D8|7cc91dd6d8|20|7a00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d46d8, "00", 32).Modify();
+//CC91DD6E0|7cc91dd6e0|20|3a00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d46e0, "00", 32).Modify();
+//CC91DD6E8|7cc91dd6e8|20|d500000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d46e8, "00", 32).Modify();
+//CC91DD6F8|7cc91dd6f8|20|6a00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d46f8, "00", 32).Modify();
+//CC91DD700|7cc91dd700|20|2a00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4700, "00", 32).Modify();
+//CC91DD708|7cc91dd708|20|b500000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d4708, "00", 32).Modify();
+//CC91DD710|7cc91dd710|20|a00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4710, "00", 32).Modify();
+//CC91DD718|7cc91dd718|20|8a00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4718, "00", 32).Modify();
+//CC91DD720|7cc91dd720|20|4a00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4720, "00", 32).Modify();
+//CC91DD728|7cc91dd728|20|f500000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d4728, "00", 32).Modify();
+//CC91DD738|7cc91dd738|20|5600000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4738, "00", 32).Modify();
+//CC91DD740|7cc91dd740|20|1600000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4740, "00", 32).Modify();
+//CC91DD758|7cc91dd758|20|7600000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4758, "00", 32).Modify();
+//CC91DD760|7cc91dd760|20|3600000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4760, "00", 32).Modify();
+//CC91DD768|7cc91dd768|20|cd00000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d4768, "00", 32).Modify();
+//CC91DD778|7cc91dd778|20|6600000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4778, "00", 32).Modify();
+//CC91DD780|7cc91dd780|20|2600000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4780, "00", 32).Modify();
+//CC91DD788|7cc91dd788|20|ad00000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d4788, "00", 32).Modify();
+//CC91DD790|7cc91dd790|20|600000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4790, "00", 32).Modify();
+//CC91DD798|7cc91dd798|20|8600000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4798, "00", 32).Modify();
+//CC91DD7A0|7cc91dd7a0|20|4600000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d47a0, "00", 32).Modify();
+//CC91DD7A8|7cc91dd7a8|20|ed00000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d47a8, "00", 32).Modify();
+//CC91DD7B8|7cc91dd7b8|20|5e00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d47b8, "00", 32).Modify();
+//CC91DD7C0|7cc91dd7c0|20|1e00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d47c0, "00", 32).Modify();
+//CC91DD7C8|7cc91dd7c8|20|9d00000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d47c8, "00", 32).Modify();
+//CC91DD7D8|7cc91dd7d8|20|7e00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d47d8, "00", 32).Modify();
+//CC91DD7E0|7cc91dd7e0|20|3e00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d47e0, "00", 32).Modify();
+//CC91DD7E8|7cc91dd7e8|20|dd00000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d47e8, "00", 32).Modify();
+//CC91DD7F8|7cc91dd7f8|20|6e00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d47f8, "00", 32).Modify();
+//CC91DD800|7cc91dd800|20|2e00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4800, "00", 32).Modify();
+//CC91DD808|7cc91dd808|20|bd00000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d4808, "00", 32).Modify();
+//CC91DD810|7cc91dd810|20|e00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4810, "00", 32).Modify();
+//CC91DD818|7cc91dd818|20|8e00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4818, "00", 32).Modify();
+//CC91DD820|7cc91dd820|20|4e00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4820, "00", 32).Modify();
+//CC91DD828|7cc91dd828|20|fd00000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d4828, "00", 32).Modify();
+//CC91DD834|7cc91dd834|20|80000000100|
+MemoryPatch::createWithHex("libanort.so", 0x1d4834, "00", 32).Modify();
+//CC91DD838|7cc91dd838|20|5100000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4838, "00", 32).Modify();
+//CC91DD840|7cc91dd840|20|1100000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4840, "00", 32).Modify();
+//CC91DD858|7cc91dd858|20|7100000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4858, "00", 32).Modify();
+//CC91DD860|7cc91dd860|20|3100000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4860, "00", 32).Modify();
+//CC91DD868|7cc91dd868|20|c300000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d4868, "00", 32).Modify();
+//CC91DD878|7cc91dd878|20|6100000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4878, "00", 32).Modify();
+//CC91DD880|7cc91dd880|20|2100000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4880, "00", 32).Modify();
+//CC91DD888|7cc91dd888|20|a300000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d4888, "00", 32).Modify();
+//CC91DD890|7cc91dd890|20|100000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4890, "00", 32).Modify();
+//CC91DD898|7cc91dd898|20|800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4898, "00", 32).Modify();
+//CC91DD8A8|7cc91dd8a8|20|e300000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d48a8, "00", 32).Modify();
+//CC91DD8B8|7cc91dd8b8|20|5900000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d48b8, "00", 32).Modify();
+//CC91DD8C0|7cc91dd8c0|20|1900000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d48c0, "00", 32).Modify();
+//CC91DD8C8|7cc91dd8c8|20|9300000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d48c8, "00", 32).Modify();
+//CC91DD8D8|7cc91dd8d8|20|7900000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d48d8, "00", 32).Modify();
+//CC91DD8E0|7cc91dd8e0|20|3900000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d48e0, "00", 32).Modify();
+//CC91DD8E8|7cc91dd8e8|20|d300000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d48e8, "00", 32).Modify();
+//CC91DD8F8|7cc91dd8f8|20|6900000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d48f8, "00", 32).Modify();
+//CC91DD900|7cc91dd900|20|2900000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4900, "00", 32).Modify();
+//CC91DD908|7cc91dd908|20|b300000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d4908, "00", 32).Modify();
+//CC91DD910|7cc91dd910|20|900000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4910, "00", 32).Modify();
+//CC91DD918|7cc91dd918|20|8900000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4918, "00", 32).Modify();
+//CC91DD920|7cc91dd920|20|4900000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4920, "00", 32).Modify();
+//CC91DD928|7cc91dd928|20|f300000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d4928, "00", 32).Modify();
+//CC91DD938|7cc91dd938|20|5500000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4938, "00", 32).Modify();
+//CC91DD940|7cc91dd940|20|1500000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4940, "00", 32).Modify();
+//CC91DD958|7cc91dd958|20|7500000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4958, "00", 32).Modify();
+//CC91DD960|7cc91dd960|20|3500000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4960, "00", 32).Modify();
+//CC91DD968|7cc91dd968|20|cb00000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d4968, "00", 32).Modify();
+//CC91DD978|7cc91dd978|20|6500000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4978, "00", 32).Modify();
+//CC91DD980|7cc91dd980|20|2500000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4980, "00", 32).Modify();
+//CC91DD988|7cc91dd988|20|ab00000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d4988, "00", 32).Modify();
+//CC91DD990|7cc91dd990|20|500000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4990, "00", 32).Modify();
+//CC91DD998|7cc91dd998|20|8500000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4998, "00", 32).Modify();
+//CC91DD9A0|7cc91dd9a0|20|4500000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d49a0, "00", 32).Modify();
+//CC91DD9A8|7cc91dd9a8|20|eb00000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d49a8, "00", 32).Modify();
+//CC91DD9B8|7cc91dd9b8|20|5d00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d49b8, "00", 32).Modify();
+//CC91DD9C0|7cc91dd9c0|20|1d00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d49c0, "00", 32).Modify();
+//CC91DD9C8|7cc91dd9c8|20|9b00000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d49c8, "00", 32).Modify();
+//CC91DD9D8|7cc91dd9d8|20|7d00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d49d8, "00", 32).Modify();
+//CC91DD9E0|7cc91dd9e0|20|3d00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d49e0, "00", 32).Modify();
+//CC91DD9E8|7cc91dd9e8|20|db00000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d49e8, "00", 32).Modify();
+//CC91DD9F8|7cc91dd9f8|20|6d00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d49f8, "00", 32).Modify();
+//CC91DDA00|7cc91dda00|20|2d00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4a00, "00", 32).Modify();
+//CC91DDA08|7cc91dda08|20|bb00000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d4a08, "00", 32).Modify();
+//CC91DDA10|7cc91dda10|20|d00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4a10, "00", 32).Modify();
+//CC91DDA18|7cc91dda18|20|8d00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4a18, "00", 32).Modify();
+//CC91DDA20|7cc91dda20|20|4d00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4a20, "00", 32).Modify();
+//CC91DDA28|7cc91dda28|20|fb00000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d4a28, "00", 32).Modify();
+//CC91DDA38|7cc91dda38|20|5300000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4a38, "00", 32).Modify();
+//CC91DDA40|7cc91dda40|20|1300000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4a40, "00", 32).Modify();
+//CC91DDA58|7cc91dda58|20|7300000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4a58, "00", 32).Modify();
+//CC91DDA60|7cc91dda60|20|3300000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4a60, "00", 32).Modify();
+//CC91DDA68|7cc91dda68|20|c700000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d4a68, "00", 32).Modify();
+//CC91DDA78|7cc91dda78|20|6300000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4a78, "00", 32).Modify();
+//CC91DDA80|7cc91dda80|20|2300000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4a80, "00", 32).Modify();
+//CC91DDA88|7cc91dda88|20|a700000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d4a88, "00", 32).Modify();
+//CC91DDA90|7cc91dda90|20|300000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4a90, "00", 32).Modify();
+//CC91DDA98|7cc91dda98|20|8300000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4a98, "00", 32).Modify();
+//CC91DDAA0|7cc91ddaa0|20|4300000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4aa0, "00", 32).Modify();
+//CC91DDAA8|7cc91ddaa8|20|e700000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d4aa8, "00", 32).Modify();
+//CC91DDAB8|7cc91ddab8|20|5b00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4ab8, "00", 32).Modify();
+//CC91DDAC0|7cc91ddac0|20|1b00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4ac0, "00", 32).Modify();
+//CC91DDAC8|7cc91ddac8|20|9700000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d4ac8, "00", 32).Modify();
+//CC91DDAD8|7cc91ddad8|20|7b00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4ad8, "00", 32).Modify();
+//CC91DDAE0|7cc91ddae0|20|3b00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4ae0, "00", 32).Modify();
+//CC91DDAE8|7cc91ddae8|20|d700000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d4ae8, "00", 32).Modify();
+//CC91DDAF8|7cc91ddaf8|20|6b00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4af8, "00", 32).Modify();
+//CC91DDB00|7cc91ddb00|20|2b00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4b00, "00", 32).Modify();
+//CC91DDB08|7cc91ddb08|20|b700000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d4b08, "00", 32).Modify();
+//CC91DDB10|7cc91ddb10|20|b00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4b10, "00", 32).Modify();
+//CC91DDB18|7cc91ddb18|20|8b00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4b18, "00", 32).Modify();
+//CC91DDB20|7cc91ddb20|20|4b00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4b20, "00", 32).Modify();
+//CC91DDB28|7cc91ddb28|20|f700000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d4b28, "00", 32).Modify();
+//CC91DDB38|7cc91ddb38|20|5700000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4b38, "00", 32).Modify();
+//CC91DDB40|7cc91ddb40|20|1700000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4b40, "00", 32).Modify();
+//CC91DDB58|7cc91ddb58|20|7700000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4b58, "00", 32).Modify();
+//CC91DDB60|7cc91ddb60|20|3700000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4b60, "00", 32).Modify();
+//CC91DDB68|7cc91ddb68|20|cf00000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d4b68, "00", 32).Modify();
+//CC91DDB78|7cc91ddb78|20|6700000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4b78, "00", 32).Modify();
+//CC91DDB80|7cc91ddb80|20|2700000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4b80, "00", 32).Modify();
+//CC91DDB88|7cc91ddb88|20|af00000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d4b88, "00", 32).Modify();
+//CC91DDB90|7cc91ddb90|20|700000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4b90, "00", 32).Modify();
+//CC91DDB98|7cc91ddb98|20|8700000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4b98, "00", 32).Modify();
+//CC91DDBA0|7cc91ddba0|20|4700000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4ba0, "00", 32).Modify();
+//CC91DDBA8|7cc91ddba8|20|ef00000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d4ba8, "00", 32).Modify();
+//CC91DDBB8|7cc91ddbb8|20|5f00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4bb8, "00", 32).Modify();
+//CC91DDBC0|7cc91ddbc0|20|1f00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4bc0, "00", 32).Modify();
+//CC91DDBC8|7cc91ddbc8|20|9f00000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d4bc8, "00", 32).Modify();
+//CC91DDBD8|7cc91ddbd8|20|7f00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4bd8, "00", 32).Modify();
+//CC91DDBE0|7cc91ddbe0|20|3f00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4be0, "00", 32).Modify();
+//CC91DDBE8|7cc91ddbe8|20|df00000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d4be8, "00", 32).Modify();
+//CC91DDBF8|7cc91ddbf8|20|6f00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4bf8, "00", 32).Modify();
+//CC91DDC00|7cc91ddc00|20|2f00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4c00, "00", 32).Modify();
+//CC91DDC08|7cc91ddc08|20|bf00000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d4c08, "00", 32).Modify();
+//CC91DDC10|7cc91ddc10|20|f00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4c10, "00", 32).Modify();
+//CC91DDC18|7cc91ddc18|20|8f00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4c18, "00", 32).Modify();
+//CC91DDC20|7cc91ddc20|20|4f00000800|
+MemoryPatch::createWithHex("libanort.so", 0x1d4c20, "00", 32).Modify();
+//CC91DDC28|7cc91ddc28|20|ff00000900|
+MemoryPatch::createWithHex("libanort.so", 0x1d4c28, "00", 32).Modify();
+//CC91E2998|7cc91e2998|20|d1310ba600000080|
+MemoryPatch::createWithHex("libanort.so", 0x1d9998, "00", 32).Modify();
+

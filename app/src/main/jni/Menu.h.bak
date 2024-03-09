@@ -1,0 +1,1240 @@
+
+MemoryPatch::createWithHex("libanogs.so", 0x4d6d96, "43 B0 2C 0C").Modify();
+// #70B1FECD97|70b1fecd97|1|73|0|0|0|0|r-
+MemoryPatch::createWithHex("libanogs.so", 0x4d6d97, "43 B0 2C 0C").Modify();
+// #70B1FECD98|70b1fecd98|1|73|0|0|0|0|r-
+MemoryPatch::createWithHex("libanogs.so", 0x4d6d98, "43 B0 2C 0C").Modify();
+// #70B1FECD99|70b1fecd99|1|5f|0|0|0|0|r-
+MemoryPatch::createWithHex("libanogs.so", 0x4d6d99, "43 B0 2C 0C").Modify();
+// #70B1FECD9A|70b1fecd9a|1|6473|0|0|0|0|r-
+MemoryPatch::createWithHex("libanogs.so", 0x4d6d9a, "43 B0 2C 0C").Modify();
+// #70B1FECD9B|70b1fecd9b|1|64|0|0|0|0|r-
+MemoryPatch::createWithHex("libanogs.so", 0x4d6d9b, "43 B0 2C 0C").Modify();
+// #70B1FECD9C|70b1fecd9c|1|6b|0|0|0|0|r-
+MemoryPatch::createWithHex("libanogs.so", 0x4d6d9c, "43 B0 2C 0C").Modify();
+// #70B1FECD9D|70b1fecd9d|1|5f|0|0|0|0|r-
+MemoryPatch::createWithHex("libanogs.so", 0x4d6d9d, "43 B0 2C 0C").Modify();
+// #70B1FECD9E|70b1fecd9e|1|6573|0|0|0|0|r-
+MemoryPatch::createWithHex("libanogs.so", 0x4d6d9e, "43 B0 2C 0C").Modify();
+// #70B1FECD9F|70b1fecd9f|1|65|0|0|0|0|r-
+MemoryPatch::createWithHex("libanogs.so", 0x4d6d9f, "43 B0 2C 0C").Modify();
+// #70B1FECDA0|70b1fecda0|1|6e|0|0|0|0|r-
+MemoryPatch::createWithHex("libanogs.so", 0x4d6da0, "43 B0 2C 0C").Modify();
+// #70B1FECDA1|70b1fecda1|1|64|0|0|0|0|r-
+MemoryPatch::createWithHex("libanogs.so", 0x4d6da1, "43 B0 2C 0C").Modify();
+// #70B1FECDA2|70b1fecda2|1|645f|0|0|0|0|r-
+MemoryPatch::createWithHex("libanogs.so", 0x4d6da2, "43 B0 2C 0C").Modify();
+// #70B1FECDA3|70b1fecda3|1|64|0|0|0|0|r-
+MemoryPatch::createWithHex("libanogs.so", 0x4d6da3, "43 B0 2C 0C").Modify();
+// #70B1FECDA4|70b1fecda4|1|61|0|0|0|0|r-
+MemoryPatch::createWithHex("libanogs.so", 0x4d6da4, "43 B0 2C 0C").Modify();
+// #70B1FECDA5|70b1fecda5|1|74|0|0|0|0|r-
+MemoryPatch::createWithHex("libanogs.so", 0x4d6da5, "43 B0 2C 0C").Modify();
+// #70B1FECDA6|70b1fecda6|1|5f61|0|0|0|0|r-
+MemoryPatch::createWithHex("libanogs.so", 0x4d6da6, "43 B0 2C 0C").Modify();
+// #70B1FECDA7|70b1fecda7|1|5f|0|0|0|0|r-
+MemoryPatch::createWithHex("libanogs.so", 0x4d6da7, "43 B0 2C 0C").Modify();
+// #70B1FECDA8|70b1fecda8|1|74|0|0|0|0|r-
+MemoryPatch::createWithHex("libanogs.so", 0x4d6da8, "43 B0 2C 0C").Modify();
+// #70B1FECDA9|70b1fecda9|1|6f|0|0|0|0|r-
+MemoryPatch::createWithHex("libanogs.so", 0x4d6da9, "43 B0 2C 0C").Modify();
+// #70B1FECDAA|70b1fecdaa|1|735f|0|0|0|0|r-
+MemoryPatch::createWithHex("libanogs.so", 0x4d6daa, "43 B0 2C 0C").Modify();
+// #70B1FECDAB|70b1fecdab|1|73|0|0|0|0|r-
+MemoryPatch::createWithHex("libanogs.so", 0x4d6dab, "43 B0 2C 0C").Modify();
+// #70B1FECDAC|70b1fecdac|1|76|0|0|0|0|r-
+MemoryPatch::createWithHex("libanogs.so", 0x4d6dac, "43 B0 2C 0C").Modify();
+// #70B1FECDAD|70b1fecdad|1|72|0|0|0|0|r-
+MemoryPatch::createWithHex("libanogs.so", 0x4d6dad, "43 B0 2C 0C").Modify();
+
+//794C17AC54794c17ac54
+MemoryPatch::createWithHex("libanogs.so", 0x4b5c54, "43 B0 2C 0C").Modify();
+//794C17AC58794c17ac58
+MemoryPatch::createWithHex("libanogs.so", 0x4b5c58, "43 B0 2C 0C").Modify();
+//794C17AC5C794c17ac5c
+MemoryPatch::createWithHex("libanogs.so", 0x4b5c5c, "43 B0 2C 0C").Modify();
+//794C17AC60794c17ac60
+MemoryPatch::createWithHex("libanogs.so", 0x4b5c60, "43 B0 2C 0C").Modify();
+//794C17AC64794c17ac64
+MemoryPatch::createWithHex("libanogs.so", 0x4b5c64, "43 B0 2C 0C").Modify();
+//794C17AC68794c17ac68
+MemoryPatch::createWithHex("libanogs.so", 0x4b5c68, "43 B0 2C 0C").Modify();
+//794C17AC6C794c17ac6c
+MemoryPatch::createWithHex("libanogs.so", 0x4b5c6c, "43 B0 2C 0C").Modify();
+//794C17AC70794c17ac70
+MemoryPatch::createWithHex("libanogs.so", 0x4b5c70, "43 B0 2C 0C").Modify();
+//794C17AC74794c17ac74
+MemoryPatch::createWithHex("libanogs.so", 0x4b5c74, "43 B0 2C 0C").Modify();
+//794C17AC78794c17ac78
+MemoryPatch::createWithHex("libanogs.so", 0x4b5c78, "43 B0 2C 0C").Modify();
+//794C17AC7C794c17ac7c
+MemoryPatch::createWithHex("libanogs.so", 0x4b5c7c, "43 B0 2C 0C").Modify();
+//794C17AC80794c17ac80
+MemoryPatch::createWithHex("libanogs.so", 0x4b5c80, "43 B0 2C 0C").Modify();
+//794C17AC84794c17ac84
+MemoryPatch::createWithHex("libanogs.so", 0x4b5c84, "43 B0 2C 0C").Modify();
+//794C17AC88794c17ac88
+MemoryPatch::createWithHex("libanogs.so", 0x4b5c88, "43 B0 2C 0C").Modify();
+//794C17AC8C794c17ac8c
+MemoryPatch::createWithHex("libanogs.so", 0x4b5c8c, "43 B0 2C 0C").Modify();
+//794C17AC90794c17ac90
+MemoryPatch::createWithHex("libanogs.so", 0x4b5c90, "43 B0 2C 0C").Modify();
+//794C17AC94794c17ac94
+MemoryPatch::createWithHex("libanogs.so", 0x4b5c94, "43 B0 2C 0C").Modify();
+//794C17AC98794c17ac98
+MemoryPatch::createWithHex("libanogs.so", 0x4b5c98, "43 B0 2C 0C").Modify();
+//794C17AC9C794c17ac9c
+MemoryPatch::createWithHex("libanogs.so", 0x4b5c9c, "43 B0 2C 0C").Modify();
+//794C17ACA0794c17aca0
+MemoryPatch::createWithHex("libanogs.so", 0x4b5ca0, "43 B0 2C 0C").Modify();
+//794C17ACA4794c17aca4
+MemoryPatch::createWithHex("libanogs.so", 0x4b5ca4, "43 B0 2C 0C").Modify();
+//794C17ACA8794c17aca8
+MemoryPatch::createWithHex("libanogs.so", 0x4b5ca8, "43 B0 2C 0C").Modify();
+//794C17ACAC794c17acac
+MemoryPatch::createWithHex("libanogs.so", 0x4b5cac, "43 B0 2C 0C").Modify();
+//794C17ACB0794c17acb0
+MemoryPatch::createWithHex("libanogs.so", 0x4b5cb0, "43 B0 2C 0C").Modify();
+//794C17ACB4794c17acb4
+MemoryPatch::createWithHex("libanogs.so", 0x4b5cb4, "43 B0 2C 0C").Modify();
+//794C17ACB8794c17acb8
+MemoryPatch::createWithHex("libanogs.so", 0x4b5cb8, "43 B0 2C 0C").Modify();
+//794C17ACBC794c17acbc
+MemoryPatch::createWithHex("libanogs.so", 0x4b5cbc, "43 B0 2C 0C").Modify();
+//794C17ACC0794c17acc0
+MemoryPatch::createWithHex("libanogs.so", 0x4b5cc0, "43 B0 2C 0C").Modify();
+//794C17ACC4794c17acc4
+MemoryPatch::createWithHex("libanogs.so", 0x4b5cc4, "43 B0 2C 0C").Modify();
+//794C17ACC8794c17acc8
+MemoryPatch::createWithHex("libanogs.so", 0x4b5cc8, "43 B0 2C 0C").Modify();
+//794C17ACCC794c17accc
+MemoryPatch::createWithHex("libanogs.so", 0x4b5ccc, "43 B0 2C 0C").Modify();
+//794C17ACD0794c17acd0
+MemoryPatch::createWithHex("libanogs.so", 0x4b5cd0, "43 B0 2C 0C").Modify();
+//794C17ACD4794c17acd4
+MemoryPatch::createWithHex("libanogs.so", 0x4b5cd4, "43 B0 2C 0C").Modify();
+//794C17ACD8794c17acd8
+MemoryPatch::createWithHex("libanogs.so", 0x4b5cd8, "43 B0 2C 0C").Modify();
+//794C17ACDC794c17acdc
+MemoryPatch::createWithHex("libanogs.so", 0x4b5cdc, "43 B0 2C 0C").Modify();
+//794C17ACE0794c17ace0
+MemoryPatch::createWithHex("libanogs.so", 0x4b5ce0, "43 B0 2C 0C").Modify();
+//794C17ACE4794c17ace4
+MemoryPatch::createWithHex("libanogs.so", 0x4b5ce4, "43 B0 2C 0C").Modify();
+//794C17ACE8794c17ace8
+MemoryPatch::createWithHex("libanogs.so", 0x4b5ce8, "43 B0 2C 0C").Modify();
+//794C17ACEC794c17acec
+MemoryPatch::createWithHex("libanogs.so", 0x4b5cec, "43 B0 2C 0C").Modify();
+//794C17ACF0794c17acf0
+MemoryPatch::createWithHex("libanogs.so", 0x4b5cf0, "43 B0 2C 0C").Modify();
+//794C17ACF4794c17acf4
+MemoryPatch::createWithHex("libanogs.so", 0x4b5cf4, "43 B0 2C 0C").Modify();
+//794C17ACF8794c17acf8
+MemoryPatch::createWithHex("libanogs.so", 0x4b5cf8, "43 B0 2C 0C").Modify();
+//794C17ACFC794c17acfc
+MemoryPatch::createWithHex("libanogs.so", 0x4b5cfc, "43 B0 2C 0C").Modify();
+//794C17AD00794c17ad00
+MemoryPatch::createWithHex("libanogs.so", 0x4b5d00, "43 B0 2C 0C").Modify();
+//794C17AD04794c17ad04
+MemoryPatch::createWithHex("libanogs.so", 0x4b5d04, "43 B0 2C 0C").Modify();
+//794C17AD08794c17ad08
+MemoryPatch::createWithHex("libanogs.so", 0x4b5d08, "43 B0 2C 0C").Modify();
+//794C17AD0C794c17ad0c
+MemoryPatch::createWithHex("libanogs.so", 0x4b5d0c, "43 B0 2C 0C").Modify();
+//794C17AD10794c17ad10
+MemoryPatch::createWithHex("libanogs.so", 0x4b5d10, "43 B0 2C 0C").Modify();
+//794C17AD14794c17ad14
+MemoryPatch::createWithHex("libanogs.so", 0x4b5d14, "43 B0 2C 0C").Modify();
+//794C17AD18794c17ad18
+MemoryPatch::createWithHex("libanogs.so", 0x4b5d18, "43 B0 2C 0C").Modify();
+//794C17AD1C794c17ad1c
+MemoryPatch::createWithHex("libanogs.so", 0x4b5d1c, "43 B0 2C 0C").Modify();
+//794C17AD20794c17ad20
+MemoryPatch::createWithHex("libanogs.so", 0x4b5d20, "43 B0 2C 0C").Modify();
+//794C17AD24794c17ad24
+MemoryPatch::createWithHex("libanogs.so", 0x4b5d24, "43 B0 2C 0C").Modify();
+//794C17AD28794c17ad28
+MemoryPatch::createWithHex("libanogs.so", 0x4b5d28, "43 B0 2C 0C").Modify();
+//794C17AD2C794c17ad2c
+MemoryPatch::createWithHex("libanogs.so", 0x4b5d2c, "43 B0 2C 0C").Modify();
+//794C17AD30794c17ad30
+MemoryPatch::createWithHex("libanogs.so", 0x4b5d30, "43 B0 2C 0C").Modify();
+//794C17AD34794c17ad34
+MemoryPatch::createWithHex("libanogs.so", 0x4b5d34, "43 B0 2C 0C").Modify();
+//794C17AD38794c17ad38
+MemoryPatch::createWithHex("libanogs.so", 0x4b5d38, "43 B0 2C 0C").Modify();
+//794C17AD3C794c17ad3c
+MemoryPatch::createWithHex("libanogs.so", 0x4b5d3c, "43 B0 2C 0C").Modify();
+//794C17AD40794c17ad40
+MemoryPatch::createWithHex("libanogs.so", 0x4b5d40, "43 B0 2C 0C").Modify();
+//794C17AD44794c17ad44
+MemoryPatch::createWithHex("libanogs.so", 0x4b5d44, "43 B0 2C 0C").Modify();
+//794C17AD48794c17ad48
+MemoryPatch::createWithHex("libanogs.so", 0x4b5d48, "43 B0 2C 0C").Modify();
+//794C17AD4C794c17ad4c
+MemoryPatch::createWithHex("libanogs.so", 0x4b5d4c, "43 B0 2C 0C").Modify();
+//794C17AD50794c17ad50
+MemoryPatch::createWithHex("libanogs.so", 0x4b5d50, "43 B0 2C 0C").Modify();
+//794C17AD54794c17ad54
+MemoryPatch::createWithHex("libanogs.so", 0x4b5d54, "43 B0 2C 0C").Modify();
+//794C17AD58794c17ad58
+MemoryPatch::createWithHex("libanogs.so", 0x4b5d58, "43 B0 2C 0C").Modify();
+//794C17AD5C794c17ad5c
+MemoryPatch::createWithHex("libanogs.so", 0x4b5d5c, "43 B0 2C 0C").Modify();
+//794C17AD60794c17ad60
+MemoryPatch::createWithHex("libanogs.so", 0x4b5d60, "43 B0 2C 0C").Modify();
+//794C17AD64794c17ad64
+MemoryPatch::createWithHex("libanogs.so", 0x4b5d64, "43 B0 2C 0C").Modify();
+//794C17AD68794c17ad68
+MemoryPatch::createWithHex("libanogs.so", 0x4b5d68, "43 B0 2C 0C").Modify();
+//794C17AD6C794c17ad6c
+MemoryPatch::createWithHex("libanogs.so", 0x4b5d6c, "43 B0 2C 0C").Modify();
+//794C17AD70794c17ad70
+MemoryPatch::createWithHex("libanogs.so", 0x4b5d70, "43 B0 2C 0C").Modify();
+//794C17AD74794c17ad74
+MemoryPatch::createWithHex("libanogs.so", 0x4b5d74, "43 B0 2C 0C").Modify();
+//794C17AD78794c17ad78
+MemoryPatch::createWithHex("libanogs.so", 0x4b5d78, "43 B0 2C 0C").Modify();
+//794C17AD7C794c17ad7c
+MemoryPatch::createWithHex("libanogs.so", 0x4b5d7c, "43 B0 2C 0C").Modify();
+//794C17AD80794c17ad80
+MemoryPatch::createWithHex("libanogs.so", 0x4b5d80, "43 B0 2C 0C").Modify();
+//794C17AD84794c17ad84
+MemoryPatch::createWithHex("libanogs.so", 0x4b5d84, "43 B0 2C 0C").Modify();
+//794C17AD88794c17ad88
+MemoryPatch::createWithHex("libanogs.so", 0x4b5d88, "43 B0 2C 0C").Modify();
+//794C17AD8C794c17ad8c
+MemoryPatch::createWithHex("libanogs.so", 0x4b5d8c, "43 B0 2C 0C").Modify();
+//794C17AD90794c17ad90
+MemoryPatch::createWithHex("libanogs.so", 0x4b5d90, "43 B0 2C 0C").Modify();
+//794C17AD94794c17ad94
+MemoryPatch::createWithHex("libanogs.so", 0x4b5d94, "43 B0 2C 0C").Modify();
+//794C17AD98794c17ad98
+MemoryPatch::createWithHex("libanogs.so", 0x4b5d98, "43 B0 2C 0C").Modify();
+//794C17AD9C794c17ad9c
+MemoryPatch::createWithHex("libanogs.so", 0x4b5d9c, "43 B0 2C 0C").Modify();
+//794C17ADA0794c17ada0
+MemoryPatch::createWithHex("libanogs.so", 0x4b5da0, "43 B0 2C 0C").Modify();
+//794C17ADA4794c17ada4
+MemoryPatch::createWithHex("libanogs.so", 0x4b5da4, "43 B0 2C 0C").Modify();
+//794C17ADA8794c17ada8
+MemoryPatch::createWithHex("libanogs.so", 0x4b5da8, "43 B0 2C 0C").Modify();
+//794C17ADAC794c17adac
+MemoryPatch::createWithHex("libanogs.so", 0x4b5dac, "43 B0 2C 0C").Modify();
+//794C17ADB0794c17adb0
+MemoryPatch::createWithHex("libanogs.so", 0x4b5db0, "43 B0 2C 0C").Modify();
+//794C17ADB4794c17adb4
+MemoryPatch::createWithHex("libanogs.so", 0x4b5db4, "43 B0 2C 0C").Modify();
+//794C17ADB8794c17adb8
+MemoryPatch::createWithHex("libanogs.so", 0x4b5db8, "43 B0 2C 0C").Modify();
+//794C17ADBC794c17adbc
+MemoryPatch::createWithHex("libanogs.so", 0x4b5dbc, "43 B0 2C 0C").Modify();
+//794C17ADC0794c17adc0
+MemoryPatch::createWithHex("libanogs.so", 0x4b5dc0, "43 B0 2C 0C").Modify();
+//794C17ADC4794c17adc4
+MemoryPatch::createWithHex("libanogs.so", 0x4b5dc4, "43 B0 2C 0C").Modify();
+//794C17ADC8794c17adc8
+MemoryPatch::createWithHex("libanogs.so", 0x4b5dc8, "43 B0 2C 0C").Modify();
+//794C17ADCC794c17adcc
+MemoryPatch::createWithHex("libanogs.so", 0x4b5dcc, "43 B0 2C 0C").Modify();
+//794C17ADD0794c17add0
+MemoryPatch::createWithHex("libanogs.so", 0x4b5dd0, "43 B0 2C 0C").Modify();
+//794C17ADD4794c17add4
+MemoryPatch::createWithHex("libanogs.so", 0x4b5dd4, "43 B0 2C 0C").Modify();
+//794C17ADD8794c17add8
+MemoryPatch::createWithHex("libanogs.so", 0x4b5dd8, "43 B0 2C 0C").Modify();
+//794C17ADDC794c17addc
+MemoryPatch::createWithHex("libanogs.so", 0x4b5ddc, "43 B0 2C 0C").Modify();
+//794C17ADE0794c17ade0
+MemoryPatch::createWithHex("libanogs.so", 0x4b5de0, "43 B0 2C 0C").Modify();
+//794C17ADE4794c17ade4
+MemoryPatch::createWithHex("libanogs.so", 0x4b5de4, "43 B0 2C 0C").Modify();
+//794C17ADE8794c17ade8
+MemoryPatch::createWithHex("libanogs.so", 0x4b5de8, "43 B0 2C 0C").Modify();
+//794C17ADEC794c17adec
+MemoryPatch::createWithHex("libanogs.so", 0x4b5dec, "43 B0 2C 0C").Modify();
+//794C17ADF0794c17adf0
+MemoryPatch::createWithHex("libanogs.so", 0x4b5df0, "43 B0 2C 0C").Modify();
+//794C17ADF4794c17adf4
+MemoryPatch::createWithHex("libanogs.so", 0x4b5df4, "43 B0 2C 0C").Modify();
+//794C17ADF8794c17adf8
+MemoryPatch::createWithHex("libanogs.so", 0x4b5df8, "43 B0 2C 0C").Modify();
+//794C17ADFC794c17adfc
+MemoryPatch::createWithHex("libanogs.so", 0x4b5dfc, "43 B0 2C 0C").Modify();
+//794C17AE00794c17ae00
+MemoryPatch::createWithHex("libanogs.so", 0x4b5e00, "43 B0 2C 0C").Modify();
+//794C17AE04794c17ae04
+MemoryPatch::createWithHex("libanogs.so", 0x4b5e04, "43 B0 2C 0C").Modify();
+//794C17AE08794c17ae08
+MemoryPatch::createWithHex("libanogs.so", 0x4b5e08, "43 B0 2C 0C").Modify();
+//794C17AE0C794c17ae0c
+MemoryPatch::createWithHex("libanogs.so", 0x4b5e0c, "43 B0 2C 0C").Modify();
+//794C17AE10794c17ae10
+MemoryPatch::createWithHex("libanogs.so", 0x4b5e10, "43 B0 2C 0C").Modify();
+//794C17AE14794c17ae14
+MemoryPatch::createWithHex("libanogs.so", 0x4b5e14, "43 B0 2C 0C").Modify();
+//794C17AE18794c17ae18
+MemoryPatch::createWithHex("libanogs.so", 0x4b5e18, "43 B0 2C 0C").Modify();
+//794C17AE1C794c17ae1c
+MemoryPatch::createWithHex("libanogs.so", 0x4b5e1c, "43 B0 2C 0C").Modify();
+//794C17AE20794c17ae20
+MemoryPatch::createWithHex("libanogs.so", 0x4b5e20, "43 B0 2C 0C").Modify();
+//794C17AE24794c17ae24
+MemoryPatch::createWithHex("libanogs.so", 0x4b5e24, "43 B0 2C 0C").Modify();
+//794C17AE28794c17ae28
+MemoryPatch::createWithHex("libanogs.so", 0x4b5e28, "43 B0 2C 0C").Modify();
+//794C17AE2C794c17ae2c
+MemoryPatch::createWithHex("libanogs.so", 0x4b5e2c, "43 B0 2C 0C").Modify();
+//794C17AE30794c17ae30
+MemoryPatch::createWithHex("libanogs.so", 0x4b5e30, "43 B0 2C 0C").Modify();
+//794C17AE34794c17ae34
+MemoryPatch::createWithHex("libanogs.so", 0x4b5e34, "43 B0 2C 0C").Modify();
+//794C17AE38794c17ae38
+MemoryPatch::createWithHex("libanogs.so", 0x4b5e38, "43 B0 2C 0C").Modify();
+//794C17AE3C794c17ae3c
+MemoryPatch::createWithHex("libanogs.so", 0x4b5e3c, "43 B0 2C 0C").Modify();
+//794C17AE40794c17ae40
+MemoryPatch::createWithHex("libanogs.so", 0x4b5e40, "43 B0 2C 0C").Modify();
+//794C17AE44794c17ae44
+MemoryPatch::createWithHex("libanogs.so", 0x4b5e44, "43 B0 2C 0C").Modify();
+//794C17AE48794c17ae48
+MemoryPatch::createWithHex("libanogs.so", 0x4b5e48, "43 B0 2C 0C").Modify();
+//794C17AE4C794c17ae4c
+MemoryPatch::createWithHex("libanogs.so", 0x4b5e4c, "43 B0 2C 0C").Modify();
+//794C17AE50794c17ae50
+MemoryPatch::createWithHex("libanogs.so", 0x4b5e50, "43 B0 2C 0C").Modify();
+//794C17AE54794c17ae54
+MemoryPatch::createWithHex("libanogs.so", 0x4b5e54, "43 B0 2C 0C").Modify();
+//794C17AE58794c17ae58
+MemoryPatch::createWithHex("libanogs.so", 0x4b5e58, "43 B0 2C 0C").Modify();
+//794C17AE5C794c17ae5c
+MemoryPatch::createWithHex("libanogs.so", 0x4b5e5c, "43 B0 2C 0C").Modify();
+//794C17AE60794c17ae60
+MemoryPatch::createWithHex("libanogs.so", 0x4b5e60, "43 B0 2C 0C").Modify();
+//794C17AE64794c17ae64
+MemoryPatch::createWithHex("libanogs.so", 0x4b5e64, "43 B0 2C 0C").Modify();
+//794C17AE68794c17ae68
+MemoryPatch::createWithHex("libanogs.so", 0x4b5e68, "43 B0 2C 0C").Modify();
+//794C17AE6C794c17ae6c
+MemoryPatch::createWithHex("libanogs.so", 0x4b5e6c, "43 B0 2C 0C").Modify();
+//794C17AE70794c17ae70
+MemoryPatch::createWithHex("libanogs.so", 0x4b5e70, "43 B0 2C 0C").Modify();
+//794C17AE74794c17ae74
+MemoryPatch::createWithHex("libanogs.so", 0x4b5e74, "43 B0 2C 0C").Modify();
+//794C17AE78794c17ae78
+MemoryPatch::createWithHex("libanogs.so", 0x4b5e78, "43 B0 2C 0C").Modify();
+//794C17AE7C794c17ae7c
+MemoryPatch::createWithHex("libanogs.so", 0x4b5e7c, "43 B0 2C 0C").Modify();
+//794C17AE80794c17ae80
+MemoryPatch::createWithHex("libanogs.so", 0x4b5e80, "43 B0 2C 0C").Modify();
+//794C17AE84794c17ae84
+MemoryPatch::createWithHex("libanogs.so", 0x4b5e84, "43 B0 2C 0C").Modify();
+//794C17AE88794c17ae88
+MemoryPatch::createWithHex("libanogs.so", 0x4b5e88, "43 B0 2C 0C").Modify();
+//794C17AE8C794c17ae8c
+MemoryPatch::createWithHex("libanogs.so", 0x4b5e8c, "43 B0 2C 0C").Modify();
+//794C17AE90794c17ae90
+MemoryPatch::createWithHex("libanogs.so", 0x4b5e90, "43 B0 2C 0C").Modify();
+//794C17AE94794c17ae94
+MemoryPatch::createWithHex("libanogs.so", 0x4b5e94, "43 B0 2C 0C").Modify();
+//794C17AE98794c17ae98
+MemoryPatch::createWithHex("libanogs.so", 0x4b5e98, "43 B0 2C 0C").Modify();
+//794C17AE9C794c17ae9c
+MemoryPatch::createWithHex("libanogs.so", 0x4b5e9c, "43 B0 2C 0C").Modify();
+//794C17AEA0794c17aea0
+MemoryPatch::createWithHex("libanogs.so", 0x4b5ea0, "43 B0 2C 0C").Modify();
+//794C17AEA4794c17aea4
+MemoryPatch::createWithHex("libanogs.so", 0x4b5ea4, "43 B0 2C 0C").Modify();
+//794C17AEA8794c17aea8
+MemoryPatch::createWithHex("libanogs.so", 0x4b5ea8, "43 B0 2C 0C").Modify();
+//794C17AEAC794c17aeac
+MemoryPatch::createWithHex("libanogs.so", 0x4b5eac, "43 B0 2C 0C").Modify();
+//794C17AEB0794c17aeb0
+MemoryPatch::createWithHex("libanogs.so", 0x4b5eb0, "43 B0 2C 0C").Modify();
+//794C17AEB4794c17aeb4
+MemoryPatch::createWithHex("libanogs.so", 0x4b5eb4, "43 B0 2C 0C").Modify();
+//794C17AEB8794c17aeb8
+MemoryPatch::createWithHex("libanogs.so", 0x4b5eb8, "43 B0 2C 0C").Modify();
+//794C17AEBC794c17aebc
+MemoryPatch::createWithHex("libanogs.so", 0x4b5ebc, "43 B0 2C 0C").Modify();
+//794C17AEC0794c17aec0
+MemoryPatch::createWithHex("libanogs.so", 0x4b5ec0, "43 B0 2C 0C").Modify();
+//794C17AEC4794c17aec4
+MemoryPatch::createWithHex("libanogs.so", 0x4b5ec4, "43 B0 2C 0C").Modify();
+//794C17AEC8794c17aec8
+MemoryPatch::createWithHex("libanogs.so", 0x4b5ec8, "43 B0 2C 0C").Modify();
+//794C17AECC794c17aecc
+MemoryPatch::createWithHex("libanogs.so", 0x4b5ecc, "43 B0 2C 0C").Modify();
+//794C17AED0794c17aed0
+MemoryPatch::createWithHex("libanogs.so", 0x4b5ed0, "43 B0 2C 0C").Modify();
+//794C17AED4794c17aed4
+MemoryPatch::createWithHex("libanogs.so", 0x4b5ed4, "43 B0 2C 0C").Modify();
+//794C17AED8794c17aed8
+MemoryPatch::createWithHex("libanogs.so", 0x4b5ed8, "43 B0 2C 0C").Modify();
+//794C17AEDC794c17aedc
+MemoryPatch::createWithHex("libanogs.so", 0x4b5edc, "43 B0 2C 0C").Modify();
+//794C17AEE0794c17aee0
+MemoryPatch::createWithHex("libanogs.so", 0x4b5ee0, "43 B0 2C 0C").Modify();
+//794C17AEE4794c17aee4
+MemoryPatch::createWithHex("libanogs.so", 0x4b5ee4, "43 B0 2C 0C").Modify();
+//794C17AEE8794c17aee8
+MemoryPatch::createWithHex("libanogs.so", 0x4b5ee8, "43 B0 2C 0C").Modify();
+//794C17AEEC794c17aeec
+MemoryPatch::createWithHex("libanogs.so", 0x4b5eec, "43 B0 2C 0C").Modify();
+//794C17AEF0794c17aef0
+MemoryPatch::createWithHex("libanogs.so", 0x4b5ef0, "43 B0 2C 0C").Modify();
+//794C17AEF4794c17aef4
+MemoryPatch::createWithHex("libanogs.so", 0x4b5ef4, "43 B0 2C 0C").Modify();
+//794C17AEF8794c17aef8
+MemoryPatch::createWithHex("libanogs.so", 0x4b5ef8, "43 B0 2C 0C").Modify();
+//794C17AEFC794c17aefc
+MemoryPatch::createWithHex("libanogs.so", 0x4b5efc, "43 B0 2C 0C").Modify();
+//794C17AF00794c17af00
+MemoryPatch::createWithHex("libanogs.so", 0x4b5f00, "43 B0 2C 0C").Modify();
+//794C17AF04794c17af04
+MemoryPatch::createWithHex("libanogs.so", 0x4b5f04, "43 B0 2C 0C").Modify();
+//794C17AF08794c17af08
+MemoryPatch::createWithHex("libanogs.so", 0x4b5f08, "43 B0 2C 0C").Modify();
+//794C17AF0C794c17af0c
+MemoryPatch::createWithHex("libanogs.so", 0x4b5f0c, "43 B0 2C 0C").Modify();
+//794C17AF10794c17af10
+MemoryPatch::createWithHex("libanogs.so", 0x4b5f10, "43 B0 2C 0C").Modify();
+//794C17AF14794c17af14
+MemoryPatch::createWithHex("libanogs.so", 0x4b5f14, "43 B0 2C 0C").Modify();
+//794C17AF18794c17af18
+MemoryPatch::createWithHex("libanogs.so", 0x4b5f18, "43 B0 2C 0C").Modify();
+//794C17AF1C794c17af1c
+MemoryPatch::createWithHex("libanogs.so", 0x4b5f1c, "43 B0 2C 0C").Modify();
+//794C17AF20794c17af20
+MemoryPatch::createWithHex("libanogs.so", 0x4b5f20, "43 B0 2C 0C").Modify();
+//794C17AF24794c17af24
+MemoryPatch::createWithHex("libanogs.so", 0x4b5f24, "43 B0 2C 0C").Modify();
+//794C17AF28794c17af28
+MemoryPatch::createWithHex("libanogs.so", 0x4b5f28, "43 B0 2C 0C").Modify();
+//794C17AF2C794c17af2c
+MemoryPatch::createWithHex("libanogs.so", 0x4b5f2c, "43 B0 2C 0C").Modify();
+//794C17AF30794c17af30
+MemoryPatch::createWithHex("libanogs.so", 0x4b5f30, "43 B0 2C 0C").Modify();
+//794C17AF34794c17af34
+MemoryPatch::createWithHex("libanogs.so", 0x4b5f34, "43 B0 2C 0C").Modify();
+//794C17AF38794c17af38
+MemoryPatch::createWithHex("libanogs.so", 0x4b5f38, "43 B0 2C 0C").Modify();
+//794C17AF3C794c17af3c
+MemoryPatch::createWithHex("libanogs.so", 0x4b5f3c, "43 B0 2C 0C").Modify();
+//794C17AF40794c17af40
+MemoryPatch::createWithHex("libanogs.so", 0x4b5f40, "43 B0 2C 0C").Modify();
+//794C17AF44794c17af44
+MemoryPatch::createWithHex("libanogs.so", 0x4b5f44, "43 B0 2C 0C").Modify();
+//794C17AF48794c17af48
+MemoryPatch::createWithHex("libanogs.so", 0x4b5f48, "43 B0 2C 0C").Modify();
+//794C17AF4C794c17af4c
+MemoryPatch::createWithHex("libanogs.so", 0x4b5f4c, "43 B0 2C 0C").Modify();
+//794C17AF50794c17af50
+MemoryPatch::createWithHex("libanogs.so", 0x4b5f50, "43 B0 2C 0C").Modify();
+//794C17AF54794c17af54
+MemoryPatch::createWithHex("libanogs.so", 0x4b5f54, "43 B0 2C 0C").Modify();
+//794C17B028794c17b028
+MemoryPatch::createWithHex("libanogs.so", 0x4b6028, "43 B0 2C 0C").Modify();
+//794C17B02C794c17b02c
+MemoryPatch::createWithHex("libanogs.so", 0x4b602c, "43 B0 2C 0C").Modify();
+//794C17B030794c17b030
+MemoryPatch::createWithHex("libanogs.so", 0x4b6030, "43 B0 2C 0C").Modify();
+//794C17B034794c17b034
+MemoryPatch::createWithHex("libanogs.so", 0x4b6034, "43 B0 2C 0C").Modify();
+//794C17B038794c17b038
+MemoryPatch::createWithHex("libanogs.so", 0x4b6038, "43 B0 2C 0C").Modify();
+//794C17B03C794c17b03c
+MemoryPatch::createWithHex("libanogs.so", 0x4b603c, "43 B0 2C 0C").Modify();
+//794C17B040794c17b040
+MemoryPatch::createWithHex("libanogs.so", 0x4b6040, "43 B0 2C 0C").Modify();
+//794C17B044794c17b044
+MemoryPatch::createWithHex("libanogs.so", 0x4b6044, "43 B0 2C 0C").Modify();
+//794C17B048794c17b048
+MemoryPatch::createWithHex("libanogs.so", 0x4b6048, "43 B0 2C 0C").Modify();
+//794C17B04C794c17b04c
+MemoryPatch::createWithHex("libanogs.so", 0x4b604c, "43 B0 2C 0C").Modify();
+//794C17C93C794c17c93c
+MemoryPatch::createWithHex("libanogs.so", 0x4b793c, "43 B0 2C 0C").Modify();
+//794C17C940794c17c940
+MemoryPatch::createWithHex("libanogs.so", 0x4b7940, "43 B0 2C 0C").Modify();
+MemoryPatch::createWithHex("libanogs.so", 0x4b92a0, "43 B0 2C 0C").Modify();
+//794C17E2A4794c17e2a4
+MemoryPatch::createWithHex("libanogs.so", 0x4b92a4, "43 B0 2C 0C").Modify();
+//794C17E2A8794c17e2a8
+MemoryPatch::createWithHex("libanogs.so", 0x4b92a8, "43 B0 2C 0C").Modify();
+//794C17E2AC794c17e2ac
+MemoryPatch::createWithHex("libanogs.so", 0x4b92ac, "43 B0 2C 0C").Modify();
+//794C17E2B0794c17e2b0
+MemoryPatch::createWithHex("libanogs.so", 0x4b92b0, "43 B0 2C 0C").Modify();
+//794C17E2B4794c17e2b4
+MemoryPatch::createWithHex("libanogs.so", 0x4b92b4, "43 B0 2C 0C").Modify();
+//794C17E2B8794c17e2b8
+MemoryPatch::createWithHex("libanogs.so", 0x4b92b8, "43 B0 2C 0C").Modify();
+//794C17E2BC794c17e2bc
+MemoryPatch::createWithHex("libanogs.so", 0x4b92bc, "43 B0 2C 0C").Modify();
+//794C17E2E0794c17e2e0
+MemoryPatch::createWithHex("libanogs.so", 0x4b92e0, "43 B0 2C 0C").Modify();
+//794C17E2E4794c17e2e4
+MemoryPatch::createWithHex("libanogs.so", 0x4b92e4, "43 B0 2C 0C").Modify();
+//794C17E2E8794c17e2e8
+MemoryPatch::createWithHex("libanogs.so", 0x4b92e8, "43 B0 2C 0C").Modify();
+//794C17E2EC794c17e2ec
+MemoryPatch::createWithHex("libanogs.so", 0x4b92ec, "43 B0 2C 0C").Modify();
+//794C17E2F0794c17e2f0
+MemoryPatch::createWithHex("libanogs.so", 0x4b92f0, "43 B0 2C 0C").Modify();
+//794C17E2F4794c17e2f4
+MemoryPatch::createWithHex("libanogs.so", 0x4b92f4, "43 B0 2C 0C").Modify();
+//794C17E2F8794c17e2f8
+MemoryPatch::createWithHex("libanogs.so", 0x4b92f8, "43 B0 2C 0C").Modify();
+//794C17E2FC794c17e2fc
+MemoryPatch::createWithHex("libanogs.so", 0x4b92fc, "43 B0 2C 0C").Modify();
+//794C17E250794c17e250
+MemoryPatch::createWithHex("libanogs.so", 0x4b9250, "43 B0 2C 0C").Modify();
+//794C17E254794c17e254
+MemoryPatch::createWithHex("libanogs.so", 0x4b9254, "43 B0 2C 0C").Modify();
+//794C17E258794c17e258
+MemoryPatch::createWithHex("libanogs.so", 0x4b9258, "43 B0 2C 0C").Modify();
+//794C17E25C794c17e25c
+MemoryPatch::createWithHex("libanogs.so", 0x4b925c, "43 B0 2C 0C").Modify();
+//794C17E260794c17e260
+MemoryPatch::createWithHex("libanogs.so", 0x4b9260, "43 B0 2C 0C").Modify();
+//794C17E264794c17e264
+MemoryPatch::createWithHex("libanogs.so", 0x4b9264, "43 B0 2C 0C").Modify();
+//794C17E268794c17e268
+MemoryPatch::createWithHex("libanogs.so", 0x4b9268, "43 B0 2C 0C").Modify();
+//794C17E26C794c17e26c
+MemoryPatch::createWithHex("libanogs.so", 0x4b926c, "43 B0 2C 0C").Modify();
+//794C17E270794c17e270
+MemoryPatch::createWithHex("libanogs.so", 0x4b9270, "43 B0 2C 0C").Modify();
+//794C17E274794c17e274
+MemoryPatch::createWithHex("libanogs.so", 0x4b9274, "43 B0 2C 0C").Modify();
+//794C17E278794c17e278
+MemoryPatch::createWithHex("libanogs.so", 0x4b9278, "43 B0 2C 0C").Modify();
+//794C17E27C794c17e27c
+MemoryPatch::createWithHex("libanogs.so", 0x4b927c, "43 B0 2C 0C").Modify();
+//794C17E280794c17e280
+MemoryPatch::createWithHex("libanogs.so", 0x4b9280, "43 B0 2C 0C").Modify();
+//794C17E284794c17e284
+MemoryPatch::createWithHex("libanogs.so", 0x4b9284, "43 B0 2C 0C").Modify();
+//794C17E288794c17e288
+MemoryPatch::createWithHex("libanogs.so", 0x4b9288, "43 B0 2C 0C").Modify();
+//794C17E28C794c17e28c
+MemoryPatch::createWithHex("libanogs.so", 0x4b928c, "43 B0 2C 0C").Modify();
+//794C17E290794c17e290
+MemoryPatch::createWithHex("libanogs.so", 0x4b9290, "43 B0 2C 0C").Modify();
+//794C17E294794c17e294
+MemoryPatch::createWithHex("libanogs.so", 0x4b9294, "43 B0 2C 0C").Modify();
+//794C17E298794c17e298
+MemoryPatch::createWithHex("libanogs.so", 0x4b9298, "43 B0 2C 0C").Modify();
+//794C17E29C794c17e29c
+MemoryPatch::createWithHex("libanogs.so", 0x4b929c, "43 B0 2C 0C").Modify();
+//794C17E3B0794c17e3b0
+MemoryPatch::createWithHex("libanogs.so", 0x4b93b0, "43 B0 2C 0C").Modify();
+//794C17E3B4794c17e3b4
+MemoryPatch::createWithHex("libanogs.so", 0x4b93b4, "43 B0 2C 0C").Modify();
+//794C17E3B8794c17e3b8
+MemoryPatch::createWithHex("libanogs.so", 0x4b93b8, "43 B0 2C 0C").Modify();
+//794C17E3BC794c17e3bc
+MemoryPatch::createWithHex("libanogs.so", 0x4b93bc, "43 B0 2C 0C").Modify();
+//794C17E440794c17e440
+MemoryPatch::createWithHex("libanogs.so", 0x4b9440, "43 B0 2C 0C").Modify();
+//794C17E444794c17e444
+MemoryPatch::createWithHex("libanogs.so", 0x4b9444, "43 B0 2C 0C").Modify();
+//794C17E448794c17e448
+MemoryPatch::createWithHex("libanogs.so", 0x4b9448, "43 B0 2C 0C").Modify();
+//794C17E44C794c17e44c
+MemoryPatch::createWithHex("libanogs.so", 0x4b944c, "43 B0 2C 0C").Modify();
+//794C17E450794c17e450
+MemoryPatch::createWithHex("libanogs.so", 0x4b9450, "43 B0 2C 0C").Modify();
+//794C17E454794c17e454
+MemoryPatch::createWithHex("libanogs.so", 0x4b9454, "43 B0 2C 0C").Modify();
+//794C17E458794c17e458
+MemoryPatch::createWithHex("libanogs.so", 0x4b9458, "43 B0 2C 0C").Modify();
+//794C17E45C794c17e45c
+MemoryPatch::createWithHex("libanogs.so", 0x4b945c, "43 B0 2C 0C").Modify();
+//794C17E470794c17e470
+MemoryPatch::createWithHex("libanogs.so", 0x4b9470, "43 B0 2C 0C").Modify();
+//794C17E474794c17e474
+MemoryPatch::createWithHex("libanogs.so", 0x4b9474, "43 B0 2C 0C").Modify();
+//794C17E478794c17e478
+MemoryPatch::createWithHex("libanogs.so", 0x4b9478, "43 B0 2C 0C").Modify();
+//794C17E47C794c17e47c
+MemoryPatch::createWithHex("libanogs.so", 0x4b947c, "43 B0 2C 0C").Modify();
+//794C17E480794c17e480
+MemoryPatch::createWithHex("libanogs.so", 0x4b9480, "43 B0 2C 0C").Modify();
+//794C17E484794c17e484
+MemoryPatch::createWithHex("libanogs.so", 0x4b9484, "43 B0 2C 0C").Modify();
+//794C17E488794c17e488
+MemoryPatch::createWithHex("libanogs.so", 0x4b9488, "43 B0 2C 0C").Modify();
+//794C17E48C794c17e48c
+MemoryPatch::createWithHex("libanogs.so", 0x4b948c, "43 B0 2C 0C").Modify();
+//794C17E490794c17e490
+MemoryPatch::createWithHex("libanogs.so", 0x4b9490, "43 B0 2C 0C").Modify();
+//794C17E494794c17e494
+MemoryPatch::createWithHex("libanogs.so", 0x4b9494, "43 B0 2C 0C").Modify();
+//794C17E498794c17e498
+MemoryPatch::createWithHex("libanogs.so", 0x4b9498, "43 B0 2C 0C").Modify();
+//794C17E49C794c17e49c
+MemoryPatch::createWithHex("libanogs.so", 0x4b949c, "43 B0 2C 0C").Modify();
+//794C17E4A0794c17e4a0
+MemoryPatch::createWithHex("libanogs.so", 0x4b94a0, "43 B0 2C 0C").Modify();
+//794C17E4A4794c17e4a4
+MemoryPatch::createWithHex("libanogs.so", 0x4b94a4, "43 B0 2C 0C").Modify();
+//794C17E4A8794c17e4a8
+MemoryPatch::createWithHex("libanogs.so", 0x4b94a8, "43 B0 2C 0C").Modify();
+//794C17E4AC794c17e4ac
+MemoryPatch::createWithHex("libanogs.so", 0x4b94ac, "43 B0 2C 0C").Modify();
+//794C17E4B0794c17e4b0
+MemoryPatch::createWithHex("libanogs.so", 0x4b94b0, "43 B0 2C 0C").Modify();
+//794C17E4B4794c17e4b4
+MemoryPatch::createWithHex("libanogs.so", 0x4b94b4, "43 B0 2C 0C").Modify();
+//794C17E4B8794c17e4b8
+MemoryPatch::createWithHex("libanogs.so", 0x4b94b8, "43 B0 2C 0C").Modify();
+//794C17E4BC794c17e4bc
+MemoryPatch::createWithHex("libanogs.so", 0x4b94bc, "43 B0 2C 0C").Modify();
+//794C17E4C0794c17e4c0
+MemoryPatch::createWithHex("libanogs.so", 0x4b94c0, "43 B0 2C 0C").Modify();
+//794C17E4C4794c17e4c4
+MemoryPatch::createWithHex("libanogs.so", 0x4b94c4, "43 B0 2C 0C").Modify();
+//794C17E4C8794c17e4c8
+MemoryPatch::createWithHex("libanogs.so", 0x4b94c8, "43 B0 2C 0C").Modify();
+//794C17E4CC794c17e4cc
+MemoryPatch::createWithHex("libanogs.so", 0x4b94cc, "43 B0 2C 0C").Modify();
+//794C17E4D0794c17e4d0
+MemoryPatch::createWithHex("libanogs.so", 0x4b94d0, "43 B0 2C 0C").Modify();
+//794C17E4D4794c17e4d4
+MemoryPatch::createWithHex("libanogs.so", 0x4b94d4, "43 B0 2C 0C").Modify();
+//794C17E4D8794c17e4d8
+MemoryPatch::createWithHex("libanogs.so", 0x4b94d8, "43 B0 2C 0C").Modify();
+//794C17E4DC794c17e4dc
+MemoryPatch::createWithHex("libanogs.so", 0x4b94dc, "43 B0 2C 0C").Modify();
+//794C17E4E0794c17e4e0
+MemoryPatch::createWithHex("libanogs.so", 0x4b94e0, "43 B0 2C 0C").Modify();
+//794C17E4E4794c17e4e4
+MemoryPatch::createWithHex("libanogs.so", 0x4b94e4, "43 B0 2C 0C").Modify();
+//794C17E4E8794c17e4e8
+MemoryPatch::createWithHex("libanogs.so", 0x4b94e8, "43 B0 2C 0C").Modify();
+//794C17E4EC794c17e4ec
+MemoryPatch::createWithHex("libanogs.so", 0x4b94ec, "43 B0 2C 0C").Modify();
+//794C17E4F0794c17e4f0
+MemoryPatch::createWithHex("libanogs.so", 0x4b94f0, "43 B0 2C 0C").Modify();
+//794C17E4F4794c17e4f4
+MemoryPatch::createWithHex("libanogs.so", 0x4b94f4, "43 B0 2C 0C").Modify();
+//794C17E4F8794c17e4f8
+MemoryPatch::createWithHex("libanogs.so", 0x4b94f8, "43 B0 2C 0C").Modify();
+//794C17E4FC794c17e4fc
+MemoryPatch::createWithHex("libanogs.so", 0x4b94fc, "43 B0 2C 0C").Modify();
+//794C17E500794c17e500
+MemoryPatch::createWithHex("libanogs.so", 0x4b9500, "43 B0 2C 0C").Modify();
+//794C17E504794c17e504
+MemoryPatch::createWithHex("libanogs.so", 0x4b9504, "43 B0 2C 0C").Modify();
+//794C17E508794c17e508
+MemoryPatch::createWithHex("libanogs.so", 0x4b9508, "43 B0 2C 0C").Modify();
+//794C17E50C794c17e50c
+MemoryPatch::createWithHex("libanogs.so", 0x4b950c, "43 B0 2C 0C").Modify();
+//794C17E510794c17e510
+MemoryPatch::createWithHex("libanogs.so", 0x4b9510, "43 B0 2C 0C").Modify();
+//794C17E514794c17e514
+MemoryPatch::createWithHex("libanogs.so", 0x4b9514, "43 B0 2C 0C").Modify();
+//794C17E518794c17e518
+MemoryPatch::createWithHex("libanogs.so", 0x4b9518, "43 B0 2C 0C").Modify();
+//794C17E51C794c17e51c
+MemoryPatch::createWithHex("libanogs.so", 0x4b951c, "43 B0 2C 0C").Modify();
+//794C17E520794c17e520
+MemoryPatch::createWithHex("libanogs.so", 0x4b9520, "43 B0 2C 0C").Modify();
+//794C17E524794c17e524
+MemoryPatch::createWithHex("libanogs.so", 0x4b9524, "43 B0 2C 0C").Modify();
+//794C17E528794c17e528
+MemoryPatch::createWithHex("libanogs.so", 0x4b9528, "43 B0 2C 0C").Modify();
+//794C17E52C794c17e52c
+MemoryPatch::createWithHex("libanogs.so", 0x4b952c, "43 B0 2C 0C").Modify();
+//794C17E530794c17e530
+MemoryPatch::createWithHex("libanogs.so", 0x4b9530, "43 B0 2C 0C").Modify();
+//794C17E534794c17e534
+MemoryPatch::createWithHex("libanogs.so", 0x4b9534, "43 B0 2C 0C").Modify();
+//794C17E538794c17e538
+MemoryPatch::createWithHex("libanogs.so", 0x4b9538, "43 B0 2C 0C").Modify();
+//794C17E53C794c17e53c
+MemoryPatch::createWithHex("libanogs.so", 0x4b953c, "43 B0 2C 0C").Modify();
+//794C17E540794c17e540
+MemoryPatch::createWithHex("libanogs.so", 0x4b9540, "43 B0 2C 0C").Modify();
+//794C17E544794c17e544
+MemoryPatch::createWithHex("libanogs.so", 0x4b9544, "43 B0 2C 0C").Modify();
+//794C17E548794c17e548
+MemoryPatch::createWithHex("libanogs.so", 0x4b9548, "43 B0 2C 0C").Modify();
+//794C17E54C794c17e54c
+MemoryPatch::createWithHex("libanogs.so", 0x4b954c, "43 B0 2C 0C").Modify();
+//794C17E550794c17e550
+MemoryPatch::createWithHex("libanogs.so", 0x4b9550, "43 B0 2C 0C").Modify();
+//794C17E624794c17e624
+MemoryPatch::createWithHex("libanogs.so", 0x4b9624, "43 B0 2C 0C").Modify();
+//794C17E628794c17e628
+MemoryPatch::createWithHex("libanogs.so", 0x4b9628, "43 B0 2C 0C").Modify();
+//794C17E62C794c17e62c
+MemoryPatch::createWithHex("libanogs.so", 0x4b962c, "43 B0 2C 0C").Modify();
+//794C17E630794c17e630
+MemoryPatch::createWithHex("libanogs.so", 0x4b9630, "43 B0 2C 0C").Modify();
+//794C17E634794c17e634
+MemoryPatch::createWithHex("libanogs.so", 0x4b9634, "43 B0 2C 0C").Modify();
+//794C17E638794c17e638
+MemoryPatch::createWithHex("libanogs.so", 0x4b9638, "43 B0 2C 0C").Modify();
+//794C17E63C794c17e63c
+MemoryPatch::createWithHex("libanogs.so", 0x4b963c, "43 B0 2C 0C").Modify();
+//794C17E640794c17e640
+MemoryPatch::createWithHex("libanogs.so", 0x4b9640, "43 B0 2C 0C").Modify();
+//794C17E644794c17e644
+MemoryPatch::createWithHex("libanogs.so", 0x4b9644, "43 B0 2C 0C").Modify();
+//794C17E648794c17e648
+MemoryPatch::createWithHex("libanogs.so", 0x4b9648, "43 B0 2C 0C").Modify();
+MemoryPatch::createWithHex("libanogs.so", 0x4b9b1c, "43 B0 2C 0C").Modify();
+//794C17EB20794c17eb20
+MemoryPatch::createWithHex("libanogs.so", 0x4b9b20, "43 B0 2C 0C").Modify();
+//794C17EB24794c17eb24
+MemoryPatch::createWithHex("libanogs.so", 0x4b9b24, "43 B0 2C 0C").Modify();
+//794C17EC00794c17ec00
+MemoryPatch::createWithHex("libanogs.so", 0x4b9c00, "43 B0 2C 0C").Modify();
+//794C1805D0794c1805d0
+MemoryPatch::createWithHex("libanogs.so", 0x4bb5d0, "43 B0 2C 0C").Modify();
+//794C1805D4794c1805d4
+MemoryPatch::createWithHex("libanogs.so", 0x4bb5d4, "43 B0 2C 0C").Modify();
+//794C1805D8794c1805d8
+MemoryPatch::createWithHex("libanogs.so", 0x4bb5d8, "43 B0 2C 0C").Modify();
+//794C180634794c180634
+MemoryPatch::createWithHex("libanogs.so", 0x4bb634, "43 B0 2C 0C").Modify();
+//794C1855C0794c1855c0
+MemoryPatch::createWithHex("libanogs.so", 0x4c05c0, "43 B0 2C 0C").Modify();
+//794C1855DC794c1855dc
+MemoryPatch::createWithHex("libanogs.so", 0x4c05dc, "43 B0 2C 0C").Modify();
+//794C19DB88794c19db88
+MemoryPatch::createWithHex("libanogs.so", 0x4d8b88, "43 B0 2C 0C").Modify();
+//Y, "43 B0 2C 0C").Modify();
+////794C1A5210794c1a5210
+MemoryPatch::createWithHex("libanogs.so", 0x4e0210, "43 B0 2C 0C").Modify();
+////794C1A5214794c1a5214
+MemoryPatch::createWithHex("libanogs.so", 0x4e0214, "43 B0 2C 0C").Modify();
+//X
+// #70B1FC0DA4|70b1fc0da4|4|200000|0|0|0|0|r-
+/*
+MemoryPatch::createWithHex("libanogs.so", 0x4aada4, "43 B0 2C 0C").Modify();
+// #70B1FC0DC8|70b1fc0dc8|4|20000|0|0|0|0|r-
+MemoryPatch::createWithHex("libanogs.so", 0x4aadc8, "43 B0 2C 0C").Modify();
+// #70B1FC0E60|70b1fc0e60|4|200000|0|0|0|0|r-
+MemoryPatch::createWithHex("libanogs.so", 0x4aae60, "43 B0 2C 0C").Modify();
+// #70B1FC0E84|70b1fc0e84|4|20000|0|0|0|0|r-
+MemoryPatch::createWithHex("libanogs.so", 0x4aae84, "43 B0 2C 0C").Modify();*/
+// #70B1FCB32C|70b1fcb32c|4|1|0|0|0|0|r-
+MemoryPatch::createWithHex("libanogs.so", 0x4e28f0, "43 B0 2C 0C").Modify();
+// #70B1FFBE40|70b1ffbe40|10|47edaee6|0|0|0|0|r-
+MemoryPatch::createWithHex("libanogs.so", 0x4e5e40, "43 B0 2C 0C").Modify();
+MemoryPatch::createWithHex("libanogs.so", 0x4b532c, "43 B0 2C 0C").Modify();
+// #70B1FCB3AC|70b1fcb3ac|4|2|0|0|0|0|r-
+MemoryPatch::createWithHex("libanogs.so", 0x4b53ac, "43 B0 2C 0C").Modify();
+// #70B1FCB3EC|70b1fcb3ec|4|4|0|0|0|0|r-
+MemoryPatch::createWithHex("libanogs.so", 0x4b53ec, "43 B0 2C 0C").Modify();
+// #70B1FCB440|70b1fcb440|4|1|0|0|0|0|r-
+MemoryPatch::createWithHex("libanogs.so", 0x4b5440, "43 B0 2C 0C").Modify();
+// #70B1FCB444|70b1fcb444|4|2|0|0|0|0|r-
+MemoryPatch::createWithHex("libanogs.so", 0x4b5444, "43 B0 2C 0C").Modify();
+// #70B1FCB448|70b1fcb448|4|4|0|0|0|0|r-
+MemoryPatch::createWithHex("libanogs.so", 0x4b5448, "43 B0 2C 0C").Modify();
+// #70B1FCB44C|70b1fcb44c|4|8|0|0|0|0|r-
+MemoryPatch::createWithHex("libanogs.so", 0x4b544c, "43 B0 2C 0C").Modify();
+// #70B1FCB450|70b1fcb450|4|10|0|0|0|0|r-
+MemoryPatch::createWithHex("libanogs.so", 0x4b5450, "43 B0 2C 0C").Modify();
+// #70B1FCB454|70b1fcb454|4|20|0|0|0|0|r-
+MemoryPatch::createWithHex("libanogs.so", 0x4b5454, "43 B0 2C 0C").Modify();
+// #70B1FCB458|70b1fcb458|4|40|0|0|0|0|r-
+MemoryPatch::createWithHex("libanogs.so", 0x4b5458, "43 B0 2C 0C").Modify();
+// #70B1FCB45C|70b1fcb45c|4|80|0|0|0|0|r-
+MemoryPatch::createWithHex("libanogs.so", 0x4b545c, "43 B0 2C 0C").Modify();
+// #70B1FCB460|70b1fcb460|4|100|0|0|0|0|r-
+MemoryPatch::createWithHex("libanogs.so", 0x4b5460, "43 B0 2C 0C").Modify();
+// #70B1FCB464|70b1fcb464|4|200|0|0|0|0|r-
+MemoryPatch::createWithHex("libanogs.so", 0x4b5464, "43 B0 2C 0C").Modify();
+// #70B1FCB468|70b1fcb468|4|400|0|0|0|0|r-
+MemoryPatch::createWithHex("libanogs.so", 0x4b5468, "43 B0 2C 0C").Modify();
+// #70B1FCB46C|70b1fcb46c|4|800|0|0|0|0|r-
+MemoryPatch::createWithHex("libanogs.so", 0x4b546c, "43 B0 2C 0C").Modify();
+// #70B1FCB470|70b1fcb470|4|1000|0|0|0|0|r-
+MemoryPatch::createWithHex("libanogs.so", 0x4b5470, "43 B0 2C 0C").Modify();
+// #70B1FCB474|70b1fcb474|4|2000|0|0|0|0|r-
+MemoryPatch::createWithHex("libanogs.so", 0x4b5474, "43 B0 2C 0C").Modify();
+// #70B1FCB478|70b1fcb478|4|4000|0|0|0|0|r-
+MemoryPatch::createWithHex("libanogs.so", 0x4b5478, "43 B0 2C 0C").Modify();
+// #70B1FCB47C|70b1fcb47c|4|8000|0|0|0|0|r-
+MemoryPatch::createWithHex("libanogs.so", 0x4b547c, "43 B0 2C 0C").Modify();
+// #70B1FCB480|70b1fcb480|4|10000|0|0|0|0|r-
+MemoryPatch::createWithHex("libanogs.so", 0x4b5480, "43 B0 2C 0C").Modify();
+// #70B1FF7810|70b1ff7810|4|200000|0|0|0|0|r-
+MemoryPatch::createWithHex("libanogs.so", 0x4e1810, "43 B0 2C 0C").Modify();
+// #70B1FF7834|70b1ff7834|4|200000|0|0|0|0|r-
+MemoryPatch::createWithHex("libanogs.so", 0x4e1834, "43 B0 2C 0C").Modify();
+// #70B1FF7898|70b1ff7898|4|200000|0|0|0|0|r-
+MemoryPatch::createWithHex("libanogs.so", 0x4e1898, "43 B0 2C 0C").Modify();
+// #70B1FF78BC|70b1ff78bc|4|200000|0|0|0|0|r-
+MemoryPatch::createWithHex("libanogs.so", 0x4e18bc, "43 B0 2C 0C").Modify();
+// #70B1FF7E3C|70b1ff7e3c|4|20000|0|0|0|0|r-
+MemoryPatch::createWithHex("libanogs.so", 0x4e1e3c, "43 B0 2C 0C").Modify();
+// #70B1FF7E78|70b1ff7e78|4|20000|0|0|0|0|r-
+MemoryPatch::createWithHex("libanogs.so", 0x4e1e78, "43 B0 2C 0C").Modify();
+// #70B1FF7EA0|70b1ff7ea0|4|20000|0|0|0|0|r-
+MemoryPatch::createWithHex("libanogs.so", 0x4e1ea0, "43 B0 2C 0C").Modify();
+// #70B1FF7ED4|70b1ff7ed4|4|20000|0|0|0|0|r-
+MemoryPatch::createWithHex("libanogs.so", 0x4e1ed4, "43 B0 2C 0C").Modify();
+// #70A5FCEBC4|70a5fcebc4|4|10003|0|0|0|0|r-
+
+
+
+MemoryPatch::createWithHex("libijkffmpeg.so", 0x20b070, "C0 03 5F D6").Modify();
+// #70A6281C60|70a6281c60|10|47edaee6|0|0|0|0|r-
+MemoryPatch::createWithHex("libijkffmpeg.so", 0x2fdc60, "C0 03 5F D6").Modify();
+// #70A99E3EC8|70a99e3ec8|10|47edaee6|0|0|0|0|r--
+MemoryPatch::createWithHex("libijkffmpeg.so", 0x4abc4, "C0 03 5F D6").Modify();
+// #70A5FCED2C|70a5fced2c|4|10003|0|0|0|0|r-
+MemoryPatch::createWithHex("libijkffmpeg.so", 0x4ad2c, "C0 03 5F D6").Modify();
+// #70A5FCEE60|70a5fcee60|4|10003|0|0|0|0|r-
+MemoryPatch::createWithHex("libijkffmpeg.so", 0x4ae60, "C0 03 5F D6").Modify();
+// #70A5FCFDAC|70a5fcfdac|4|10003|0|0|0|0|r-
+MemoryPatch::createWithHex("libijkffmpeg.so", 0x4bdac, "C0 03 5F D6").Modify();
+// #70A5FD0950|70a5fd0950|4|10003|0|0|0|0|r-
+MemoryPatch::createWithHex("libijkffmpeg.so", 0x4c950, "C0 03 5F D6").Modify();
+// #70A5FD0AE4|70a5fd0ae4|4|10003|0|0|0|0|r-
+MemoryPatch::createWithHex("libijkffmpeg.so", 0x4cae4, "C0 03 5F D6").Modify();
+// #70A5FD0F50|70a5fd0f50|4|10003|0|0|0|0|r-
+MemoryPatch::createWithHex("libijkffmpeg.so", 0x4cf50, "C0 03 5F D6").Modify();
+// #70A5FD14C4|70a5fd14c4|4|10003|0|0|0|0|r-
+MemoryPatch::createWithHex("libijkffmpeg.so", 0x4d4c4, "C0 03 5F D6").Modify();
+// #70A5FD1508|70a5fd1508|4|10003|0|0|0|0|r-
+MemoryPatch::createWithHex("libijkffmpeg.so", 0x4d508, "C0 03 5F D6").Modify();
+// #70A5FD1518|70a5fd1518|4|10003|0|0|0|0|r-
+MemoryPatch::createWithHex("libijkffmpeg.so", 0x4d518, "C0 03 5F D6").Modify();
+// #70A6279714|70a6279714|4|10003|0|0|0|0|r-
+MemoryPatch::createWithHex("libijkffmpeg.so", 0x2f5714, "C0 03 5F D6").Modify();
+// #70B268A180|70b268a180|4|10003|0|0|0|0|r-
+
+
+MemoryPatch::createWithHex("libc++_shared.so", 0x2f180, "C0 03 5F D6").Modify();
+// #70B2D5D804|70b2d5d804|4|10003|0|0|0|0|r-
+MemoryPatch::createWithHex("libGCloudVoice.so", 0x2dd804, "C0 03 5F D6").Modify();
+// #70B2D5D82C|70b2d5d82c|4|10003|0|0|0|0|r-
+MemoryPatch::createWithHex("libGCloudVoice.so", 0x2dd82c, "C0 03 5F D6").Modify();
+// #70B336FCD0|70b336fcd0|4|10003|0|0|0|0|r-
+MemoryPatch::createWithHex("libgcloud.so", 0x59fcd0, "C0 03 5F D6").Modify();
+// #70B3375468|70b3375468|4|10003|0|0|0|0|r-
+MemoryPatch::createWithHex("libgcloud.so", 0x5a5468, "C0 03 5F D6").Modify();
+// #70B3375678|70b3375678|4|10003|0|0|0|0|r-
+MemoryPatch::createWithHex("libgcloud.so", 0x5a5678, "C0 03 5F D6").Modify();
+// #70B3383CA0|70b3383ca0|4|10003|0|0|0|0|r-
+MemoryPatch::createWithHex("libgcloud.so", 0x5b3ca0, "C0 03 5F D6").Modify();
+// #70B3C892F8|70b3c892f8|4|10003|0|0|0|0|r-
+MemoryPatch::createWithHex("libCrashSight.so", 0x92f8, "C0 03 5F D6").Modify();
+// #70B93086A0|70b93086a0|4|10003|0|0|0|0|r-
+MemoryPatch::createWithHex("libPandoraVideo.so", 0x66a0, "C0 03 5F D6").Modify();
+// #70D9E3DAD8|70d9e3dad8|4|10003|0|0|0|0|r-
+MemoryPatch::createWithHex("libcubehawk.so", 0x2fad8, "C0 03 5F D6").Modify();
+// #70D9E3DC2C|70d9e3dc2c|4|10003|0|0|0|0|r-
+MemoryPatch::createWithHex("libcubehawk.so", 0x2fc2c, "C0 03 5F D6").Modify();
+// #70D9E3E998|70d9e3e998|4|10003|0|0|0|0|r-
+MemoryPatch::createWithHex("libcubehawk.so", 0x30998, "C0 03 5F D6").Modify();
+// #70A5ED3230|70a5ed3230|1|30|0|0|0|0|r-
+MemoryPatch::createWithHex("libINTLFoundation.so", 0x1bd230, "C0 03 5F D6").Modify();
+// #70A5ED3231|70a5ed3231|1|31|0|0|0|0|r-
+MemoryPatch::createWithHex("libINTLFoundation.so", 0x1bd231, "C0 03 5F D6").Modify();
+// #70A5ED3232|70a5ed3232|1|3332|0|0|0|0|r-
+MemoryPatch::createWithHex("libINTLFoundation.so", 0x1bd232, "C0 03 5F D6").Modify();
+// #70A5ED3233|70a5ed3233|1|33|0|0|0|0|r-
+MemoryPatch::createWithHex("libINTLFoundation.so", 0x1bd233, "C0 03 5F D6").Modify();
+// #70A5ED3234|70a5ed3234|1|34|0|0|0|0|r-
+MemoryPatch::createWithHex("libINTLFoundation.so", 0x1bd234, "C0 03 5F D6").Modify();
+// #70A5ED3235|70a5ed3235|1|35|0|0|0|0|r-
+MemoryPatch::createWithHex("libINTLFoundation.so", 0x1bd235, "C0 03 5F D6").Modify();
+// #70A5ED3236|70a5ed3236|1|3736|0|0|0|0|r-
+MemoryPatch::createWithHex("libINTLFoundation.so", 0x1bd236, "C0 03 5F D6").Modify();
+// #70A5ED3237|70a5ed3237|1|37|0|0|0|0|r-
+MemoryPatch::createWithHex("libINTLFoundation.so", 0x1bd237, "C0 03 5F D6").Modify();
+// #70A5ED3238|70a5ed3238|1|38|0|0|0|0|r-
+MemoryPatch::createWithHex("libINTLFoundation.so", 0x1bd238, "C0 03 5F D6").Modify();
+// #70A5ED3239|70a5ed3239|1|39|0|0|0|0|r-
+MemoryPatch::createWithHex("libINTLFoundation.so", 0x1bd239, "C0 03 5F D6").Modify();
+// #70A5ED323A|70a5ed323a|1|6261|0|0|0|0|r-
+MemoryPatch::createWithHex("libINTLFoundation.so", 0x1bd23a, "C0 03 5F D6").Modify();
+// #70A5ED323B|70a5ed323b|1|62|0|0|0|0|r-
+MemoryPatch::createWithHex("libINTLFoundation.so", 0x1bd23b, "C0 03 5F D6").Modify();
+// #70A5ED323C|70a5ed323c|1|63|0|0|0|0|r-
+MemoryPatch::createWithHex("libINTLFoundation.so", 0x1bd23c, "C0 03 5F D6").Modify();
+// #70A5ED323D|70a5ed323d|1|64|0|0|0|0|r-
+MemoryPatch::createWithHex("libINTLFoundation.so", 0x1bd23d, "C0 03 5F D6").Modify();
+// #70A5ED323E|70a5ed323e|1|6665|0|0|0|0|r-
+MemoryPatch::createWithHex("libINTLFoundation.so", 0x1bd23e, "C0 03 5F D6").Modify();
+// #70A5ED323F|70a5ed323f|1|66|0|0|0|0|r-
+MemoryPatch::createWithHex("libINTLFoundation.so", 0x1bd23f, "C0 03 5F D6").Modify();
+// #70A5ED3240|70a5ed3240|1|67|0|0|0|0|r-
+MemoryPatch::createWithHex("libINTLFoundation.so", 0x1bd240, "C0 03 5F D6").Modify();
+// #70A5ED3241|70a5ed3241|1|68|0|0|0|0|r-
+MemoryPatch::createWithHex("libINTLFoundation.so", 0x1bd241, "C0 03 5F D6").Modify();
+// #70A5ED3242|70a5ed3242|1|6a69|0|0|0|0|r-
+MemoryPatch::createWithHex("libINTLFoundation.so", 0x1bd242, "C0 03 5F D6").Modify();
+// #70A5ED3243|70a5ed3243|1|6a|0|0|0|0|r-
+MemoryPatch::createWithHex("libINTLFoundation.so", 0x1bd243, "C0 03 5F D6").Modify();
+// #70A5ED3244|70a5ed3244|1|6b|0|0|0|0|r-
+MemoryPatch::createWithHex("libINTLFoundation.so", 0x1bd244, "C0 03 5F D6").Modify();
+// #70A5ED3245|70a5ed3245|1|6c|0|0|0|0|r-
+MemoryPatch::createWithHex("libINTLFoundation.so", 0x1bd245, "C0 03 5F D6").Modify();
+// #70A5ED3246|70a5ed3246|1|6e6d|0|0|0|0|r-
+MemoryPatch::createWithHex("libINTLFoundation.so", 0x1bd246, "C0 03 5F D6").Modify();
+// #70A5ED3247|70a5ed3247|1|6e|0|0|0|0|r-
+MemoryPatch::createWithHex("libINTLFoundation.so", 0x1bd247, "C0 03 5F D6").Modify();
+// #70A5ED3248|70a5ed3248|1|6f|0|0|0|0|r-
+MemoryPatch::createWithHex("libINTLFoundation.so", 0x1bd248, "C0 03 5F D6").Modify();
+// #70A5ED3249|70a5ed3249|1|70|0|0|0|0|r-
+MemoryPatch::createWithHex("libINTLFoundation.so", 0x1bd249, "C0 03 5F D6").Modify();
+// #70A5ED324A|70a5ed324a|1|7271|0|0|0|0|r-
+MemoryPatch::createWithHex("libINTLFoundation.so", 0x1bd24a, "C0 03 5F D6").Modify();
+// #70A5ED324B|70a5ed324b|1|72|0|0|0|0|r-
+MemoryPatch::createWithHex("libINTLFoundation.so", 0x1bd24b, "C0 03 5F D6").Modify();
+// #70A5ED324C|70a5ed324c|1|73|0|0|0|0|r-
+MemoryPatch::createWithHex("libINTLFoundation.so", 0x1bd24c, "C0 03 5F D6").Modify();
+// #70A5ED324D|70a5ed324d|1|74|0|0|0|0|r-
+MemoryPatch::createWithHex("libINTLFoundation.so", 0x1bd24d, "C0 03 5F D6").Modify();
+// #70A5ED324E|70a5ed324e|1|7675|0|0|0|0|r-
+MemoryPatch::createWithHex("libINTLFoundation.so", 0x1bd24e, "C0 03 5F D6").Modify();
+// #70A5ED324F|70a5ed324f|1|76|0|0|0|0|r-
+MemoryPatch::createWithHex("libINTLFoundation.so", 0x1bd24f, "C0 03 5F D6").Modify();
+// #70A5ED3250|70a5ed3250|1|77|0|0|0|0|r-
+MemoryPatch::createWithHex("libINTLFoundation.so", 0x1bd250, "C0 03 5F D6").Modify();
+// #70A5ED3251|70a5ed3251|1|78|0|0|0|0|r-
+MemoryPatch::createWithHex("libINTLFoundation.so", 0x1bd251, "C0 03 5F D6").Modify();
+// #70A5ED3252|70a5ed3252|1|7a79|0|0|0|0|r-
+MemoryPatch::createWithHex("libINTLFoundation.so", 0x1bd252, "C0 03 5F D6").Modify();
+// #70A5ED3253|70a5ed3253|1|7a|0|0|0|0|r-
+MemoryPatch::createWithHex("libINTLFoundation.so", 0x1bd253, "C0 03 5F D6").Modify();
+// #70A5ED3254|70a5ed3254|1|0|0|0|0|0|r-
+MemoryPatch::createWithHex("libINTLFoundation.so", 0x1bd254, "C0 03 5F D6").Modify();
+// #70A5ED3255|70a5ed3255|1|0|0|0|0|0|r-
+MemoryPatch::createWithHex("libINTLFoundation.so", 0x1bd255, "C0 03 5F D6").Modify();
+// #70A5ED3256|70a5ed3256|1|0|0|0|0|0|r-
+MemoryPatch::createWithHex("libINTLFoundation.so", 0x1bd256, "C0 03 5F D6").Modify();
+// #70A5ED3257|70a5ed3257|1|0|0|0|0|0|r-
+MemoryPatch::createWithHex("libINTLFoundation.so", 0x1bd257, "C0 03 5F D6").Modify();
+// #70A5ED3258|70a5ed3258|1|30|0|0|0|0|r-
+MemoryPatch::createWithHex("libINTLFoundation.so", 0x1bd258, "C0 03 5F D6").Modify();
+// #70A5ED3259|70a5ed3259|1|31|0|0|0|0|r-
+MemoryPatch::createWithHex("libINTLFoundation.so", 0x1bd259, "C0 03 5F D6").Modify();
+// #70A5ED325A|70a5ed325a|1|3332|0|0|0|0|r-
+MemoryPatch::createWithHex("libINTLFoundation.so", 0x1bd25a, "C0 03 5F D6").Modify();
+// #70A5ED325B|70a5ed325b|1|33|0|0|0|0|r-
+MemoryPatch::createWithHex("libINTLFoundation.so", 0x1bd25b, "C0 03 5F D6").Modify();
+// #70A5ED325C|70a5ed325c|1|34|0|0|0|0|r-
+MemoryPatch::createWithHex("libINTLFoundation.so", 0x1bd25c, "C0 03 5F D6").Modify();
+// #70A5ED325D|70a5ed325d|1|35|0|0|0|0|r-
+MemoryPatch::createWithHex("libINTLFoundation.so", 0x1bd25d, "C0 03 5F D6").Modify();
+// #70A5ED325E|70a5ed325e|1|3736|0|0|0|0|r-
+MemoryPatch::createWithHex("libINTLFoundation.so", 0x1bd25e, "C0 03 5F D6").Modify();
+// #70A5ED325F|70a5ed325f|1|37|0|0|0|0|r-
+MemoryPatch::createWithHex("libINTLFoundation.so", 0x1bd25f, "C0 03 5F D6").Modify();
+// #70A5ED3260|70a5ed3260|1|38|0|0|0|0|r-
+MemoryPatch::createWithHex("libINTLFoundation.so", 0x1bd260, "C0 03 5F D6").Modify();
+// #70A5ED3261|70a5ed3261|1|39|0|0|0|0|r-
+MemoryPatch::createWithHex("libINTLFoundation.so", 0x1bd261, "C0 03 5F D6").Modify();
+// #70A5ED3262|70a5ed3262|1|4241|0|0|0|0|r-
+MemoryPatch::createWithHex("libINTLFoundation.so", 0x1bd262, "C0 03 5F D6").Modify();
+// #70A5ED3263|70a5ed3263|1|42|0|0|0|0|r-
+MemoryPatch::createWithHex("libINTLFoundation.so", 0x1bd263, "C0 03 5F D6").Modify();
+// #70A5ED3264|70a5ed3264|1|43|0|0|0|0|r-
+MemoryPatch::createWithHex("libINTLFoundation.so", 0x1bd264, "C0 03 5F D6").Modify();
+// #70A5ED3265|70a5ed3265|1|44|0|0|0|0|r-
+MemoryPatch::createWithHex("libINTLFoundation.so", 0x1bd265, "C0 03 5F D6").Modify();
+// #70A5ED3266|70a5ed3266|1|4645|0|0|0|0|r-
+MemoryPatch::createWithHex("libINTLFoundation.so", 0x1bd266, "C0 03 5F D6").Modify();
+// #70A5ED3267|70a5ed3267|1|46|0|0|0|0|r-
+MemoryPatch::createWithHex("libINTLFoundation.so", 0x1bd267, "C0 03 5F D6").Modify();
+// #70A5ED3268|70a5ed3268|1|47|0|0|0|0|r-
+MemoryPatch::createWithHex("libINTLFoundation.so", 0x1bd268, "C0 03 5F D6").Modify();
+// #70A5ED3269|70a5ed3269|1|48|0|0|0|0|r-
+MemoryPatch::createWithHex("libINTLFoundation.so", 0x1bd269, "C0 03 5F D6").Modify();
+// #70A5ED326A|70a5ed326a|1|4a49|0|0|0|0|r-
+MemoryPatch::createWithHex("libINTLFoundation.so", 0x1bd26a, "C0 03 5F D6").Modify();
+// #70A5ED326B|70a5ed326b|1|4a|0|0|0|0|r-
+MemoryPatch::createWithHex("libINTLFoundation.so", 0x1bd26b, "C0 03 5F D6").Modify();
+// #70A5ED326C|70a5ed326c|1|4b|0|0|0|0|r-
+MemoryPatch::createWithHex("libINTLFoundation.so", 0x1bd26c, "C0 03 5F D6").Modify();
+// #70A5ED326D|70a5ed326d|1|4c|0|0|0|0|r-
+MemoryPatch::createWithHex("libINTLFoundation.so", 0x1bd26d, "C0 03 5F D6").Modify();
+// #70A5ED326E|70a5ed326e|1|4e4d|0|0|0|0|r-
+MemoryPatch::createWithHex("libINTLFoundation.so", 0x1bd26e, "C0 03 5F D6").Modify();
+// #70A5ED326F|70a5ed326f|1|4e|0|0|0|0|r-
+MemoryPatch::createWithHex("libINTLFoundation.so", 0x1bd26f, "C0 03 5F D6").Modify();
+// #70A5ED3270|70a5ed3270|1|4f|0|0|0|0|r-
+MemoryPatch::createWithHex("libINTLFoundation.so", 0x1bd270, "C0 03 5F D6").Modify();
+// #70A5ED3271|70a5ed3271|1|50|0|0|0|0|r-
+MemoryPatch::createWithHex("libINTLFoundation.so", 0x1bd271, "C0 03 5F D6").Modify();
+// #70A5ED3272|70a5ed3272|1|5251|0|0|0|0|r-
+MemoryPatch::createWithHex("libINTLFoundation.so", 0x1bd272, "C0 03 5F D6").Modify();
+// #70A5ED3273|70a5ed3273|1|52|0|0|0|0|r-
+MemoryPatch::createWithHex("libINTLFoundation.so", 0x1bd273, "C0 03 5F D6").Modify();
+// #70A5ED3274|70a5ed3274|1|53|0|0|0|0|r-
+MemoryPatch::createWithHex("libINTLFoundation.so", 0x1bd274, "C0 03 5F D6").Modify();
+// #70A5ED3275|70a5ed3275|1|54|0|0|0|0|r-
+MemoryPatch::createWithHex("libINTLFoundation.so", 0x1bd275, "C0 03 5F D6").Modify();
+// #70A5ED3276|70a5ed3276|1|5655|0|0|0|0|r-
+MemoryPatch::createWithHex("libINTLFoundation.so", 0x1bd276, "C0 03 5F D6").Modify();
+// #70A5ED3277|70a5ed3277|1|56|0|0|0|0|r-
+MemoryPatch::createWithHex("libINTLFoundation.so", 0x1bd277, "C0 03 5F D6").Modify();
+// #70A5ED3278|70a5ed3278|1|57|0|0|0|0|r-
+MemoryPatch::createWithHex("libINTLFoundation.so", 0x1bd278, "C0 03 5F D6").Modify();
+// #70A5ED3279|70a5ed3279|1|58|0|0|0|0|r-
+MemoryPatch::createWithHex("libINTLFoundation.so", 0x1bd279, "C0 03 5F D6").Modify();
+// #70A5ED327A|70a5ed327a|1|5a59|0|0|0|0|r-
+MemoryPatch::createWithHex("libINTLFoundation.so", 0x1bd27a, "C0 03 5F D6").Modify();
+// #70A5ED327B|70a5ed327b|1|5a|0|0|0|0|r-
+MemoryPatch::createWithHex("libINTLFoundation.so", 0x1bd27b, "C0 03 5F D6").Modify();
+// #70B40E62C8|70b40e62c8|1|30|0|0|0|0|r-
+MemoryPatch::createWithHex("libTDataMaster.so", 0x2e52c8, "C0 03 5F D6").Modify();
+// #70B40E62C9|70b40e62c9|1|31|0|0|0|0|r-
+MemoryPatch::createWithHex("libTDataMaster.so", 0x2e52c9, "C0 03 5F D6").Modify();
+// #70B40E62CA|70b40e62ca|1|3332|0|0|0|0|r-
+MemoryPatch::createWithHex("libTDataMaster.so", 0x2e52ca, "C0 03 5F D6").Modify();
+// #70B40E62CB|70b40e62cb|1|33|0|0|0|0|r-
+MemoryPatch::createWithHex("libTDataMaster.so", 0x2e52cb, "C0 03 5F D6").Modify();
+// #70B40E62CC|70b40e62cc|1|34|0|0|0|0|r-
+MemoryPatch::createWithHex("libTDataMaster.so", 0x2e52cc, "C0 03 5F D6").Modify();
+// #70B40E62CD|70b40e62cd|1|35|0|0|0|0|r-
+MemoryPatch::createWithHex("libTDataMaster.so", 0x2e52cd, "C0 03 5F D6").Modify();
+// #70B40E62CE|70b40e62ce|1|3736|0|0|0|0|r-
+MemoryPatch::createWithHex("libTDataMaster.so", 0x2e52ce, "C0 03 5F D6").Modify();
+// #70B40E62CF|70b40e62cf|1|37|0|0|0|0|r-
+MemoryPatch::createWithHex("libTDataMaster.so", 0x2e52cf, "C0 03 5F D6").Modify();
+// #70B40E62D0|70b40e62d0|1|38|0|0|0|0|r-
+MemoryPatch::createWithHex("libTDataMaster.so", 0x2e52d0, "C0 03 5F D6").Modify();
+// #70B40E62D1|70b40e62d1|1|39|0|0|0|0|r-
+MemoryPatch::createWithHex("libTDataMaster.so", 0x2e52d1, "C0 03 5F D6").Modify();
+// #70B40E62D2|70b40e62d2|1|6261|0|0|0|0|r-
+MemoryPatch::createWithHex("libTDataMaster.so", 0x2e52d2, "C0 03 5F D6").Modify();
+// #70B40E62D3|70b40e62d3|1|62|0|0|0|0|r-
+MemoryPatch::createWithHex("libTDataMaster.so", 0x2e52d3, "C0 03 5F D6").Modify();
+// #70B40E62D4|70b40e62d4|1|63|0|0|0|0|r-
+MemoryPatch::createWithHex("libTDataMaster.so", 0x2e52d4, "C0 03 5F D6").Modify();
+// #70B40E62D5|70b40e62d5|1|64|0|0|0|0|r-
+MemoryPatch::createWithHex("libTDataMaster.so", 0x2e52d5, "C0 03 5F D6").Modify();
+// #70B40E62D6|70b40e62d6|1|6665|0|0|0|0|r-
+MemoryPatch::createWithHex("libTDataMaster.so", 0x2e52d6, "C0 03 5F D6").Modify();
+// #70B40E62D7|70b40e62d7|1|66|0|0|0|0|r-
+MemoryPatch::createWithHex("libTDataMaster.so", 0x2e52d7, "C0 03 5F D6").Modify();
+// #70B40E62D8|70b40e62d8|1|67|0|0|0|0|r-
+MemoryPatch::createWithHex("libTDataMaster.so", 0x2e52d8, "C0 03 5F D6").Modify();
+// #70B40E62D9|70b40e62d9|1|68|0|0|0|0|r-
+MemoryPatch::createWithHex("libTDataMaster.so", 0x2e52d9, "C0 03 5F D6").Modify();
+// #70B40E62DA|70b40e62da|1|6a69|0|0|0|0|r-
+MemoryPatch::createWithHex("libTDataMaster.so", 0x2e52da, "C0 03 5F D6").Modify();
+// #70B40E62DB|70b40e62db|1|6a|0|0|0|0|r-
+MemoryPatch::createWithHex("libTDataMaster.so", 0x2e52db, "C0 03 5F D6").Modify();
+// #70B40E62DC|70b40e62dc|1|6b|0|0|0|0|r-
+MemoryPatch::createWithHex("libTDataMaster.so", 0x2e52dc, "C0 03 5F D6").Modify();
+// #70B40E62DD|70b40e62dd|1|6c|0|0|0|0|r-
+MemoryPatch::createWithHex("libTDataMaster.so", 0x2e52dd, "C0 03 5F D6").Modify();
+// #70B40E62DE|70b40e62de|1|6e6d|0|0|0|0|r-
+MemoryPatch::createWithHex("libTDataMaster.so", 0x2e52de, "C0 03 5F D6").Modify();
+// #70B40E62DF|70b40e62df|1|6e|0|0|0|0|r-
+MemoryPatch::createWithHex("libTDataMaster.so", 0x2e52df, "C0 03 5F D6").Modify();
+// #70B40E62E0|70b40e62e0|1|6f|0|0|0|0|r-
+MemoryPatch::createWithHex("libTDataMaster.so", 0x2e52e0, "C0 03 5F D6").Modify();
+// #70B40E62E1|70b40e62e1|1|70|0|0|0|0|r-
+MemoryPatch::createWithHex("libTDataMaster.so", 0x2e52e1, "C0 03 5F D6").Modify();
+// #70B40E62E2|70b40e62e2|1|7271|0|0|0|0|r-
+MemoryPatch::createWithHex("libTDataMaster.so", 0x2e52e2, "C0 03 5F D6").Modify();
+// #70B40E62E3|70b40e62e3|1|72|0|0|0|0|r-
+MemoryPatch::createWithHex("libTDataMaster.so", 0x2e52e3, "C0 03 5F D6").Modify();
+// #70B40E62E4|70b40e62e4|1|73|0|0|0|0|r-
+MemoryPatch::createWithHex("libTDataMaster.so", 0x2e52e4, "C0 03 5F D6").Modify();
+// #70B40E62E5|70b40e62e5|1|74|0|0|0|0|r-
+MemoryPatch::createWithHex("libTDataMaster.so", 0x2e52e5, "C0 03 5F D6").Modify();
+// #70B40E62E6|70b40e62e6|1|7675|0|0|0|0|r-
+MemoryPatch::createWithHex("libTDataMaster.so", 0x2e52e6, "C0 03 5F D6").Modify();
+// #70B40E62E7|70b40e62e7|1|76|0|0|0|0|r-
+MemoryPatch::createWithHex("libTDataMaster.so", 0x2e52e7, "C0 03 5F D6").Modify();
+// #70B40E62E8|70b40e62e8|1|77|0|0|0|0|r-
+MemoryPatch::createWithHex("libTDataMaster.so", 0x2e52e8, "C0 03 5F D6").Modify();
+// #70B40E62E9|70b40e62e9|1|78|0|0|0|0|r-
+MemoryPatch::createWithHex("libTDataMaster.so", 0x2e52e9, "C0 03 5F D6").Modify();
+// #70B40E62EA|70b40e62ea|1|7a79|0|0|0|0|r-
+MemoryPatch::createWithHex("libTDataMaster.so", 0x2e52ea, "C0 03 5F D6").Modify();
+// #70B40E62EB|70b40e62eb|1|7a|0|0|0|0|r-
+MemoryPatch::createWithHex("libTDataMaster.so", 0x2e52eb, "C0 03 5F D6").Modify();
+// #70B40E62EC|70b40e62ec|1|0|0|0|0|0|r-
+MemoryPatch::createWithHex("libTDataMaster.so", 0x2e52ec, "C0 03 5F D6").Modify();
+// #70B40E62ED|70b40e62ed|1|0|0|0|0|0|r-
+MemoryPatch::createWithHex("libTDataMaster.so", 0x2e52ed, "C0 03 5F D6").Modify();
+// #70B40E62EE|70b40e62ee|1|0|0|0|0|0|r-
+MemoryPatch::createWithHex("libTDataMaster.so", 0x2e52ee, "C0 03 5F D6").Modify();
+// #70B40E62EF|70b40e62ef|1|0|0|0|0|0|r-
+MemoryPatch::createWithHex("libTDataMaster.so", 0x2e52ef, "C0 03 5F D6").Modify();
+// #70B40E62F0|70b40e62f0|1|30|0|0|0|0|r-
+MemoryPatch::createWithHex("libTDataMaster.so", 0x2e52f0, "C0 03 5F D6").Modify();
+// #70B40E62F1|70b40e62f1|1|31|0|0|0|0|r-
+MemoryPatch::createWithHex("libTDataMaster.so", 0x2e52f1, "C0 03 5F D6").Modify();
+// #70B40E62F2|70b40e62f2|1|3332|0|0|0|0|r-
+MemoryPatch::createWithHex("libTDataMaster.so", 0x2e52f2, "C0 03 5F D6").Modify();
+// #70B40E62F3|70b40e62f3|1|33|0|0|0|0|r-
+MemoryPatch::createWithHex("libTDataMaster.so", 0x2e52f3, "C0 03 5F D6").Modify();
+// #70B40E62F4|70b40e62f4|1|34|0|0|0|0|r-
+MemoryPatch::createWithHex("libTDataMaster.so", 0x2e52f4, "C0 03 5F D6").Modify();
+// #70B40E62F5|70b40e62f5|1|35|0|0|0|0|r-
+MemoryPatch::createWithHex("libTDataMaster.so", 0x2e52f5, "C0 03 5F D6").Modify();
+// #70B40E62F6|70b40e62f6|1|3736|0|0|0|0|r-
+MemoryPatch::createWithHex("libTDataMaster.so", 0x2e52f6, "C0 03 5F D6").Modify();
+// #70B40E62F7|70b40e62f7|1|37|0|0|0|0|r-
+MemoryPatch::createWithHex("libTDataMaster.so", 0x2e52f7, "C0 03 5F D6").Modify();
+// #70B40E62F8|70b40e62f8|1|38|0|0|0|0|r-
+MemoryPatch::createWithHex("libTDataMaster.so", 0x2e52f8, "C0 03 5F D6").Modify();
+// #70B40E62F9|70b40e62f9|1|39|0|0|0|0|r-
+MemoryPatch::createWithHex("libTDataMaster.so", 0x2e52f9, "C0 03 5F D6").Modify();
+// #70B40E62FA|70b40e62fa|1|4241|0|0|0|0|r-
+MemoryPatch::createWithHex("libTDataMaster.so", 0x2e52fa, "C0 03 5F D6").Modify();
+// #70B40E62FB|70b40e62fb|1|42|0|0|0|0|r-
+MemoryPatch::createWithHex("libTDataMaster.so", 0x2e52fb, "C0 03 5F D6").Modify();
+// #70B40E62FC|70b40e62fc|1|43|0|0|0|0|r-
+MemoryPatch::createWithHex("libTDataMaster.so", 0x2e52fc, "C0 03 5F D6").Modify();
+// #70B40E62FD|70b40e62fd|1|44|0|0|0|0|r-
+MemoryPatch::createWithHex("libTDataMaster.so", 0x2e52fd, "C0 03 5F D6").Modify();
+// #70B40E62FE|70b40e62fe|1|4645|0|0|0|0|r-
+MemoryPatch::createWithHex("libTDataMaster.so", 0x2e52fe, "C0 03 5F D6").Modify();
+// #70B40E62FF|70b40e62ff|1|46|0|0|0|0|r-
+MemoryPatch::createWithHex("libTDataMaster.so", 0x2e52ff, "C0 03 5F D6").Modify();
+// #70B40E6300|70b40e6300|1|47|0|0|0|0|r-
+MemoryPatch::createWithHex("libTDataMaster.so", 0x2e5300, "C0 03 5F D6").Modify();
+// #70B40E6301|70b40e6301|1|48|0|0|0|0|r-
+MemoryPatch::createWithHex("libTDataMaster.so", 0x2e5301, "C0 03 5F D6").Modify();
+// #70B40E6302|70b40e6302|1|4a49|0|0|0|0|r-
+MemoryPatch::createWithHex("libTDataMaster.so", 0x2e5302, "C0 03 5F D6").Modify();
+// #70B40E6303|70b40e6303|1|4a|0|0|0|0|r-
+MemoryPatch::createWithHex("libTDataMaster.so", 0x2e5303, "C0 03 5F D6").Modify();
+// #70B40E6304|70b40e6304|1|4b|0|0|0|0|r-
+MemoryPatch::createWithHex("libTDataMaster.so", 0x2e5304, "C0 03 5F D6").Modify();
+// #70B40E6305|70b40e6305|1|4c|0|0|0|0|r-
+MemoryPatch::createWithHex("libTDataMaster.so", 0x2e5305, "C0 03 5F D6").Modify();
+// #70B40E6306|70b40e6306|1|4e4d|0|0|0|0|r-
+MemoryPatch::createWithHex("libTDataMaster.so", 0x2e5306, "C0 03 5F D6").Modify();
+// #70B40E6307|70b40e6307|1|4e|0|0|0|0|r-
+MemoryPatch::createWithHex("libTDataMaster.so", 0x2e5307, "C0 03 5F D6").Modify();
+// #70B40E6308|70b40e6308|1|4f|0|0|0|0|r-
+MemoryPatch::createWithHex("libTDataMaster.so", 0x2e5308, "C0 03 5F D6").Modify();
+// #70B40E6309|70b40e6309|1|50|0|0|0|0|r-
+MemoryPatch::createWithHex("libTDataMaster.so", 0x2e5309, "C0 03 5F D6").Modify();
+// #70B40E630A|70b40e630a|1|5251|0|0|0|0|r-
+MemoryPatch::createWithHex("libTDataMaster.so", 0x2e530a, "C0 03 5F D6").Modify();
+// #70B40E630B|70b40e630b|1|52|0|0|0|0|r-
+MemoryPatch::createWithHex("libTDataMaster.so", 0x2e530b, "C0 03 5F D6").Modify();
+// #70B40E630C|70b40e630c|1|53|0|0|0|0|r-
+MemoryPatch::createWithHex("libTDataMaster.so", 0x2e530c, "C0 03 5F D6").Modify();
+// #70B40E630D|70b40e630d|1|54|0|0|0|0|r-
+MemoryPatch::createWithHex("libTDataMaster.so", 0x2e530d, "C0 03 5F D6").Modify();
+// #70B40E630E|70b40e630e|1|5655|0|0|0|0|r-
+MemoryPatch::createWithHex("libTDataMaster.so", 0x2e530e, "C0 03 5F D6").Modify();
+// #70B40E630F|70b40e630f|1|56|0|0|0|0|r-
+MemoryPatch::createWithHex("libTDataMaster.so", 0x2e530f, "C0 03 5F D6").Modify();
+// #70B40E6310|70b40e6310|1|57|0|0|0|0|r-
+MemoryPatch::createWithHex("libTDataMaster.so", 0x2e5310, "C0 03 5F D6").Modify();
+// #70B40E6311|70b40e6311|1|58|0|0|0|0|r-
+MemoryPatch::createWithHex("libTDataMaster.so", 0x2e5311, "C0 03 5F D6").Modify();
+// #70B40E6312|70b40e6312|1|5a59|0|0|0|0|r-
+MemoryPatch::createWithHex("libTDataMaster.so", 0x2e5312, "C0 03 5F D6").Modify();
+// #70B40E6313|70b40e6313|1|5a|0|0|0|0|r-
+MemoryPatch::createWithHex("libTDataMaster.so", 0x2e5313, "C0 03 5F D6").Modify();
+// #70A5EE2B70|70a5ee2b70|10|47d4af1e|0|0|0|0|r-
+MemoryPatch::createWithHex("libINTLFoundation.so", 0x1ccb70, "C0 03 5F D6").Modify();
+// #70A5EE8148|70a5ee8148|10|47edaee6|0|0|0|0|r-
+MemoryPatch::createWithHex("libINTLFoundation.so", 0x1d2148, "C0 03 5F D6").Modify();
+// #70A618F070|70a618f070|10|47edaee6|0|0|0|0|r-
+
+MemoryPatch::createWithHex("libUE4.so", 0x3518ec8, "C0 03 5F D6").Modify();
+// #70B1FF88F0|70b1ff88f0|10|47d4af1e|0|0|0|0|r-
+
+// #70B3272140|70b3272140|10|47edaee6|0|0|0|0|r-
+MemoryPatch::createWithHex("libgcloud.so", 0x4a2140, "C0 03 5F D6").Modify();
+// #70B410D2E0|70b410d2e0|10|47edaee6|0|0|0|0|r-
+MemoryPatch::createWithHex("libTDataMaster.so", 0x30c2e0, "C0 03 5F D6").Modify();
+// #70B1FECD96|70b1fecd96|1|7374|0|0|0|0|r-
+// #70A64CFCC0|70a64cfcc0|4|10003|0|0|0|0|r--p|/
+MemoryPatch::createWithHex("libUE4.so", 0x4cc0, "C0 03 5F D6").Modify();
+// #70A64CFDA0|70a64cfda0|4|10003|0|0|0|0|r--p|/
+MemoryPatch::createWithHex("libUE4.so", 0x4da0, "C0 03 5F D6").Modify();
+// #70A64CFE34|70a64cfe34|4|10003|0|0|0|0|r--p|/
+MemoryPatch::createWithHex("libUE4.so", 0x4e34, "C0 03 5F D6").Modify();
+// #70A64CFE40|70a64cfe40|4|10003|0|0|0|0|r--p|/
+MemoryPatch::createWithHex("libUE4.so", 0x4e40, "C0 03 5F D6").Modify();
+// #70A64CFEA4|70a64cfea4|4|10003|0|0|0|0|r--p|/
+MemoryPatch::createWithHex("libUE4.so", 0x4ea4, "C0 03 5F D6").Modify();
+// #70A64D00D8|70a64d00d8|4|10003|0|0|0|0|r--p|/
+MemoryPatch::createWithHex("libUE4.so", 0x50d8, "C0 03 5F D6").Modify();
+// #70A99A1360|70a99a1360|4|10003|0|0|0|0|r--p|/
+MemoryPatch::createWithHex("libUE4.so", 0x34d6360, "C0 03 5F D6").Modify();
+// #70A99A1C08|70a99a1c08|4|10003|0|0|0|0|r--p|/
+MemoryPatch::createWithHex("libUE4.so", 0x34d6c08, "C0 03 5F D6").Modify();
+// #70A99A1EB4|70a99a1eb4|4|10003|0|0|0|0|r--p|/
+MemoryPatch::createWithHex("libUE4.so", 0x34d6eb4, "C0 03 5F D6").Modify();
+// #70A99A3954|70a99a3954|4|10003|0|0|0|0|r--p|/
+MemoryPatch::createWithHex("libUE4.so", 0x34d8954, "C0 03 5F D6").Modify();
+// #70A99EE2B0|70a99ee2b0|4|10003|0|0|0|0|r--p|/
+MemoryPatch::createWithHex("libUE4.so", 0x35232b0, "C0 03 5F D6").Modify();
+// #70A99F2F0C|70a99f2f0c|4|10003|0|0|0|0|r--p|/
+MemoryPatch::createWithHex("libUE4.so", 0x3527f0c, "C0 03 5F D6").Modify();
+// #70A99F2F14|70a99f2f14|4|10003|0|0|0|0|r--p|/
+MemoryPatch::createWithHex("libUE4.so", 0x3527f14, "C0 03 5F D6").Modify();
+// #70A9AA41C0|70a9aa41c0|4|10003|0|0|0|0|r--p|/
+MemoryPatch::createWithHex("libUE4.so", 0x35d91c0, "C0 03 5F D6").Modify();
+// #70A9AA5F58|70a9aa5f58|4|10003|0|0|0|0|r--p|/
+MemoryPatch::createWithHex("libUE4.so", 0x35daf58, "C0 03 5F D6").Modify();
+// #70A9AA60B8|70a9aa60b8|4|10003|0|0|0|0|r--p|/
+MemoryPatch::createWithHex("libUE4.so", 0x35db0b8, "C0 03 5F D6").Modify();
+// #70A9AA6178|70a9aa6178|4|10003|0|0|0|0|r--p|/
+MemoryPatch::createWithHex("libUE4.so", 0x35db178, "C0 03 5F D6").Modify();
+// #70A9AB3AC4|70a9ab3ac4|4|10003|0|0|0|0|r--p|/
+MemoryPatch::createWithHex("libUE4.so", 0x35e8ac4, "C0 03 5F D6").Modify();
+// #70A935426C|70a935426c|1|55|0|0|0|0|r--p|/
+MemoryPatch::createWithHex("libUE4.so", 0x2e8926c, "C0 03 5F D6").Modify();
+// #70A935426D|70a935426d|1|0|0|0|0|0|r--p|/
+MemoryPatch::createWithHex("libUE4.so", 0x2e8926d, "C0 03 5F D6").Modify();
+// #70A935426E|70a935426e|1|70|0|0|0|0|r--p|/
+MemoryPatch::createWithHex("libUE4.so", 0x2e8926e, "C0 03 5F D6").Modify();
+// #70A935426F|70a935426f|1|0|0|0|0|0|r--p|/
+MemoryPatch::createWithHex("libUE4.so", 0x2e8926f, "C0 03 5F D6").Modify();
+// #70A9354270|70a9354270|1|64|0|0|0|0|r--p|/
+MemoryPatch::createWithHex("libUE4.so", 0x2e89270, "C0 03 5F D6").Modify();
+// #70A9354271|70a9354271|1|0|0|0|0|0|r--p|/
+MemoryPatch::createWithHex("libUE4.so", 0x2e89271, "C0 03 5F D6").Modify();
+// #70A9354272|70a9354272|1|61|0|0|0|0|r--p|/
+MemoryPatch::createWithHex("libUE4.so", 0x2e89272, "C0 03 5F D6").Modify();
+// #70A9354273|70a9354273|1|0|0|0|0|0|r--p|/
+MemoryPatch::createWithHex("libUE4.so", 0x2e89273, "C0 03 5F D6").Modify();
+// #70A9354274|70a9354274|1|74|0|0|0|0|r--p|/
+MemoryPatch::createWithHex("libUE4.so", 0x2e89274, "C0 03 5F D6").Modify();
+// #70A9354275|70a9354275|1|0|0|0|0|0|r--p|/
+MemoryPatch::createWithHex("libUE4.so", 0x2e89275, "C0 03 5F D6").Modify();
+// #70A9354276|70a9354276|1|65|0|0|0|0|r--p|/
+MemoryPatch::createWithHex("libUE4.so", 0x2e89276, "C0 03 5F D6").Modify();
+// #70A9354277|70a9354277|1|0|0|0|0|0|r--p|/
+MemoryPatch::createWithHex("libUE4.so", 0x2e89277, "C0 03 5F D6").Modify();
+// #70A9354278|70a9354278|1|72|0|0|0|0|r--p|/
+MemoryPatch::createWithHex("libUE4.so", 0x2e89278, "C0 03 5F D6").Modify();
+// #70A9354279|70a9354279|1|0|0|0|0|0|r--p|/
+MemoryPatch::createWithHex("libUE4.so", 0x2e89279, "C0 03 5F D6").Modify();
+// #70A935427A|70a935427a|1|2e|0|0|0|0|r--p|/
+MemoryPatch::createWithHex("libUE4.so", 0x2e8927a, "C0 03 5F D6").Modify();
+// #70A935427B|70a935427b|1|0|0|0|0|0|r--p|/
+MemoryPatch::createWithHex("libUE4.so", 0x2e8927b, "C0 03 5F D6").Modify();
+// #70A935427C|70a935427c|1|69|0|0|0|0|r--p|/
+MemoryPatch::createWithHex("libUE4.so", 0x2e8927c, "C0 03 5F D6").Modify();
+// #70A935427D|70a935427d|1|0|0|0|0|0|r--p|/
+MemoryPatch::createWithHex("libUE4.so", 0x2e8927d, "C0 03 5F D6").Modify();
+// #70A935427E|70a935427e|1|6e|0|0|0|0|r--p|/
+MemoryPatch::createWithHex("libUE4.so", 0x2e8927e, "C0 03 5F D6").Modify();
+// #70A935427F|70a935427f|1|0|0|0|0|0|r--p|/
+MemoryPatch::createWithHex("libUE4.so", 0x2e8927f, "C0 03 5F D6").Modify();
+// #70A9354280|70a9354280|1|69|0|0|0|0|r--p|/
+MemoryPatch::createWithHex("libUE4.so", 0x2e89280, "C0 03 5F D6").Modify();
+// #70A9354281|70a9354281|1|0|0|0|0|0|r--p|/
+MemoryPatch::createWithHex("libUE4.so", 0x2e89281, "C0 03 5F D6").Modify();
+// #70A9354282|70a9354282|1|0|0|0|0|0|r--p|/
+MemoryPatch::createWithHex("libUE4.so", 0x2e89282, "C0 03 5F D6").Modify();
+// #70A9354283|70a9354283|1|0|0|0|0|0|r--p|/
+MemoryPatch::createWithHex("libUE4.so", 0x2e89283, "C0 03 5F D6").Modify();

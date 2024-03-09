@@ -1,0 +1,6 @@
+
+
+MemoryPatch::createWithHex("libanogs.so", 0x9b980, "00 00 80 D2").Modify();
+MemoryPatch::createWithHex("libanogs.so", 0x9b984, "C0 03 5F D6").Modify();
+MemoryPatch::createWithHex("libanogs.so", 0x9b9c0, "00 00 80 D2").Modify();
+MemoryPatch::createWithHex("libanogs.so", 0x9b9c4, "C0 03 5F D6").Modify();
